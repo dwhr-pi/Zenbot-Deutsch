@@ -1,4 +1,4 @@
-### Die `rsi` Strategie
+### Die `rsi` [Relativer Festigkeitsindex] Strategie
 
 Versuche, niedrig zu kaufen und hoch zu verkaufen, in dem RSI-Hochwasserwerte verfolgt werden.
 

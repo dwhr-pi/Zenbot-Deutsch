@@ -3,7 +3,7 @@
 > Um dem Pfad zu folgen: “Schauen Sie zum Meister, folgen Sie dem Meister, gehen Sie mit dem Meister, sehen Sie durch den Meister und werden Sie der Meister.”
 > – Zenbot-Sprichwort
 
-# Zenbot [![Build/Test Status](https://travis-ci.org/DeviaVir/zenbot.svg?branch=master)](https://travis-ci.org/DeviaVir/zenbot) 
+# Zenbot Deutsch [![Build/Test Status](https://travis-ci.org/DeviaVir/zenbot.svg?branch=master)](https://travis-ci.org/DeviaVir/zenbot) 
 
 Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen original Version v4.1.0 von [DeviaVir](https://github.com/DeviaVir/zenbot).
 
@@ -39,7 +39,7 @@ Die ausführliche Dokumentation befindet sich im docs-Ordner oder auf GitHub [do
 
 ### Fragen
 
-Schauen Sie sich zuerst die [docs](docs/)-Dokumente an und es gibt auch [FAQs](docs/FAQ.md), die Ihre Fragen beantworten können. Wenn nicht, stellen Sie bitte (Programmier-) Fragen in Englischer Sprache zu Zenbot auf Reddit ([subreddit zenbot](https://reddit.com/r/zenbot)).
+Schauen Sie sich zuerst die [docs](docs/)-Dokumente an und es gibt auch [FAQs](docs/FAQ-de.md), die Ihre Fragen beantworten können. Wenn nicht, stellen Sie bitte (Programmier-) Fragen in Englischer Sprache zu Zenbot auf Reddit ([subreddit zenbot](https://reddit.com/r/zenbot)).
 
 ### Gemeinschaft
 
@@ -56,6 +56,10 @@ PS: Einige haben gefragt, wie sie für die Zenbot-Entwicklung spenden können. W
 ### DeviaVir's BTC (aktueller Betreuer)
 
 `3A5g4GQ2vmjNcnEschCweJJB4umzu66sdY`
+
+### DWHR-Pi's BTC (aktueller Deutscher Übersetzer)
+
+`17aJRRkpwAUHjFSrV9VqFv3ikLMM9n7drb
 
 ![zenbot logo](assets/zenbot_square.png)
 

@@ -658,7 +658,7 @@ Die Berechnung der Konvergenzdivergenz im gleitenden Durchschnitt ist ein nachei
 - Es werden nicht mehrere Kauf- oder Verkaufssignale ausgelöst, sondern nur eines pro Trend, was zu einem Handelsschema mit besserer Qualität zu führen scheint.
 - Insbesondere wenn der Bot mitten in einem Trend eintritt, wird der Kauf vermieden, es sei denn, dies ist der Beginn des Trends.
 
-### Die `rsi` Strategie
+### Die `rsi` [Relativer Festigkeitsindex] Strategie
 
 Versuche, niedrig zu kaufen und hoch zu verkaufen, indem RSI-Höchstwerte verfolgt werden.
 

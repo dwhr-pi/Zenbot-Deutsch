@@ -1,4 +1,4 @@
-### The `rsi` strategy
+### The `rsi` [relative strength index] strategy
 
 Attempts to buy low and sell high by tracking RSI high-water readings.
 
