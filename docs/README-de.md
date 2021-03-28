@@ -13,12 +13,25 @@ Führen Sie in Ihrer Konsole aus,
 git clone https://github.com/deviavir/Zenbot.git
 ```
 
+Oder in der Deutschensprache verwenden Sie diese .git von mir.
+```
+git clone https://github.com/dwhr-pi/zenbot-deutsch.git
+```
+
 Oder ohne Git,
 
 ```
 wget https://github.com/deviavir/Zenbot/archive/master.tar.gz
 tar -xf master.tar.gz
 mv Zenbot-master Zenbot
+```
+
+Oder in der Deutschensprache verwenden Sie dieses ohne .git von mir.
+
+```
+wget https://github.com/dwhr-pi/zenbot-deutsch/archive/master.tar.gz
+tar -xf zenbot-master.tar.gz
+mv zenbot-master zenbot
 ```
 
 Erstellen Sie Ihre Konfigurationsdatei, indem Sie `conf-sample.js` nach `conf.js` kopieren:
