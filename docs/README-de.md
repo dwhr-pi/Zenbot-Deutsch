@@ -7,18 +7,18 @@
 
 ### 2) Schritt Installieren Sie Zenbot 4
 
-Führen Sie in Ihrer Konsole mit git aus, in der Englischen Sprache original.
+Führen Sie in Ihrer Konsole dieses mit git aus, in der Englischen Sprache die original Dateien erhalten Sie.
 
 ```
 git clone https://github.com/deviavir/Zenbot.git
 ```
 
-Oder in der Deutschen Sprache verwenden Sie diese .git von mir in Ihrer Konsole.
+Oder in der Deutschen Sprache verwenden Sie diese .git von mir in Ihrer Konsole, mit Deutschen Dokumenten, Readme und config-sample.ja-Dateien.
 ```
 git clone https://github.com/dwhr-pi/zenbot-deutsch.git
 ```
 
-Oder ohne Git in der Englischen Sprache original,
+Oder ohne Git in der Englischen Sprache und erhalten die original Dateien.
 
 ```
 wget https://github.com/deviavir/Zenbot/archive/master.tar.gz
@@ -26,7 +26,7 @@ tar -xf master.tar.gz
 mv Zenbot-master Zenbot
 ```
 
-Oder in der Deutschen Sprache verwenden Sie dieses ohne .git von mir in Ihrer Konsole.
+Oder in der Deutschen Sprache verwenden Sie dieses ohne .git von mir in Ihrer Konsole und erhalten die Deutschen Dateien.
 
 ```
 wget https://github.com/dwhr-pi/zenbot-deutsch/archive/master.tar.gz
