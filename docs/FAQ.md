@@ -1,137 +1,130 @@
-# Frequently Asked Questions
+# FAQ - Häufig gestellte Fragen
 
-Here are a few questions that have been asked often as well as answers from the community.
+Hier sind einige häufig gestellte Fragen sowie Antworten aus der Community.
 
-If you have a question that is not answered here, feel free to ask in the [Reddit](#is-there-a-community-to-get-involved-with-zenbot) community and suggest it to be placed here.
+Wenn Sie eine Frage haben, die hier nicht beantwortet wird, können Sie sie gerne in der Community [Reddit] (# gibt es eine Community, um sich mit Zenbot zu beschäftigen) stellen und vorschlagen, sie hier zu platzieren.
 
-Thanks!
-
-
-
-## Contents
-
-### [General](#general-1)
-* [Is there a community to get involved with Zenbot?](#is-there-a-community-to-get-involved-with-zenbot)
-
-### [Trading](#trading-1)
-* [Will I make money with Zenbot?](#will-i-make-money-with-zenbot)
-* [Why do simulations, paper trading, and live trading all yield different results?](#why-do-simulations-paper-trading-and-live-trading-all-yield-different-results)
-* [Why should I use simulations or paper trading if they do not reflect live trading?](#why-should-i-use-simulations-or-paper-trading-if-they-do-not-reflect-live-trading)
-* [Does Zenbot use Limit (maker) orders or Market (taker) orders?](#does-zenbot-use-limit-maker-orders-or-market-taker-orders)
-
-### [Technical](#technical-1)
-* [Can I install Zenbot on Windows?](#can-i-install-zenbot-on-windows)
-* [Is Docker necessary when installing Zenbot?](#is-docker-necessary-when-installing-zenbot)
-* [How do I launch Zenbot?](#how-do-i-launch-zenbot)
-* [How do I update Zenbot?](#how-do-i-update-zenbot)
-
-### [Errors](#errors-1)
-* [Why do I keep getting a "Nonce" error?](#why-do-i-keep-getting-a-nonce-error)
-* [Why do I keep getting a "JavaScript heap out of memory" error](#why-do-i-keep-getting-a-javascript-heap-out-of-memory-error)
-
-
-## Answers
-
-### General
-
-#### Is there a community to get involved with Zenbot?
-
-Of course! Check out our Reddit community ([subreddit zenbot](https://reddit.com/r/zenbot)).
-
-There is also [a shared Google Docs spreadsheet containing community sim results and variable descriptions](https://docs.google.com/spreadsheets/d/1WjFKRUY4KpkdIJiA3RVvKqiyNkMe9xtgLSfYESFXk1g/edit#gid=70204991).
+Vielen Dank!
 
 
 
-### Trading
+## Inhalt
 
-#### Will I make money with Zenbot?
+### [Allgemein](#Allgemein-1)
+* [Gibt es eine Community, die sich mit Zenbot befasst?](#Gibt-es-eine-Community-die-sich-mit-Zenbot-befasst)
 
-That depends… Different configurations and strategies will yield different results.
+### [Handel](#Handel-1)
+* [Werde ich mit Zenbot Geld verdienen?](#Werde-ich-mit-Zenbot-Geld-verdienen)
+* [Warum führen Simulationen, Papierhandel und Live-Handel zu unterschiedlichen Ergebnissen?](#Warum-führen-Simulationen-Papierhandel-und-Live-Handel-zu-unterschiedlichen-Ergebnissen)
+* [Warum sollte ich Simulationen oder Papierhandel verwenden, wenn sie nicht den Live-Handel widerspiegeln?](#Warum-sollte-ich-Simulationen-oder-Papierhandel-verwenden-wenn-sie-nicht-den-Live-Handel-widerspiegeln)
+* [Verwendet Zenbot Limit (Maker) Orders oder Market (Taker) Orders?](#Verwendet-Zenbot-Limit-Maker-Orders-oder-Market-Taker-Orders)
 
-The current default config and parameters will likely lose you money, so proceed with caution. Try running simulations and paper trading first to see how the bot acts (see warning below).
+### [Technisches](#Technisches-1)
+* [Kann ich Zenbot unter Windows installieren?](#Kann-ich-Zenbot-unter-Windows-installieren)
+* [Ist Docker für die Installation von Zenbot erforderlich?](#Ist-Docker-für-die-Installation-von-Zenbot-erforderlich)
+* [Wie starte ich Zenbot?](#Wie-starte-ich-Zenbot)
+* [Wie aktualisiere ich Zenbot?](#Wie-aktualisiere-ich-Zenbot)
 
-
-
-#### Why do simulations, paper trading, and live trading all yield different results?
-
-Simulations and paper trading almost always give overly optimistic results compared to live trading. This is because simulations and paper trading both make assumptions about when/if an order is filled.
-
-Because Zenbot defaults to using Limit orders (which often lessen fees), there tends to be much more slippage (the difference between when the bot decides to buy and when it actually buys) in live trading. Due to this, live trading is almost always worse than sims and paper trading.
-
-Also, remember that past results do not guarantee future returns.
-
-
-
-#### Why should I use simulations or paper trading if they do not reflect live trading?
-
-Simulations are more optimistic than paper trading.
-Paper trading is more optimistic than live trading.
-Therefore, if a simulation does not yield good results, odds are that neither will paper trading or (by extension) live trading.
+### [Fehler](#Fehler-1)
+* [Warum erhalte ich immer wieder einen "Nonce" -Fehler?](#Warum-erhalte-ich-immer-wieder-den-Fehler-nonce)
+* [Warum erhalte ich immer wieder den Fehler "JavaScript-Heap nicht genügend Speicher"](#Warum-erhalte-ich-immer-wieder-den-Fehler-JavaScript-Heap-nicht-genügend-Speicher)
 
 
+## Antworten
 
-#### Does Zenbot use Limit (maker) orders or Market (taker) orders?
+### Allgemein
 
-Zenbot uses Limit orders by default because on most exchanges, Limit orders result in lower fees than Market orders. For instance, on GDAX there is no fee for a Limit order trade compared to a 0.25% (BTC) or 0.3% (ETH & LTC) trade fee on a Market order.
+#### Gibt es eine Community, die sich mit Zenbot befasst?
 
-Check your exchange for fees.
+Natürlich! Schauen Sie sich unsere Reddit-Community an ([subreddit zenbot](https://reddit.com/r/zenbot)).
+
+Es gibt auch [eine freigegebene Google Text & Tabellen-Tabelle mit Community-Sim-Ergebnissen und Variablenbeschreibungen](https://docs.google.com/spreadsheets/d/1WjFKRUY4KpkdIJiA3RVvKqiyNkMe9xtgLSfYESFXk1g/edit#gid=70204991).
 
 
 
-### Technical
+### Handel
 
-#### Can I install Zenbot on Windows?
+#### Werde ich mit Zenbot Geld verdienen?
 
-Yes, Zenbot can be installed on Windows, although it is recommended that Linux or macOS is used instead.
+Das hängt davon ab… Unterschiedliche Konfigurationen und Strategien führen zu unterschiedlichen Ergebnissen.
 
-Please note that these instructions are for Windows 10.
-
-1. Install the "Bash on Windows subsystem" (see https://msdn.microsoft.com/en-us/commandline/wsl/about for more information)
-
-> Note: You can then choose between Ubuntu, Fedora and OpenSUSE in the Windows store.
-
-2. Open a terminal window, your disks will now be mounted under `/mnt/*`. So for example navigate to your directory (example: `cd /mnt/c/zenbot`)
-
-3. Install node (`curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -; sudo apt-get install nodejs`)
-
-4. Run zenbot as you would otherwise
-
-> Note: MongoDB is not working in this subsystem, please use the Windows version!
+Die aktuelle Standardkonfiguration und die aktuellen Standardparameter verlieren wahrscheinlich Geld. Gehen Sie daher vorsichtig vor. Führen Sie zuerst Simulationen und Papierhandel aus, um zu sehen, wie sich der Bot verhält (siehe Warnung unten).
 
 
+#### Warum führen Simulationen, Papierhandel und "Live Handel" zu unterschiedlichen Ergebnissen?
 
-#### Is Docker necessary when installing Zenbot?
+Simulationen und Papierhandel liefern im Vergleich zum Live-Handel fast immer zu optimistische Ergebnisse. Dies liegt daran, dass sowohl Simulationen als auch der Papierhandel Annahmen darüber treffen, wann/ob ein Auftrag ausgeführt wird.
 
-No, Docker is often not necessary to run Zenbot. It is often simpler to run Zenbot on a Linux machine (Debian, CentOS, etc.) without Docker.
+Da Zenbot standardmäßig Limit-Orders verwendet (was häufig die Gebühren senkt), kommt es im Live-Handel tendenziell zu einem viel stärkeren Ausrutschen (dem Unterschied zwischen dem Kaufentscheid des Bots und dem tatsächlichen Kauf). Aus diesem Grund ist der Live-Handel fast immer schlechter als der Handel mit Sims und Papier.
 
-If running Zenbot on Windows, Docker may be needed.
+Denken Sie auch daran, dass vergangene Ergebnisse keine zukünftigen Renditen garantieren.
 
 
+#### Warum sollte ich Simulationen oder Papierhandel verwenden, wenn sie nicht den "Live Handel" widerspiegeln?
 
-#### How do I launch Zenbot?
+Simulationen sind optimistischer als der Papierhandel.
+Der Papierhandel ist optimistischer als der Live-Handel.
+Wenn eine Simulation keine guten Ergebnisse liefert, besteht daher die Wahrscheinlichkeit, dass weder Papierhandel noch (im weiteren Sinne) Live-Handel stattfinden.
 
-After installation, you lauch Zenbot via command line.
-Examples:
+
+#### Verwendet Zenbot Limit (Maker) Orders oder Market (Taker) Orders?
+
+Zenbot verwendet standardmäßig Limit-Orders, da Limit-Orders an den meisten Börsen zu niedrigeren Gebühren führen als Market-Orders. Zum Beispiel gibt es am GDAX keine Gebühr für einen Limit-Order-Handel im Vergleich zu einer Handelsgebühr von 0,25% (BTC) oder 0,3% (ETH & LTC) für einen Market-Order.
+
+Überprüfen Sie Ihren Umtausch auf Gebühren.
+
+
+### Technisches
+
+#### Kann ich Zenbot unter Windows installieren?
+
+Ja, Zenbot kann unter Windows installiert werden. Es wird jedoch empfohlen, stattdessen Linux oder MacOS zu verwenden.
+
+Bitte beachten Sie, dass diese Anweisungen für Windows 10 gelten.
+
+1. Installieren Sie das "Bash unter Windows-Subsystem" (weitere Informationen finden Sie unter https://msdn.microsoft.com/en-us/commandline/wsl/about).
+
+> Hinweis: Sie können dann im Windows Store zwischen Ubuntu, Fedora und OpenSUSE wählen.
+
+2. Öffnen Sie ein Terminalfenster. Ihre Festplatten werden nun unter `/mnt/*` gemountet. Navigieren Sie zum Beispiel zu Ihrem Verzeichnis (Beispiel: `cd /mnt/c/zenbot`)
+
+3. Installieren Sie den Knoten (`curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -; sudo apt-get install nodejs`)
+
+4. Führen Sie zenbot wie sonst aus
+
+> Hinweis: MongoDB funktioniert in diesem Subsystem nicht, bitte verwenden Sie dazu die Windows-Version!
+
+
+#### Ist Docker für die Installation von Zenbot erforderlich?
+
+Nein, Docker ist häufig nicht erforderlich, um Zenbot auszuführen. Es ist oft einfacher, Zenbot auf einem Linux-Computer (Debian, CentOS usw.) ohne Docker auszuführen.
+
+Wenn Sie Zenbot unter Windows ausführen, wird möglicherweise Docker benötigt.
+
+
+#### Wie starte ich Zenbot?
+
+Nach der Installation starten Sie Zenbot über die Befehlszeile.
+Beispiele:
 ```
 ./zenbot.sh backfill gdax.ETH-BTC
 ./zenbot.sh sim gdax.ETH-BTC --days=14
 zenbot sim --days 14
 ```
-You can [generate a command with this shared Google Docs spreadsheet](https://docs.google.com/spreadsheets/d/1HECEHW-I9Evve_FQV3LT_IWGV6FU34tHif9TEouKtfg/edit?usp=sharing).
-Do not hesitate to copy this file to your Google drive or download it as an spreadsheet, as everybody can modify it simultaneously.
+Sie können [einen Befehl mit dieser freigegebenen Google Text & Tabellen-Tabelle generieren] (https://docs.google.com/spreadsheets/d/1HECEHW-I9Evve_FQV3LT_IWGV6FU34tHif9TEouKtfg/edit?usp=sharing).
+Zögern Sie nicht, diese Datei auf Ihr Google-Laufwerk zu kopieren oder als Tabelle herunterzuladen, da jeder sie gleichzeitig ändern kann.
 
 
+#### Wie aktualisiere ich Zenbot?
 
-#### How do I update Zenbot?
-
-Without Docker:
+Ohne Docker:
 ```
 git pull
 npm install
 ./zenbot.sh trade --paper
 ```
 
-With Docker:
+Mit Docker:
 ```
 git pull
 docker-compose down
@@ -142,24 +135,24 @@ docker-compose up -d
 
 
 
-### Errors
+### Fehler
 
-#### Why do I keep getting a "Nonce" error?
+#### Warum erhalte ich immer wieder den Fehler "Nonce"?
 
-This error may occur when multiple instances of Zenbot are used with the same API key. To avoid this, use a different API key for each concurrent instance of Zenbot.
+Dieser Fehler kann auftreten, wenn mehrere Instanzen von Zenbot mit demselben API-Schlüssel verwendet werden. Um dies zu vermeiden, verwenden Sie für jede gleichzeitige Instanz von Zenbot einen anderen API-Schlüssel.
 
-This could also occur if the Zenbot server's time is not correct. Using NTP will keep the time current and help avoid this error.
+Dies kann auch auftreten, wenn die Uhrzeit des Zenbot-Servers nicht korrekt ist. Durch die Verwendung von NTP wird die Zeit auf dem neuesten Stand gehalten und dieser Fehler wird vermieden.
 
-#### Why do I keep getting a "JavaScript heap out of memory" error
+#### Warum erhalte ich immer wieder den Fehler "JavaScript-Heap nicht genügend Speicher"
 
-This error may occur when your node environment does not have enough memory.
+Dieser Fehler kann auftreten, wenn Ihre Knotenumgebung nicht über genügend Speicher verfügt.
 
-Solution (Linux & Docker): Change the line
+Lösung (Linux & Docker): Ändern Sie die Zeile
 
 `env node zenbot.js $@`
 
-in [zenbot.sh](../zenbot.sh) to 
+in [zenbot.sh](../zenbot.sh) bis
 
 `env node --max-old-space-size=<memory> zenbot.js $@`
 
- where `<memory>` is the amount of memory node is allowed to use (e.g. 4096 for 4GB). For Windows you have to change the file [zenbot.bat](../zenbot.bat) respectively.
+ Dabei ist `<memory>` die Menge an Speicherknoten, die verwendet werden darf (z. B. 4096 für 4 GB). Für Windows müssen Sie die Datei [zenbot.bat](../zenbot.bat) ändern.
