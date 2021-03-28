@@ -143,7 +143,7 @@ Dieser Fehler kann auftreten, wenn mehrere Instanzen von Zenbot mit demselben AP
 
 Dies kann auch auftreten, wenn die Uhrzeit des Zenbot-Servers nicht korrekt ist. Durch die Verwendung von NTP wird die Zeit auf dem neuesten Stand gehalten und dieser Fehler wird vermieden.
 
-#### Warum erhalte ich immer wieder den Fehler "JavaScript-Heap nicht genügend Speicher" - "JavaScript heap out of memory" 
+#### Warum erhalte ich immer wieder den Fehler "JavaScript-Heap nicht genügend Speicher"
 
 Dieser Fehler kann auftreten, wenn Ihre Knotenumgebung nicht über genügend Speicher verfügt.
 
