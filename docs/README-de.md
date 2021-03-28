@@ -13,7 +13,7 @@ Führen Sie in Ihrer Konsole dieses mit git aus, in der Englischen Sprache die o
 git clone https://github.com/deviavir/Zenbot.git
 ```
 
-Oder in der Deutschen Sprache verwenden Sie diese .git von mir in Ihrer Konsole, mit Deutschen Dokumenten, Readme und config-sample.ja-Dateien.
+Oder in der Deutschen Sprache verwenden Sie dieses .git von mir in Ihrer Konsole, mit Deutschen Dokumenten, Readme und conf-sample.js-Dateien.
 ```
 git clone https://github.com/dwhr-pi/zenbot-deutsch.git
 ```
