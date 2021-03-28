@@ -13,7 +13,7 @@ Führen Sie in Ihrer Konsole aus,
 git clone https://github.com/deviavir/Zenbot.git
 ```
 
-Oder in der Deutschensprache verwenden Sie diese .git von mir.
+Oder in der Deutschensprache verwenden Sie diese .git von mir in Ihrer Konsole.
 ```
 git clone https://github.com/dwhr-pi/zenbot-deutsch.git
 ```
@@ -26,7 +26,7 @@ tar -xf master.tar.gz
 mv Zenbot-master Zenbot
 ```
 
-Oder in der Deutschensprache verwenden Sie dieses ohne .git von mir.
+Oder in der Deutschensprache verwenden Sie dieses ohne .git von mir in Ihrer Konsole.
 
 ```
 wget https://github.com/dwhr-pi/zenbot-deutsch/archive/master.tar.gz
