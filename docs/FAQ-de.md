@@ -11,18 +11,18 @@ Vielen Dank!
 ## Inhalt
 
 ### [Allgemein](#Allgemein-1)
-* [Gibt es eine Community, um sich mit Zenbot zu beschäftigen?](#Gibt-es-eine-Community,-die-sich-mit-Zenbot-befasst)
+* [Gibt es eine Community, die sich mit Zenbot befasst?](#Gibt-es-eine-Community,-die-sich-mit-Zenbot-befasst)
 
 ### [Handel](#Handel-1)
-* [Werde ich mit Zenbot Geld verdienen?](#Werde_ich_mit_Zenbot_Geld_verdienen)
-* [Warum führen Simulationen, Papierhandel und Live-Handel zu unterschiedlichen Ergebnissen?](#Warum_Simulationen_Papierhandel_und_Live-Handel_alle_Rendite_unterschiedlichen_Ergebnissen)
-* [Warum sollte ich Simulationen oder Papierhandel verwenden, wenn sie nicht den Live-Handel widerspiegeln?](#Warum_sollte_ich_Simulationen_oder_Papierhandel_verwenden,_wenn_sie_den_Live-Handel_nicht_widerspiegeln?)
-* [Verwendet Zenbot Limit (Maker) Orders oder Market (Taker) Orders?](#Verwendet_Zenbot_Limit_Maker_Orders_oder_Market_Taker_Orders)
+* [Werde ich mit Zenbot Geld verdienen?](#Werde-ich-mit-Zenbot-Geld-verdienen)
+* [Warum führen Simulationen, Papierhandel und Live-Handel zu unterschiedlichen Ergebnissen?](#Warum-Simulationen-Papierhandel-und-Live-Handel-alle-Rendite-unterschiedlichen-Ergebnissen)
+* [Warum sollte ich Simulationen oder Papierhandel verwenden, wenn sie nicht den Live-Handel widerspiegeln?](#Warum-sollte-ich-Simulationen-oder-Papierhandel-verwenden,-wenn-sie-den-Live-Handel-nicht-widerspiegeln?)
+* [Verwendet Zenbot Limit (Maker) Orders oder Market (Taker) Orders?](#Verwendet-Zenbot-Limit-(Maker)-Orders-oder-Market-(Taker)-Orders)
 
 ### [Technisches](#Technisches-1)
-* [Kann ich Zenbot unter Windows installieren?](#Can_I_install_zenbot_on_windows)
-* [Ist Docker bei der Installation von Zenbot erforderlich?](#Is_docker_necessary_when_installing_zenbot?)
-* [Wie starte ich Zenbot?](#Wie-starte-ich-zenbot)
+* [Kann ich Zenbot unter Windows installieren?](#Kann-ich-Zenbot-unter-Windows-installieren)
+* [Ist Docker für die Installation von Zenbot erforderlich?](#Ist-Docker-für-die-Installation-von-Zenbot-erforderlich)
+* [Wie starte ich Zenbot?](#Wie-starte-ich-Zenbot)
 * [Wie aktualisiere ich Zenbot?](#Wie-aktualisiere-ich-Zenbot)
 
 ### [Fehler](#Fehler-1)
@@ -60,7 +60,7 @@ Da Zenbot standardmäßig Limit-Orders verwendet (was häufig die Gebühren senk
 Denken Sie auch daran, dass vergangene Ergebnisse keine zukünftigen Renditen garantieren.
 
 
-#### Warum sollte ich Simulationen oder Papierhandel verwenden, wenn diese nicht den Live-Handel widerspiegeln?
+#### Warum sollte ich Simulationen oder Papierhandel verwenden, wenn sie nicht den Live-Handel widerspiegeln?
 
 Simulationen sind optimistischer als der Papierhandel.
 Der Papierhandel ist optimistischer als der Live-Handel.
