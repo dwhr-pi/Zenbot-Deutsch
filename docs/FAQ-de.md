@@ -15,8 +15,8 @@ Vielen Dank!
 
 ### [Handel](#Handel-1)
 * [Werde ich mit Zenbot Geld verdienen?](#Werde-ich-mit-Zenbot-Geld-verdienen)
-* [Warum führen Simulationen, Papierhandel und Live-Handel zu unterschiedlichen Ergebnissen?](#Warum-Simulationen-Papierhandel-und-Live--Handel-alle-Rendite-unterschiedlichen-Ergebnissen)
-* [Warum sollte ich Simulationen oder Papierhandel verwenden, wenn sie nicht den Live-Handel widerspiegeln?](#Warum-sollte-ich-Simulationen-oder-Papierhandel-verwenden-wenn-sie-den-Live--Handel-nicht-widerspiegeln?)
+* [Warum führen Simulationen, Papierhandel und "Live-Handel" zu unterschiedlichen Ergebnissen?](#Warum-Simulationen-Papierhandel-und-Live-Handel-alle-Rendite-unterschiedlichen-Ergebnissen)
+* [Warum sollte ich Simulationen oder Papierhandel verwenden, wenn sie nicht den "Live-Handel" widerspiegeln?](#Warum-sollte-ich-Simulationen-oder-Papierhandel-verwenden-wenn-sie-den-Live-Handel-nicht-widerspiegeln?)
 * [Verwendet Zenbot Limit (Maker) Orders oder Market (Taker) Orders?](#Verwendet-Zenbot-Limit-Maker-Orders-oder-Market-Taker-Orders)
 
 ### [Technisches](#Technisches-1)
@@ -51,7 +51,7 @@ Das hängt davon ab… Unterschiedliche Konfigurationen und Strategien führen z
 Die aktuelle Standardkonfiguration und die aktuellen Standardparameter verlieren wahrscheinlich Geld. Gehen Sie daher vorsichtig vor. Führen Sie zuerst Simulationen und Papierhandel aus, um zu sehen, wie sich der Bot verhält (siehe Warnung unten).
 
 
-#### Warum führen Simulationen, Papierhandel und Live-Handel zu unterschiedlichen Ergebnissen?
+#### Warum führen Simulationen, Papierhandel und "Live Handel" zu unterschiedlichen Ergebnissen?
 
 Simulationen und Papierhandel liefern im Vergleich zum Live-Handel fast immer zu optimistische Ergebnisse. Dies liegt daran, dass sowohl Simulationen als auch der Papierhandel Annahmen darüber treffen, wann/ob ein Auftrag ausgeführt wird.
 
@@ -60,7 +60,7 @@ Da Zenbot standardmäßig Limit-Orders verwendet (was häufig die Gebühren senk
 Denken Sie auch daran, dass vergangene Ergebnisse keine zukünftigen Renditen garantieren.
 
 
-#### Warum sollte ich Simulationen oder Papierhandel verwenden, wenn sie nicht den Live-Handel widerspiegeln?
+#### Warum sollte ich Simulationen oder Papierhandel verwenden, wenn sie nicht den "Live Handel" widerspiegeln?
 
 Simulationen sind optimistischer als der Papierhandel.
 Der Papierhandel ist optimistischer als der Live-Handel.
