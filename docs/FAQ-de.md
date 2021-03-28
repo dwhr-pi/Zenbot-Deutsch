@@ -11,7 +11,7 @@ Vielen Dank!
 ## Inhalt
 
 ### [Allgemein](#Allgemein-1)
-* [Gibt es eine Community, die sich mit Zenbot befasst?](#Gibt-es-eine-Community,-die-sich-mit-Zenbot-befasst)
+* [Gibt es eine Community, die sich mit Zenbot befasst?](#Gibt-es-eine-Community-die-sich-mit-Zenbot-befasst)
 
 ### [Handel](#Handel-1)
 * [Werde ich mit Zenbot Geld verdienen?](#Werde-ich-mit-Zenbot-Geld-verdienen)
