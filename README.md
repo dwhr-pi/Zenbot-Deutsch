@@ -59,7 +59,7 @@ PS: Einige haben gefragt, wie sie für die Zenbot-Entwicklung spenden können. W
 
 ### DWHR-Pi's BTC (aktueller Deutscher Übersetzer)
 
-`17aJRRkpwAUHjFSrV9VqFv3ikLMM9n7drb
+`17aJRRkpwAUHjFSrV9VqFv3ikLMM9n7drb`
 
 ![zenbot logo](assets/zenbot_square.png)
 
