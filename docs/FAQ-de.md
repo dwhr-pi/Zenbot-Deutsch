@@ -16,7 +16,7 @@ Vielen Dank!
 ### [Handel](#Handel-1)
 * [Werde ich mit Zenbot Geld verdienen?](#Werde-ich-mit-Zenbot-Geld-verdienen)
 * [Warum führen Simulationen, Papierhandel und Live-Handel zu unterschiedlichen Ergebnissen?](#Warum-führen-Simulationen-Papierhandel-und-Live-Handel-zu-unterschiedlichen-Ergebnissen)
-* [Warum sollte ich Simulationen oder Papierhandel verwenden, wenn sie nicht den Live-Handel widerspiegeln?](#Warum-sollte-ich-Simulationen-oder-Papierhandel-verwenden-wenn-sie-nicht-den-Live-Handel-widerspiegeln?)
+* [Warum sollte ich Simulationen oder Papierhandel verwenden, wenn sie nicht den Live-Handel widerspiegeln?](#Warum-sollte-ich-Simulationen-oder-Papierhandel-verwenden-wenn-sie-nicht-den-Live-Handel-widerspiegeln)
 * [Verwendet Zenbot Limit (Maker) Orders oder Market (Taker) Orders?](#Verwendet-Zenbot-Limit-Maker-Orders-oder-Market-Taker-Orders)
 
 ### [Technisches](#Technisches-1)
