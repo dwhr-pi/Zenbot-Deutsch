@@ -731,6 +731,8 @@ https://xmpp.org/
 
 Geben Sie Zenbot Ihren IFTTT-Herstellerschlüssel an, und Zenbot sendet Benachrichtigungen an Ihren IFTTT.
 https://ifttt.com/maker_webhooks
+Und sehen Sie sich diesen Artikel dazu bitte näher an. 
+https://www.homeandsmart.de/7-ifttt-rezepte-fuer-amazon-echo
 
 ### DISCORD
 
