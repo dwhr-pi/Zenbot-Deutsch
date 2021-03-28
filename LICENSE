@@ -1,21 +1,21 @@
-MIT License
+MIT-Lizenz
 
-Copyright (c) 2021 dwhr-pi
+Copyright (c) 2018 Carlos Rodriguez, (c) 2020 DWHR-Pi
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Hiermit wird jeder Person, die eine Kopie erhält, kostenlos die Erlaubnis erteilt
+dieser Software und der dazugehörigen Dokumentationsdateien (die "Software") zu behandeln
+in der Software ohne Einschränkung, einschließlich ohne Einschränkung der Rechte
+zu verwenden, zu kopieren, zu ändern, zusammenzuführen, zu veröffentlichen, zu verteilen, Unterlizenzen zu vergeben und/oder zu verkaufen
+Kopien der Software und um Personen zuzulassen, für die die Software bestimmt ist
+dafür eingerichtet, unter folgenden Bedingungen:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Der oben genannte Copyright-Hinweis und dieser Erlaubnishinweis sind in allen 
+Kopien oder wesentliche Teile der Software enthalten.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+DIE SOFTWARE WIRD "WIE BESEHEN" OHNE JEGLICHE AUSDRÜCKLICHE ODER AUSDRÜCKLICHE GEWÄHRLEISTUNG ZUR VERFÜGUNG GESTELLT
+STILLSCHWEIGEND, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER MARKTGÄNGIGKEIT,
+EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTVERLETZUNG. In keinem Fall wird das
+AUTOREN ODER COPYRIGHT-INHABER HAFTEN FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE
+HAFTUNG, OB BEI VERTRAGS-, TORT- ODER ANDERWEITIGEN MASSNAHMEN AUS,
+AUS ODER IM ZUSAMMENHANG MIT DER SOFTWARE ODER DER NUTZUNG ODER ANDEREN HANDELN IN DER
 SOFTWARE.
