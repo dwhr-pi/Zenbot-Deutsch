@@ -11,23 +11,23 @@ Vielen Dank!
 ## Inhalt
 
 ### [General](#general-1)
-* [Gibt es eine Community, um sich mit Zenbot zu beschäftigen?] (#Gibt_es_eine_Community,_um_sich_mit_Zenbot_zu_beschäftigen?)
+* [Gibt es eine Community, um sich mit Zenbot zu beschäftigen?](#Gibt_es_eine_Community,_um_sich_mit_Zenbot_zu_beschäftigen?)
 
 ### [Trading](#trading-1)
-* [Werde ich mit Zenbot Geld verdienen?] (#Werde_ich_mit_Zenbot_Geld_verdienen)
-* [Warum führen Simulationen, Papierhandel und Live-Handel zu unterschiedlichen Ergebnissen?] (#Warum_Simulationen_Papierhandel_und_Live-Handel_alle_Rendite_unterschiedlichen_Ergebnissen)
-* [Warum sollte ich Simulationen oder Papierhandel verwenden, wenn sie nicht den Live-Handel widerspiegeln?] (#Warum_sollte_ich_Simulationen_oder_Papierhandel_verwenden,_wenn_sie_den_Live-Handel_nicht widerspiegeln?)
-* [Verwendet Zenbot Limit (Maker) Orders oder Market (Taker) Orders?] (#Verwendet_Zenbot_Limit_Maker_Orders_oder_Market_Taker_Orders)
+* [Werde ich mit Zenbot Geld verdienen?](#Werde_ich_mit_Zenbot_Geld_verdienen)
+* [Warum führen Simulationen, Papierhandel und Live-Handel zu unterschiedlichen Ergebnissen?](#Warum_Simulationen_Papierhandel_und_Live-Handel_alle_Rendite_unterschiedlichen_Ergebnissen)
+* [Warum sollte ich Simulationen oder Papierhandel verwenden, wenn sie nicht den Live-Handel widerspiegeln?](#Warum_sollte_ich_Simulationen_oder_Papierhandel_verwenden,_wenn_sie_den_Live-Handel_nicht widerspiegeln?)
+* [Verwendet Zenbot Limit (Maker) Orders oder Market (Taker) Orders?](#Verwendet_Zenbot_Limit_Maker_Orders_oder_Market_Taker_Orders)
 
 ### [Technical](#technical-1)
-* [Kann ich Zenbot unter Windows installieren?] (#Can_I_install_zenbot_on_windows)
-* [Ist Docker bei der Installation von Zenbot erforderlich?] (#Is_docker_necessary_when_installing_zenbot?)
-* [Wie starte ich Zenbot?] (#How-do-I-launch-zenbot)
-* [Wie aktualisiere ich Zenbot?] (#How-do-I-update-zenbot)
+* [Kann ich Zenbot unter Windows installieren?](#Can_I_install_zenbot_on_windows)
+* [Ist Docker bei der Installation von Zenbot erforderlich?](#Is_docker_necessary_when_installing_zenbot?)
+* [Wie starte ich Zenbot?](#Wie-starte-ich-zenbot)
+* [Wie aktualisiere ich Zenbot?](#Wie-aktualisiere-ich-Zenbot)
 
 ### [Errors](#errors-1)
-* [Warum erhalte ich immer wieder einen "Nonce" -Fehler?] (#why-do-i-keep-getting-a-nonce-error)
-* [Warum erhalte ich immer wieder den Fehler "JavaScript-Heap nicht genügend Speicher"] (#why-do-i-keep-getting-a-javascript-heap-out-of-memory-error)
+* [Warum erhalte ich immer wieder einen "Nonce" -Fehler?](#Warum-erhalte-ich-immer-wieder-den-Fehler-nonce)
+* [Warum erhalte ich immer wieder den Fehler "JavaScript-Heap nicht genügend Speicher"](#Warum-erhalte-ich-immer-wieder-den-Fehler-JavaScript-Heap-nicht-genügend-Speicher)
 
 
 ## Antworten
@@ -38,7 +38,7 @@ Vielen Dank!
 
 Natürlich! Schauen Sie sich unsere Reddit-Community an ([subreddit zenbot](https://reddit.com/r/zenbot)).
 
-Es gibt auch [eine freigegebene Google Text & Tabellen-Tabelle mit Community-Sim-Ergebnissen und Variablenbeschreibungen] (https://docs.google.com/spreadsheets/d/1WjFKRUY4KpkdIJiA3RVvKqiyNkMe9xtgLSfYESFXk1g/edit#gid=70204991).
+Es gibt auch [eine freigegebene Google Text & Tabellen-Tabelle mit Community-Sim-Ergebnissen und Variablenbeschreibungen](https://docs.google.com/spreadsheets/d/1WjFKRUY4KpkdIJiA3RVvKqiyNkMe9xtgLSfYESFXk1g/edit#gid=70204991).
 
 
 
@@ -76,7 +76,7 @@ Zenbot verwendet standardmäßig Limit-Orders, da Limit-Orders an den meisten B�
 
 ### Technisches
 
-#### CKann ich Zenbot unter Windows installieren?
+#### Kann ich Zenbot unter Windows installieren?
 
 Ja, Zenbot kann unter Windows installiert werden. Es wird jedoch empfohlen, stattdessen Linux oder MacOS zu verwenden.
 
@@ -102,7 +102,7 @@ Nein, Docker ist häufig nicht erforderlich, um Zenbot auszuführen. Es ist oft 
 Wenn Sie Zenbot unter Windows ausführen, wird möglicherweise Docker benötigt.
 
 
-#### How do I launch Zenbot?
+#### Wie starte ich Zenbot?
 
 Nach der Installation starten Sie Zenbot über die Befehlszeile.
 Beispiele:
