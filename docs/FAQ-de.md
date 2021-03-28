@@ -10,29 +10,29 @@ Vielen Dank!
 
 ## Inhalt
 
-### [General](#general-1)
+### [Allgemein](#Allgemein-1)
 * [Gibt es eine Community, um sich mit Zenbot zu beschäftigen?](#Gibt_es_eine_Community,_um_sich_mit_Zenbot_zu_beschäftigen?)
 
-### [Trading](#trading-1)
+### [Handel](#Handel-1)
 * [Werde ich mit Zenbot Geld verdienen?](#Werde_ich_mit_Zenbot_Geld_verdienen)
 * [Warum führen Simulationen, Papierhandel und Live-Handel zu unterschiedlichen Ergebnissen?](#Warum_Simulationen_Papierhandel_und_Live-Handel_alle_Rendite_unterschiedlichen_Ergebnissen)
 * [Warum sollte ich Simulationen oder Papierhandel verwenden, wenn sie nicht den Live-Handel widerspiegeln?](#Warum_sollte_ich_Simulationen_oder_Papierhandel_verwenden,_wenn_sie_den_Live-Handel_nicht_widerspiegeln?)
 * [Verwendet Zenbot Limit (Maker) Orders oder Market (Taker) Orders?](#Verwendet_Zenbot_Limit_Maker_Orders_oder_Market_Taker_Orders)
 
-### [Technical](#technical-1)
+### [Technisches](#Technisches-1)
 * [Kann ich Zenbot unter Windows installieren?](#Can_I_install_zenbot_on_windows)
 * [Ist Docker bei der Installation von Zenbot erforderlich?](#Is_docker_necessary_when_installing_zenbot?)
 * [Wie starte ich Zenbot?](#Wie-starte-ich-zenbot)
 * [Wie aktualisiere ich Zenbot?](#Wie-aktualisiere-ich-Zenbot)
 
-### [Errors](#errors-1)
+### [Fehler](#Fehler-1)
 * [Warum erhalte ich immer wieder einen "Nonce" -Fehler?](#Warum-erhalte-ich-immer-wieder-den-Fehler-nonce)
 * [Warum erhalte ich immer wieder den Fehler "JavaScript-Heap nicht genügend Speicher"](#Warum-erhalte-ich-immer-wieder-den-Fehler-JavaScript-Heap-nicht-genügend-Speicher)
 
 
 ## Antworten
 
-### Allgemeine
+### Allgemein
 
 #### Gibt es eine Community, die sich mit Zenbot befasst?
 
