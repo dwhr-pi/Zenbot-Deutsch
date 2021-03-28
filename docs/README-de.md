@@ -632,7 +632,7 @@ In den Kinderschuhen gibt es einige Einschränkungen bei der aktuellen Benutzero
 
 ## Lesen der Konsolenausgabe
 
-![console](https://rawgit.com/dwhr-pi/Zenbot-Deutsch/master/assets/console.png)
+![console](https://raw.githubusercontent.com/dwhr-pi/Zenbot-Deutsch/unstable/assets/console.png)
 
 Von links nach rechts:
 
