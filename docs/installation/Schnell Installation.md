@@ -400,8 +400,9 @@ cd zenbot
 ./zenbot.sh sim --days 14
 ./zenbot.sh sim --days 14 binance.ETH-BTC
 ./zenbot.sh sim --days 14 binance.LTC-BTC
+```
 
-##ä Node.js Fehler
+### Node.js Fehler
 https://www.google.com/search?q=.%2Fzenbot.sh+sim+--days+14+binance.ETH-BTC&oq=.%2Fzenbot.sh+sim+--days+14+binance.ETH-BTC&aqs=chrome..69i57.2813j0j4&sourceid=chrome&ie=UTF-8
 ```
 SyntaxError: Invalid left-hand side in assignment, falling back to conf-sample
@@ -500,27 +501,18 @@ Zenbot-Strategien · GitHub
 ./zenbot.sh sim --days 14 binance.ETH-BTC --strategy=trix_max --period=1m --buy_pct=100 --sell_pct=100 --currency_capital=100 –max_sell_loss_pct=5 --paper
 ```
 
-./zenbot.sh sim --days 14 binance.ETH-BTC --strategy=crossover_vwap --period=1m --buy_pct=100 --sell_pct=100 --currency_capital=100 –max_sell_loss_pct=5 --paper
-./zenbot.sh sim --days 14 binance.ETH-BTC --strategy=crossover_vwap --period=1m --buy_pct=100 --sell_pct=100 --currency_capital=100 –max_sell_loss_pct=5 --paper
-./zenbot.sh sim --days 14 binance.ETH-BTC --strategy=crossover_vwap --period=1m --buy_pct=100 --sell_pct=100 --currency_capital=100 –max_sell_loss_pct=5 --paper
-./zenbot.sh sim --days 14 binance.ETH-BTC --strategy=crossover_vwap --period=1m --buy_pct=100 --sell_pct=100 --currency_capital=100 –max_sell_loss_pct=5 --paper
-./zenbot.sh sim --days 14 binance.ETH-BTC --strategy=crossover_vwap --period=1m --buy_pct=100 --sell_pct=100 --currency_capital=100 –max_sell_loss_pct=5 --paper
+forex analytics starten
+```
+./zenbot.sh 
+```
 
+```
 ./zenbot.sh backfill binance.ETH-BTC
 ./zenbot.sh backfill binance.LTC-BTC
 ./zenbot.sh balance binance.ETH-BTC
 ./zenbot.sh list-strategies 
 ./zenbot.sh trade binance.ETH-BTC
-
-
-Zenbot Deutsch ist ein Befehlszeilen-Kryptowährungs-Handelsbot, der Node.js und MongoDB verwendet.
-
-
-bot trader trader-bot handelsbot traderbot
-
-Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-deutschsprachige Version v4.1.0.1 von DeviaVir Zenbot
-deutschsprachige Version v4.1.0.1 von DeviaVir Zenbot v4.1.0 , übersetzt aller wichtigen Dateien, Dokumente und config.js Dateien.
+```
 
 
 ##Intressante Links
@@ -573,4 +565,6 @@ sudo dpkg -i MediathekView-latest-linux.deb
 
 
 ## Intressante Seiten zu Zenbot
+```
 https://beyond.lol/zenbot-anleitung-fuer-anfaenger-part-1/
+```
