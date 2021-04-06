@@ -222,11 +222,11 @@ apt --fix-broken install
 apt autoremove
 ```
 
-Die Datnbank sollte mit der URL zu erreichen sein. 
+Die Datenbank sollte mit der URL zu erreichen sein. 
 ```
-mongodb://192.168.178.21:27017/zenbot4
 mongodb://localhost:27017/zenbot4
-mongodb://DietPi-schwarz:27017/zenbot4
+mongodb://<DeineIPAdresseDesRaspberrys>:27017/zenbot4
+mongodb://<DeinHostnameDesRaspberrys>:27017/zenbot4
 ```
 
 Ab morgen hier weiter!!!!!!!!!!!!!!
@@ -253,38 +253,45 @@ sudo dpkg --add-architecture arm64
 sudo apt-get update
 sudo apt-get install libssl-dev:arm64 libcurl4-openssl-dev:arm64
 ```
-Libssl, Bestandteil von DietPi, aber nicht vorinstalliert, siehe bei DietPi Software Additionals
+
+### Selbstbau Versuch der mongoDB und weiteren Abhängigkeiten. 
+Der Selbstbau der Version 4.2 führte zum Erfolg. 
+Ob das dann noch mal klappt? 
+Die anderen Versuche und Links zu MongoDb dienen nur zur Orientierung und für später und alle Fälle. 
+Libssl, Bestandteil von DietPi, aber nicht vorinstalliert, siehe bei DietPi Software Additionals zur Installation.
 
 
-## Version 4.2, für i386 oder AMD
+## Version 4.4, für i386 oder AMD, leider nicht für arm64 geeignet.
 ```
 git clone -b r4.4.0 https://github.com/mongodb/mongo.git
 ```
 
-## Version 4.2, für arm64 Systeme
+## Version 4.2, für arm64 Systeme.
 ```
 git clone -b r4.2.0 https://github.com/mongodb/mongo.git
 cd mongo
 ```
 
 
-## PYTHON3
-Bestandteil von DietPi, aber nicht vorinstalliert, siehe DietPi Software Additionals
+## PYTHON3, notwendig um MongoDB zu bauen. 
+Bestandteil von DietPi, aber nicht vorinstalliert, siehe DietPi Software Additionals.
 In DietPi's Software Additional > Shared Libraries habe ich alle Erweiterungen installiert, wie auch die "Build-Essentials: common packages for compiling" bei "Development & Programming" in DietPi's Software Additional.
 
 Im mongo Verzeichnis dann im Terminal "cd mongo" eingeben, falls Sie sich wieder im Root-Verzeichniss befinden. 
 
 
-G++, ist nicht Bestandteil von DietPi in der Basisinstallation. 
+G++, ist nicht Bestandteil von DietPi in der Basisinstallation, wir zum bauen der Phyton3 benötigt. 
 ```
 sudo apt-get install g++
 sudo apt-get install libboost-filesystem-dev libboost-program-options-dev libboost-system-dev libboost-thread-dev
-
+```
+Ab hier wurde die Phyton3 gebaut. 
+```
 python3 buildscripts/scons.py mongod
 python3 buildscripts/scons.py --prefix=/opt/mongo install
 ```
 
-Befolge dann die Anleitung in der build / building.md Datei in Phyton3, falls es hier zu komplikationen kommen sollte. 
+Befolge dann die Anleitung in der build / building.md Datei in/zu Phyton3, falls es hier zu Komplikationen kommen sollte. 
 Zum Kompilieren der MonogDB benötigte ich noch die nachfolgendene letzte Zeilen.
 Im Stammverzeichnis im Terminal: 
 
@@ -306,20 +313,24 @@ ENDE MongoDB 4.4 für arm64, ob das auch bei der 4.4 irgendwie funktioniert?
 
 
 
-## Unwichtig ab hier.
+## Unwichtig ab hier, nur weitere Versuche.
 ```
 sudo cp /path/to/the/mongodb-directory/bin/* /usr/local/bin/
 sudo cp /path/to/the/mongodb-src-r4.4.4/bin/* /usr/local/bin/
+```
 
-
+Mongo Version 3.6, funktioniert nicht auch auf DietPi Buster arm64
+```
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
 echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list
 apt-get update
 apt-get install -y mongodb-org
 sudo service mongod start
+```
 
 
-funktioniert nachfolgend auch auf DietPi Buster arm64
+Mongo Version 3.2, funktioniert nicht auch auf DietPi Buster arm64
+```
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 0C49F3730359A14518585931BC711F9BA15703C6
 echo "deb http://repo.mongodb.org/apt/debian jessie/mongodb-org/3.2 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
 sudo apt-get update
@@ -334,7 +345,7 @@ sudo systemctl enable mongod --now
 
 
 
-## MongoDB Neu
+## MongoDB Neu, ggf. nur ein paar wichtige Befehle sind hier insgesammt noch. 
 https://linuxize.com/post/how-to-install-mongodb-on-debian-10/
 ```
 sudo apt install dirmngr gnupg apt-transport-https software-properties-common ca-certificates curl
@@ -357,7 +368,7 @@ sudo service mongod start
 
 
 
-## Weiter Neu
+## Mongo Version 3.6, funktioniert auch diese Version nicht auch auf DietPi Buster arm64
 ```
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
 echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list
@@ -374,11 +385,13 @@ https://hub.docker.com/_/mongo/
 docker pull mongo
 ```	
 
-Bei Fehlerhafter Installation von der mongoDB und im Terminal angegebener Fehler: 
+Bei fehlerhafter Installation der mongoDB und im Terminal wurde der Fehler angegebenen: 
 ```
 apt-get -q update - Exit code: 100  
 ```
-hierbei im Ordner die etc/agp/source.list Datei editieren und den Ordner source.list.d sonmit korrigieren, die MongoDB-Dateien in dem Verzeichnis entfernen.
+Hierzu im Ordner die 
+```etc/agp/source.list```
+Datei editieren und den Ordner 'source.list.d' sonmit korrigieren und die anderen MongoDB-Dateien in diesem Verzeichnis entfernen.
 
 
 
