@@ -209,6 +209,7 @@ sudo dpkg -i mongodb-org_4.2.9_arm64.deb
 
 
 ## Unwichtig*******************
+```
 wget -qO - https://www.mongodb.org/static/pgp/server-4.0.asc | sudo apt-key add -
 echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list
 echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/debian stretch/mongodb-org/4.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list
@@ -239,10 +240,12 @@ sudo apt-get install mongodb-server
 
 ### BESSER MongoDB 4.2 oder 4.4 für arm64. Die MongoDB 4.2 funktioniert auf arm64, aber zur Zeit nicht die Version 4.4.
 ### Richtig*******************
+```
 https://www.google.com/search?q=zenbot+mongodb+install+arm64&oq=zenbot+mongodb+install+arm64&aqs=chrome..69i57.36153j0j7&sourceid=chrome&ie=UTF-8
 zenbot mongodb install arm64
 https://www.reddit.com/r/zenbot/comments/dy1ys5/zenbot_without_docker_on_rpi3/
 zenbot without docker on RPI3
+```
 
 ```
 sudo apt-get install gcc-8-aarch64-linux-gnu g++-8-aarch64-linux-gnu
@@ -250,12 +253,13 @@ sudo dpkg --add-architecture arm64
 sudo apt-get update
 sudo apt-get install libssl-dev:arm64 libcurl4-openssl-dev:arm64
 ```
-Libssl, Bestandteil von DietPi, aber nicht vorinstalliert, siehe DietPi Software Additionals
+Libssl, Bestandteil von DietPi, aber nicht vorinstalliert, siehe bei DietPi Software Additionals
 
 
 ## Version 4.2, für i386 oder AMD
 ```
 git clone -b r4.4.0 https://github.com/mongodb/mongo.git
+```
 
 ## Version 4.2, für arm64 Systeme
 ```
@@ -264,7 +268,8 @@ cd mongo
 ```
 
 
-PYTHON3, Bestandteil von DietPi, aber nicht vorinstalliert, siehe DietPi Software Additionals
+## PYTHON3
+Bestandteil von DietPi, aber nicht vorinstalliert, siehe DietPi Software Additionals
 In DietPi's Software Additional > Shared Libraries habe ich alle Erweiterungen installiert, wie auch die "Build-Essentials: common packages for compiling" bei "Development & Programming" in DietPi's Software Additional.
 
 Im mongo Verzeichnis dann im Terminal "cd mongo" eingeben, falls Sie sich wieder im Root-Verzeichniss befinden. 
@@ -286,6 +291,7 @@ Im Stammverzeichnis im Terminal:
 ```
 sudo apt install python-pymongo
 ```
+Die Installationszeit für Phyton beträgt ca. XX Minuten. 
 
 Dann ging ich in dieses Zenbot Verzeichnis und Zenbot startete auf DietPi OS ohne Fehler Meldung, das die MongoDB installiert sein müsste.
 ```
@@ -368,11 +374,11 @@ https://hub.docker.com/_/mongo/
 docker pull mongo
 ```	
 
-Bei Fehlerhafter Installation von der mongoDB
+Bei Fehlerhafter Installation von der mongoDB und im Terminal angegebener Fehler: 
 ```
 apt-get -q update - Exit code: 100  
 ```
-hierbei im Ordner etc/agp/source.list Datei editieren und den Ordner source.list.d sonmit korrigieren.
+hierbei im Ordner die etc/agp/source.list Datei editieren und den Ordner source.list.d sonmit korrigieren, die MongoDB-Dateien in dem Verzeichnis entfernen.
 
 
 
@@ -418,22 +424,23 @@ node conf.js
 node -version
 ```
 
-## quelle für diesen Test war.
-```
+## Quelle für diesen Test war.
+
 E:\_Bitcoin_Core\Eobot_FREE_Cloud_Mining_Review\_TraderBots\Zenbot\Backtesting-Strategien
+```
 zenbot morpheus.5250$ 
 zenbot sim --days 90 --profit_stop_enable_pct=10 --profit_stop_pct=1 --sell_rate=-0.006 --trend_ema=36 --period=1h
 ```
 
+Hier einige Zenbot Befehle in der Anwendung zum simulierten Traden.  
 ```
 ./zenbot.sh trade gdax.LTC-BTC --strategy=bollinger --period=1m --buy_pct=100 --sell_pct=100 --currency_capital=100 –max_sell_loss_pct=5 --paper
 ./zenbot.sh trade gdax.LTC-BTC --strategy=bollinger --period=1m --buy_pct=100 --sell_pct=100 --currency_capital=100 –max_sell_loss_pct=5 --live
 ./zenbot.sh trade binance.ETH-BTC --strategy=bollinger --period=1m --buy_pct=100 --sell_pct=100 --currency_capital=100 –max_sell_loss_pct=5 --live
-
+```
+Hier einige Zenbot Befehle in der Anwendung zum simulierten Traden.  
+```
 ./zenbot.sh sim --days 14 binance.ETH-BTC --strategy=bollinger --period=1m --buy_pct=100 --sell_pct=100 --currency_capital=100 –max_sell_loss_pct=5 --paper
-
-./zenbot.sh train --days 14 binance.ETH-BTC --strategy=bollinger --period=1m --buy_pct=100 --sell_pct=100 --currency_capital=100 –max_sell_loss_pct=5 --paper
-
 ./zenbot.sh sim --days 14 binance.ETH-BTC --strategy=cci_srsi --period=1m --buy_pct=100 --sell_pct=100 --currency_capital=100 –max_sell_loss_pct=5 --paper
 ./zenbot.sh sim --days 14 binance.ETH-BTC --strategy=crossover_vwap --period=1m --buy_pct=100 --sell_pct=100 --currency_capital=100 –max_sell_loss_pct=5 --paper
 ./zenbot.sh sim --days 14 binance.ETH-BTC --strategy=dema --period=1m --buy_pct=100 --sell_pct=100 --currency_capital=100 –max_sell_loss_pct=5 --paper
@@ -501,11 +508,12 @@ Zenbot-Strategien · GitHub
 ./zenbot.sh sim --days 14 binance.ETH-BTC --strategy=trix_max --period=1m --buy_pct=100 --sell_pct=100 --currency_capital=100 –max_sell_loss_pct=5 --paper
 ```
 
-forex analytics starten
+forex analytics starten, falls installiert mit. Die Strategie forex_analytics nicht so starten. 
 ```
-./zenbot.sh 
+./zenbot.sh train
 ```
 
+## Weitere Beispielbefehle
 ```
 ./zenbot.sh backfill binance.ETH-BTC
 ./zenbot.sh backfill binance.LTC-BTC
@@ -515,7 +523,7 @@ forex analytics starten
 ```
 
 
-##Intressante Links
+##Intressante Links zum Notifer
 ```
 https://www.google.com/search?q=ZENBOT_TELEGRAM_BOT_TOKEN&oq=ZENBOT_TELEGRAM_BOT_TOKEN&aqs=chrome..69i57.4934175j0j7&sourceid=chrome&ie=UTF-8
 https://docs.zenbot.org/botscript/
@@ -528,7 +536,7 @@ https://planetachatbot.com/implementa-un-chatbot-en-atenci%C3%B3n-al-cliente-641
 Implementieren Sie einen Chatbot im Kundenservice
 https://t.me/joinchat/whntsMoSdY40YThi
 ```
-https://t.me/DWHRBinanceTraderbot
+https://t.me/BinanceTraderbot
 ```
 
 ### BinanceTraderbot
@@ -536,7 +544,7 @@ https://t.me/DWHRBinanceTraderbot
 BotFather, [31.03.21 22:17]
 Done! Congratulations on your new bot. You will find it at t.me/Test. You can now add a description, about section and profile picture for your bot, see /help for a list of commands. By the way, when you've finished creating your cool bot, ping our Bot Support if you want a better username for it. Just make sure the bot is fully operational before you do this.
 
-Use this token to access the HTTP API:
+Use this token to access the HTTP API: Dieser Apikey Token wurde geändert.
 171055457:ZZDwI_uGhi-jgEosQe1mba8GFDd54UbUssg
 Keep your token secure and store it safely, it can be used by anyone to control your bot.
 
