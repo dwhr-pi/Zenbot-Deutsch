@@ -2,7 +2,7 @@
 
 Schritt 1) ​​Anforderungen
 - Windows / Linux / macOS 10 (oder Docker)
-- Node.js (Version 8.3.0 oder höher) und die MongoDB.
+-  [Node.js](https://nodejs.org/) (Version 8.3.0 oder höher) und die [MongoDB](https://www.mongodb.com/) .
 
 Schritt 2) Installieren Sie zenbot 4
 
