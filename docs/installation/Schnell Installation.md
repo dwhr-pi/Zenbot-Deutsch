@@ -518,7 +518,7 @@ Hier einige Zenbot Befehle in der Anwendung zum simulierten Traden.
 ./zenbot.sh sim --days 14 binance.ETH-BTC --strategy=trust_distrust --period=1m --buy_pct=100 --sell_pct=100 --currency_capital=100 –max_sell_loss_pct=5 --paper
 ./zenbot.sh sim --days 14 binance.ETH-BTC --strategy=vpt --period=1m --buy_pct=100 --sell_pct=100 --currency_capital=100 –max_sell_loss_pct=5 --paper
 ./zenbot.sh sim --days 14 binance.ETH-BTC --strategy=wavetrend --period=1m --buy_pct=100 --sell_pct=100 --currency_capital=100 –max_sell_loss_pct=5 --paper
-
+```
 
 
 ## Quelle: zenbot_strategies-master
