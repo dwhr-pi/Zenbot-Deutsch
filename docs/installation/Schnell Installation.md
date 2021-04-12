@@ -175,7 +175,7 @@ ___________________________________________________
 die Node.js Version 8 oder bis 12 und nicht die Version 14 verwenden. Es gibt angeblich Version 15. 
 
 ```
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_8.0.0 | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
@@ -188,6 +188,26 @@ Und 'renko' hat den Fehler: 'rclose is not defined'
 curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
+
+
+### Node.js Fehler
+https://www.google.com/search?q=.%2Fzenbot.sh+sim+--days+14+binance.ETH-BTC&oq=.%2Fzenbot.sh+sim+--days+14+binance.ETH-BTC&aqs=chrome..69i57.2813j0j4&sourceid=chrome&ie=UTF-8
+```
+SyntaxError: Invalid left-hand side in assignment, falling back to conf-sample
+			https://www.reddit.com/r/zenbot/comments/hagfxw/confjs/
+				https://www.reddit.com/r/zenbot/
+(node:17402) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+```
+
+Deshalb nicht die node.js in der Version 14 und 15 verwenden. Da der Fehler "padLevels" geblieben ist.
+Siehe 
+https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V8.md
+```
+node conf.js
+node --version
+```
+
 ___________________________________________________
 Dann wird die MongoDB noch benötigt, siehe bei Richtig*******************
 
@@ -437,21 +457,6 @@ cd zenbot
 ./zenbot.sh sim --days 14 binance.LTC-BTC
 ```
 
-### Node.js Fehler
-https://www.google.com/search?q=.%2Fzenbot.sh+sim+--days+14+binance.ETH-BTC&oq=.%2Fzenbot.sh+sim+--days+14+binance.ETH-BTC&aqs=chrome..69i57.2813j0j4&sourceid=chrome&ie=UTF-8
-```
-SyntaxError: Invalid left-hand side in assignment, falling back to conf-sample
-			https://www.reddit.com/r/zenbot/comments/hagfxw/confjs/
-				https://www.reddit.com/r/zenbot/
-(node:17402) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
-(Use `node --trace-warnings ...` to show where the warning was created)
-```
-
-Deshalb nicht die node.js in der Version 14 verwenden. 
-```
-node conf.js
-node --version
-```
 
 ## Quelle für diesen Test war.
 
