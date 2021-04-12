@@ -450,7 +450,7 @@ SyntaxError: Invalid left-hand side in assignment, falling back to conf-sample
 Deshalb nicht die node.js in der Version 14 verwenden. 
 ```
 node conf.js
-node -version
+node --version
 ```
 
 ## Quelle für diesen Test war.
