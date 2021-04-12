@@ -172,6 +172,11 @@ zenbot --help
 
 ___________________________________________________
 die Node.js Version 8 oder bis 12 und nicht die Version 14 verwenden. Es gibt angeblich Version 15. 
+
+```
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
 ___________________________________________________
 Dann wird die MongoDB noch benötigt, siehe bei Richtig*******************
 
