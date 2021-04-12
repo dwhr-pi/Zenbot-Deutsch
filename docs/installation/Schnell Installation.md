@@ -172,7 +172,7 @@ zenbot --help
 
 ___________________________________________________
 ### Node
-die Node.js Version 8 oder bis 12 und nicht die Version 14 verwenden. Es gibt angeblich Version 15. 
+Die Node.js Version 8 oder bis 12 und nicht die Version 14 verwenden. Es gibt angeblich Version 15. 
 
 ```
 curl -sL https://deb.nodesource.com/setup_8.0.0 | sudo -E bash -
@@ -189,6 +189,13 @@ curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
+### Node.js entfernen/deinstallieren
+Um Node.js wieder zu entfernen bzw. erneut zu installieren ist der folgende Befehlssatz zu verwenden.
+```
+sudo apt-get remove nodejs
+sudo apt-get autoremove
+sudo apt-get autoclean
+```
 
 ### Node.js Fehler
 https://www.google.com/search?q=.%2Fzenbot.sh+sim+--days+14+binance.ETH-BTC&oq=.%2Fzenbot.sh+sim+--days+14+binance.ETH-BTC&aqs=chrome..69i57.2813j0j4&sourceid=chrome&ie=UTF-8
