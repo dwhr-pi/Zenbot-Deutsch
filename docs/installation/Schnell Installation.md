@@ -177,6 +177,16 @@ die Node.js Version 8 oder bis 12 und nicht die Version 14 verwenden. Es gibt an
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
+
+Mit dieser Node, Version 8.x funktioniert auch die Strategie: 'neural' und 'renko'.
+Allerdings kam bei 'neural' ein 'JavaScript heap out of memory'-Fehler, bei 8GB Arbeitsspeicher.
+Und 'renko' hat den Fehler: 'rclose is not defined'
+
+
+```
+curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
 ___________________________________________________
 Dann wird die MongoDB noch benötigt, siehe bei Richtig*******************
 
