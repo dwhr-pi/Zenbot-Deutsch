@@ -211,8 +211,8 @@ Deshalb nicht die node.js in der Version 14 und 15 verwenden. Da der Fehler "pad
 Siehe 
 https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V8.md
 ```
-node conf.js
-node --version
+node conf.js		Hiermit die eventuellen Fehler in der Config-Datei nach den Fehlern abfragen und analysieren.            	           
+node --version		Mit dem Befehl erhält man die Versionsnummer der installierten Node, eventuell wieder entfernen und deinstallieren.
 ```
 
 ___________________________________________________
