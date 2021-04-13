@@ -66,6 +66,7 @@ error: telegram notification
 ```
 Nachdem Sie einen Bot erstellt haben, müssen Sie auch eine Gruppe und einen Kanal erstellen. In beiden fügen Sie den erstellten Bot als administratives Mitglied hinzu. 
 
+### Erhalte die Channel_ID
 Um diesen Chat Fehler zu vermeiden, geben Sie bei installiertem Telegram Desktop auf dem PC in Ihrem Browser die nachfolgende Zeile ein. Ersetzen Sie hierbei <BOTTOKEN> mit dem TELEGRAM-BOT-TOKEN und bei @YourNewChannelName setzen Sie Ihren Kanalnamen ein. 
 
 ```
@@ -100,6 +101,12 @@ Jetzt wird alles in den Telegrambot gepostet.
 Sie können jetzt auch Trader Befehle an Zenbot über den eigenen Telegrambot senden. 
 Versuchen Sie hierzu die Taste "l", dann erhalten Sie eine kleine Hilfedatei in Ihrem Telegrambot, mit weiteren abgekürzten Befehlen. 
 Dies würde ich Ihnen aber nicht empfehlen beizubehalten. Da der Bot von jedem gesucht, gefunden und angesteuert werden kann. Befindet sich dieser Bot stattdessen wieder in dem Kanal, so werden diese Befehle nicht interpretiert. 
+
+### Erhalte die User_ID
+Sende im Browser: 
+https://telegram.org/bot<BOTTOKEN>/getUpdates
+
+Dazu lese bitte vorllem ganz unten auf http://bernaerts.dyndns.org/linux/75-debian/351-debian-send-telegram-notification/ weil dazu noch etwas installiert werden muß.
 
 ### ADAMANT Messenger
 
