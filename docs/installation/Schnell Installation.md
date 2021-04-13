@@ -179,9 +179,10 @@ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
-Mit dieser Node, Version 8.x funktioniert auch die Strategie: 'neural' und 'renko'.
+Mit dieser Node, Version 8.x funktioniert auch angeblich die Strategie: 'neural' und 'renko'.
 Allerdings kam bei 'neural' ein 'JavaScript heap out of memory'-Fehler, bei 8GB Arbeitsspeicher.
-Und 'renko' hat den Fehler: 'rclose is not defined'
+Und 'renko' hat den Fehler: 'rclose is not defined'. 
+Leider wurde hierdurch trozdem die Node Version 15.x Installiert.
 
 
 ```
