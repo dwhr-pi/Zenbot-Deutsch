@@ -204,7 +204,7 @@ npm fix --force
 ich müsste demnächst also die zip-Datei downloaden und ein makefile machen, dazu die Zip auf https://github.com/nodejs/node/tree/v8.x mit dem Browser downloaden. 
 
 Nachdem downgeladen, die Zip im Root-Verzeichnis entpackt und in 'nodejs' umbenannt. Erfodert die C++ Build-Essentials, siehe bei PHYTON 3.
-'' makeNodejs.png
+![Screenshot](./makeNodejs.png)
 
 ```
 cd nodejs
