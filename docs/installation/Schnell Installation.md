@@ -198,6 +198,13 @@ npm install --unsafe-perm
 npm fix --force
 ```
 
+Dann habe ich versucht
+
+https://nodejs.org/download/release/
+https://nodejs.org/download/release/latest-v8x/
+
+und mich für die arm64 - tar.gz entschieden, die ich mit dem Browser einfach downgeladen und entpackt habe. Den entpackten Ordner entsprechend umbenannt und verschoben habe.
+https://nodejs.org/download/release/latest-v8.x/node-v8.17.0-linux-arm64.tar.gz
 
 
 ### Node.js entfernen/deinstallieren
