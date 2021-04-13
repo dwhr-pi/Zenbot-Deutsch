@@ -206,6 +206,16 @@ Nachdem downgeladen die Zip, entpackt und in nodeumbennt.
 cd node
 make
 ./configure
+```
+Es wurde dann diee Dateien erstellt.
+```
+creating icu_config.gypi
+* Using ICU in deps/icu-small
+creating icu_config.gypi
+```
+Anschlie0end habe ich den Befehl make verwendet und es wurde die V8 gebaut.
+
+```
 make
 ```
 Wurde die Node V8 gebaut. 
