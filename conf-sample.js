@@ -267,9 +267,9 @@ c.notifiers.pushover.priority = process.env.ZENBOT_PUSHOVER_PRIORITY || '0' // W
 // 'telegram' Konfiguration
 c.notifiers.telegram = {}
 c.notifiers.telegram.on = process.env.ZENBOT_TELEGRAM_ENABLE || false // false telegram deaktiviert; true telegramm ist aktiviert. (Der Schlüssel sollte korrekt sein.)
-c.notifiers.telegram.interactive = process.env.ZENBOT_TELEGRAM_INTERACTIVE || false // true telegram ist interaktiv.
-c.notifiers.telegram.bot_token = process.env.ZENBOT_TELEGRAM_BOT_TOKEN
-c.notifiers.telegram.chat_id = process.env.ZENBOT_TELEGRAM_CHAT_ID // Die ID des Chats, in den die Nachrichten gesendet werden sollen.
+c.notifiers.telegram.interactive = process.env.ZENBOT_TELEGRAM_INTERACTIVE || false // true Telegram ist interaktiv.
+c.notifiers.telegram.bot_token = process.env.ZENBOT_TELEGRAM_BOT_TOKEN ||  'DeinTelegramTokenHier' // Dies ist der Schlüssel Ihres eigenen Benutzers. (nicht anwendungsbezogen)
+c.notifiers.telegram.chat_id = process.env.ZENBOT_TELEGRAM_CHAT_ID ||  'DeinTelegramIDhier' // Die ID des Chats, in den die Nachrichten gesendet werden sollen.
 // Ende 'telegram' Konfiguration
 
 // Ausgabe
