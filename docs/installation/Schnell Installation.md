@@ -190,7 +190,7 @@ curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
-Mal das Ganze mit der Node Branche versuchen, via GitHub. Siehe auf https://github.com/nodejs/node/tree/v8.x
+Mal das Ganze mit der Node Branche versuchen, via GitHub. Siehe auf https://github.com/nodejs/node/tree/v8.x für weitere andere Node Versionen.
 Dies kann funktionieren. 
 ```
 git clone -b r8.17.1 https://github.com/nodejs/node.git
@@ -199,31 +199,33 @@ npm install --unsafe-perm
 npm fix --force
 ```
 
-Oder ich müsste demnächst also die zip-Datei downloaden und ein makefile machen. 
+### Oder die NODE.js selbst bauen 
 
-Nachdem downgeladen die Zip, entpackt und in node umbenannt. Erfodert die C++ Build-Essentials, siehe bei PHYTON 3.
+ich müsste demnächst also die zip-Datei downloaden und ein makefile machen, dazu die Zip auf https://github.com/nodejs/node/tree/v8.x mit dem Browser downloaden. 
+
+Nachdem downgeladen, die Zip im Root-Verzeichnis entpackt und in 'node' umbenannt. Erfodert die C++ Build-Essentials, siehe bei PHYTON 3.
 
 ```
 cd node
 make
 ./configure
 ```
-Es wurde dann diee Dateien erstellt.
+Es wurde dann diese erforderlichen Dateien erstellt.
 ```
 creating icu_config.gypi
 * Using ICU in deps/icu-small
 creating icu_config.gypi
 ```
-Anschlie0end habe ich den Befehl 'make' verwendet und es wurde die Node V8 gebaut.
+Anschlie0end habe ich den Befehl 'make' verwendet und es wurde die Node V8 endlich gebaut.
 
 ```
 make
 ```
-Wurde die Node V8 gebaut. 
+Es wurde die Node V8 gebaut. 
 
 __________________________________
 
-Auch dann habe ich versucht, war nicht erfolgreich.
+Auch dann habe ich mal versucht, war nicht erfolgreich.
 
 https://nodejs.org/download/release/
 https://nodejs.org/download/release/latest-v8x/
@@ -253,12 +255,12 @@ SyntaxError: Invalid left-hand side in assignment, falling back to conf-sample
 (Use `node --trace-warnings ...` to show where the warning was created)
 ```
 
-Deshalb nicht die node.js in der Version 14 und 15 verwenden. Da der Fehler "padLevels" geblieben ist.
+Deshalb wegen des 'padLevels'-Fehler nicht die node.js in der Version 14 und 15 verwenden. Da der Fehler "padLevels" geblieben ist.
 Siehe 
 https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V8.md
 ```
 node conf.js		Hiermit die eventuellen Fehler in der Config-Datei nach den Fehlern abfragen und analysieren.            	           
-node --version		Der Beweis: Mit dem Befehl erhält man die Versionsnummer der installierten Node, eventuell wieder entfernen und deinstallieren hat nur nicht geholfen.
+node --version		Der Beweis: Mit dem Befehl erhält man die Versionsnummer der installierten Node, eventuell wieder entfernen und deinstallieren, hat bei mir nur nicht geholfen. Da trozdem die Node V15 geblieben ist.
 ```
 
 ___________________________________________________
