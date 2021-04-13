@@ -201,6 +201,14 @@ npm fix --force
 ```
 Ich müsste demnächst also die zip-Datei downloaden und ein makefile machen. 
 
+Nachdem downgeladen die Zip, entpackt und in nodeumbennt.
+```
+cd node
+make
+./configure
+make
+```
+Wurde die Node V8 gebaut. 
 
 Dann habe ich versucht
 
