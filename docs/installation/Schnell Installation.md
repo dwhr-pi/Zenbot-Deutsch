@@ -203,11 +203,10 @@ npm fix --force
 
 ich müsste demnächst also die zip-Datei downloaden und ein makefile machen, dazu die Zip auf https://github.com/nodejs/node/tree/v8.x mit dem Browser downloaden. 
 
-Nachdem downgeladen, die Zip im Root-Verzeichnis entpackt und in 'node' umbenannt. Erfodert die C++ Build-Essentials, siehe bei PHYTON 3.
+Nachdem downgeladen, die Zip im Root-Verzeichnis entpackt und in 'nodejs' umbenannt. Erfodert die C++ Build-Essentials, siehe bei PHYTON 3.
 
 ```
-cd node
-make
+cd nodejs
 ./configure
 ```
 Es wurde dann diese erforderlichen Dateien erstellt.
@@ -221,11 +220,11 @@ Anschlie0end habe ich den Befehl 'make' verwendet und es wurde die Node V8 endli
 ```
 make
 ```
-Es wurde die Node V8 gebaut. 
+Es wurde die Node V8 gebaut. Dauer gut eine Stunde.
 
 __________________________________
 
-Auch dann habe ich mal versucht, war nicht erfolgreich.
+Auch dann habe ich mal versucht, war nicht erfolgreich, nur intressante Node downlods.
 
 https://nodejs.org/download/release/
 https://nodejs.org/download/release/latest-v8x/
