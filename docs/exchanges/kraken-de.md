@@ -42,7 +42,7 @@ Die Lösung hierfür ist eine einfache Änderung in der Javascript-Datei:
 node_modules/kraken-api/kraken.js
 ```
 
-Suchen Sie nach dieser Zeile:
+Suchen Sie nach diesen Zeilen:
 ```
 	var config = {
 		url: 'https://api.kraken.com',
