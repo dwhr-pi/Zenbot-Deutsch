@@ -172,7 +172,7 @@ zenbot --help
 
 ___________________________________________________
 ### Node
-Die Node.js Version 8 oder bis 12 und nicht die Version 14 verwenden. Es gibt angeblich Version 15. 
+Die Node.js Version 8 oder bis 12 und nicht die Version 14 verwenden. Es gibt Version 15 und schon 16. Ob damit der Javascript fehler "heap out of memory" damit behoben wird ist unklar.
 
 ```
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
@@ -180,23 +180,27 @@ sudo apt-get install -y nodejs
 ```
 
 Mit dieser Node, Version 8.x funktioniert auch angeblich die Strategie: 'neural' und 'renko'.
-Allerdings kam bei 'neural' ein 'JavaScript heap out of memory'-Fehler, bei 8GB Arbeitsspeicher.
-Und 'renko' hat den Fehler: 'rclose is not defined'. 
-Leider wurde hierdurch trozdem die Node Version 15.x Installiert.
+Allerdings kam bei 'neural' ein 'JavaScript heap out of memory'-Fehler, bei verwendetem 8GB Arbeitsspeicher.
+Und 'renko' hat den Fehler: 'rclose is not defined' und ist ein Programmierungsfehler. 
+Leider wurde hierdurch trozdem die Node Version 15.x wieder und wieder installiert.
 
-
+So soll man eigendlich Node V.15 installieren.
 ```
 curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
 Mal das Ganze mit der Node Branche versuchen, via GitHub. Siehe auf https://github.com/nodejs/node/tree/v8.x
+Leider ist nodejs.git nicht richtig.
+
 ```
 git clone https://github.com/nodejs/node/tree/v8.x/nodejs.git
 cd nodejs
 npm install --unsafe-perm
 npm fix --force
 ```
+Ich müsste demnächst also die zip-Datei downloaden und ein makefile machen. 
+
 
 Dann habe ich versucht
 
@@ -205,6 +209,7 @@ https://nodejs.org/download/release/latest-v8x/
 
 und mich für die arm64 - tar.gz entschieden, die ich mit dem Browser einfach downgeladen und entpackt habe. Den entpackten Ordner entsprechend umbenannt und verschoben habe.
 https://nodejs.org/download/release/latest-v8.x/node-v8.17.0-linux-arm64.tar.gz
+Allerdings sieht dies auch nicht sehr erfrischend aus.
 
 
 ### Node.js entfernen/deinstallieren
@@ -214,6 +219,8 @@ sudo apt-get remove nodejs
 sudo apt-get autoremove
 sudo apt-get autoclean
 ```
+
+Trotz des angeblichen Entfernes ist die Nodejs funktionstüchtig auf dem System geblieben... Hat also bisweilen nix geholfen das zu entfernen. Folglich einmal mit neuem OS versuchen.... um die Node 8.x zu installieren. 
 
 ### Node.js Fehler
 https://www.google.com/search?q=.%2Fzenbot.sh+sim+--days+14+binance.ETH-BTC&oq=.%2Fzenbot.sh+sim+--days+14+binance.ETH-BTC&aqs=chrome..69i57.2813j0j4&sourceid=chrome&ie=UTF-8
@@ -230,7 +237,7 @@ Siehe
 https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V8.md
 ```
 node conf.js		Hiermit die eventuellen Fehler in der Config-Datei nach den Fehlern abfragen und analysieren.            	           
-node --version		Mit dem Befehl erhält man die Versionsnummer der installierten Node, eventuell wieder entfernen und deinstallieren.
+node --version		Der Beweis: Mit dem Befehl erhält man die Versionsnummer der installierten Node, eventuell wieder entfernen und deinstallieren hat nur nicht geholfen.
 ```
 
 ___________________________________________________
