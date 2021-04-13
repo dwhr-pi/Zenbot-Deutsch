@@ -4,5 +4,5 @@ Dies ist die entsprechende Dokumentation mit weiteren Informationen zu den einze
 
 * [auto_backtester](auto_backtester.md) * noch nicht fertig, Beiträge willkommen *
 * [genetic_algo](genetic_algo.md) * noch nicht fertig, Beiträge willkommen *
-* [Genetic Backtester](genetic_backtester.md)
+* [Genetic Backtester](genetic_backtester-de.md)
 
