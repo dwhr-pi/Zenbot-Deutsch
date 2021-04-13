@@ -640,6 +640,13 @@ Keep your token secure and store it safely, it can be used by anyone to control 
 For a description of the Bot API, see this page: https://core.telegram.org/bots/api
 ```
 
+
+### andere links zu Zenbot
+https://www.harrer.io/blog/node-js-und-mongodb-am-raspberry-pi
+
+### andere links zu Node.js
+https://c14l.com/blog/node-js-richtig-installieren-node-version-manager-nvm.html
+
 ### andere links
 ## AIML Chatbot
 ```
