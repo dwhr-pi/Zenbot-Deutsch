@@ -191,17 +191,17 @@ sudo apt-get install -y nodejs
 ```
 
 Mal das Ganze mit der Node Branche versuchen, via GitHub. Siehe auf https://github.com/nodejs/node/tree/v8.x
-Leider ist nodejs.git nicht richtig.
-
+Dies kann funktionieren. 
 ```
-git clone https://github.com/nodejs/node/tree/v8.x/nodejs.git
+git clone -b r8.17.1 https://github.com/nodejs/node.git
 cd nodejs
 npm install --unsafe-perm
 npm fix --force
 ```
-Ich müsste demnächst also die zip-Datei downloaden und ein makefile machen. 
 
-Nachdem downgeladen die Zip, entpackt und in nodeumbennt.
+Oder ich müsste demnächst also die zip-Datei downloaden und ein makefile machen. 
+
+Nachdem downgeladen die Zip, entpackt und in node umbenannt. Erfodert die C++ buildesstenailes.
 ```
 cd node
 make
