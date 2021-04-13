@@ -184,7 +184,7 @@ Allerdings kam bei 'neural' ein 'JavaScript heap out of memory'-Fehler, bei verw
 Und 'renko' hat den Fehler: 'rclose is not defined' und ist ein Programmierungsfehler. 
 Leider wurde hierdurch trozdem die Node Version 15.x wieder und wieder installiert.
 
-So soll man eigendlich Node V.15 installieren.
+So soll man eigendlich die Node V.15 installieren.
 ```
 curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
 sudo apt-get install -y nodejs
@@ -201,7 +201,8 @@ npm fix --force
 
 Oder ich müsste demnächst also die zip-Datei downloaden und ein makefile machen. 
 
-Nachdem downgeladen die Zip, entpackt und in node umbenannt. Erfodert die C++ buildesstenailes.
+Nachdem downgeladen die Zip, entpackt und in node umbenannt. Erfodert die C++ Build-Essentials, siehe bei PHYTON 3.
+
 ```
 cd node
 make
@@ -213,14 +214,16 @@ creating icu_config.gypi
 * Using ICU in deps/icu-small
 creating icu_config.gypi
 ```
-Anschlie0end habe ich den Befehl make verwendet und es wurde die V8 gebaut.
+Anschlie0end habe ich den Befehl 'make' verwendet und es wurde die Node V8 gebaut.
 
 ```
 make
 ```
 Wurde die Node V8 gebaut. 
 
-Dann habe ich versucht
+__________________________________
+
+Auch dann habe ich versucht, war nicht erfolgreich.
 
 https://nodejs.org/download/release/
 https://nodejs.org/download/release/latest-v8x/
