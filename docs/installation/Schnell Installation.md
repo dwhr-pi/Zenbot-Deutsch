@@ -190,6 +190,16 @@ curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
+Mal das Ganze mit der Node Branche versuchen, via GitHub. Siehe auf https://github.com/nodejs/node/tree/v8.x
+```
+git clone https://github.com/nodejs/node/tree/v8.x/nodejs.git
+cd nodejs
+npm install --unsafe-perm
+npm fix --force
+```
+
+
+
 ### Node.js entfernen/deinstallieren
 Um Node.js wieder zu entfernen bzw. erneut zu installieren ist der folgende Befehlssatz zu verwenden.
 ```
