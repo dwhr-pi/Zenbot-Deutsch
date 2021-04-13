@@ -1,12 +1,13 @@
-# Zenbot Exchange API Tips
-Since Zenbot supports a number of exchanges, it's becoming harder to provide "default" polling settings that work well with all exchange APIs. The goal of this document is to share any settings or tweaks that we find to increase reliability. Anything from proventing API rate limit lockouts (GDAX) to ensuring orders are tracked properly (Kraken).
-
-Any contribution that makes this better for everyone is certainly welcome.
-
-## Exchanges
-
-* [Bitstamp](bitstamp.md)
-* [GDAX](gdax.md)
-* [Kraken](kraken.md)
+# Zenbot Exchange API-Tipps
+Da Zenbot eine Reihe von Börsen unterstützt, wird es immer schwieriger, "Standard" -Abfrageeinstellungen bereitzustellen, die mit allen Austausch-APIs gut funktionieren. 
+Das Ziel dieses Dokuments ist es, alle Einstellungen oder Optimierungen zu teilen, die wir zur Erhöhung der Zuverlässigkeit finden. 
+Von der Überprüfung der API-Ratenbegrenzungssperrungen (GDAX) bis zur ordnungsgemäßen Nachverfolgung von Bestellungen (Kraken).
 
 
+Jeder Beitrag, der dies für alle verbessert, ist sicherlich willkommen.
+
+## Börsen (Exchanges)
+
+* [Bitstamp](bitstamp-de.md)
+* [GDAX](gdax-de.md)
+* [Kraken](kraken-de.md)
