@@ -1,13 +1,13 @@
 ## Genetischer Algorithmus von @arpheno
 
 Zum Kontext:
-- # 298 https://github.com/carlos8f/zenbot/issues/298
+- #298 https://github.com/carlos8f/zenbot/issues/298
 - das Original PR: https://github.com/carlos8f/zenbot/pull/299
 - zusammengeführte PR https://github.com/carlos8f/zenbot/pull/598 
 - Bitte beachten Sie, dass der Code verfallen ist und Sie möglicherweise auf seltsame Dinge stoßen
 
-Auf Ihrem Gastgeber:
-`` `
+Auf Ihrem Host:
+```
 $ docker-compose up
 $ docker-compose exec server bash
 ```
