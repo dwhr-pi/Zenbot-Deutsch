@@ -1,3 +1,3 @@
-## Stats
+## Stats = Statistiken
 
-HTML Outputs from trades will be placed here!
+HTML-Ausgaben von Trades werden hier platziert!
