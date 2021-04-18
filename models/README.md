@@ -1,4 +1,4 @@
 
 ## Models
 
-Trained models will be placed here!
+Hier werden geschulte Modelle platziert!
