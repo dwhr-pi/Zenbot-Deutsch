@@ -7,7 +7,7 @@ Zum Kontext:
 - Bitte beachten Sie, dass der Code verfallen ist und Sie möglicherweise auf seltsame Dinge stoßen
 
 Auf Ihrem Host:
-`` `
+```
 $ docker-compose up
 $ docker-compose exec server bash
 ```
