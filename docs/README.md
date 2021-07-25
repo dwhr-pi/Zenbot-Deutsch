@@ -115,7 +115,7 @@ Sie können den tags/builds hier folgen: https://hub.docker.com/r/deviavir/Zenbo
 Ein "Selektor" ist eine kurze Kennung, die Zenbot mitteilt, auf welches Wechselkurs- und Währungspaar zu reagieren ist. Verwenden Sie das Formular `{exchange_slug}.{asset}-{currency}`. Eine vollständige Liste der Selektoren, die Ihre Zenbot-Installation unterstützt, finden Sie unter:
 
 ```
-Zenbot-Listenselektoren
+zenbot list-selectors
 
 gdax:
   gdax.BTC-EUR   (BTC/EUR)
