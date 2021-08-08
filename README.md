@@ -14,6 +14,108 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 - [Darwin](docs/FAQ-de.md)
 - [![Test 1/Darwin](https://travis-ci.org/DeviaVir/zenbot.svg?branch=master)](https://travis-ci.org/DeviaVir/zenbot) 
 
+- exchanges
+- bitstamp-de.md Fügen Sie börsenspezifische Tipps hinzu, um anderen zu helfen, ähnliche Kopfschmerzen zu vermeiden.(https://github.com/DeviaVir/zenbot/pull/908)
+- bitstamp-en.md Englisches Original [Add exchange-specific tips to help others avoid similar headaches.](https://github.com/DeviaVir/zenbot/pull/908)
+- bitstamp.md [Add exchange-specific tips to help others avoid similar headaches.](https://github.com/DeviaVir/zenbot/pull/908)
+- gdax-de.md Add files via upload
+- gdax-en.md Rename gdax.md to gdax-en.md
+- gdax.md Add files via upload
+- kraken-de.md Update kraken-de.md
+- kraken-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- kraken.md Add exchange-specific tips to help others avoid similar headaches. (D…
+- readme-de.md Update readme-de.md
+- readme-en.md Update readme-en.md
+ 
+
+
+
+- installation
+- README-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- README-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- README.md WIP: Rework docs (DeviaVir#1816)
+- Schnell Installation.md Update Schnell Installation.md
+- debian-ubuntu-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- debian-ubuntu-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- debian-ubuntu.md Update file for last version on ubuntu 20.04 (DeviaVir#2539)
+- docker-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- docker-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- docker.md WIP: Rework docs (DeviaVir#1816)
+- raspberrypi-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- raspberrypi-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- raspberrypi.md WIP: Rework docs (DeviaVir#1816)
+- requirements-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- requirements-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- requirements.md WIP: Rework docs (DeviaVir#1816)
+- README.md
+
+
+
+ 
+- notifiers
+- README-de.md Update README-de.md
+- README-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- README.md Add notifications to ADAMANT Messenger
+
+
+
+ 
+- scripts
+- genetic_backtester-de.md
+- Update genetic_backtester-de.md
+- genetic_backtester-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- genetic_backtester.md Added -runGenerations parameter (DeviaVir#1504)
+- readme-de.md Update readme-de.md
+- readme-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- readme.md Update readme.md
+
+
+
+ 
+- strategies
+- forex_analytics-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- forex_analytics.md Removed forex_analytics
+- howto_create_strategy-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- howto_create_strategy.md Create howto_create_strategy.md (DeviaVir#2555)
+- list-strategies-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- list-strategies-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- list-strategies.md Remove forex_analytics (DeviaVir#1937)
+- macd-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- macd-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- macd.md WIP: Rework docs (DeviaVir#1816)
+- noop-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- noop-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- noop.md WIP: Rework docs (DeviaVir#1816)
+- rsi-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- rsi-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- rsi.md WIP: Rework docs (DeviaVir#1816)
+- sar-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- sar-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- sar.md WIP: Rework docs (DeviaVir#1816)
+- speed-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- speed-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- speed.md WIP: Rework docs (DeviaVir#1816)
+- trend_ema-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- trend_ema-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- trend_ema.md WIP: Rework docs (DeviaVir#1816)
+- tweaking-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- tweaking-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- tweaking.md WIP: Rework docs (DeviaVir#1816)
+ 
+
+
+
+- FAQ-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- FAQ-en.md 
+- FAQ.md FAQ Häufig gestellte Fragen
+- README-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- README-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- README.md Schnellstart
+- developers-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- developers-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- developers.md Add files via upload
+
+
 ## Beschreibung
 
 Zenbot ist ein Befehlszeilenbasierender-Kryptowährungs-Handelsbot, der dazu Node.js und die MongoDB verwendet. Es verfügt über:
