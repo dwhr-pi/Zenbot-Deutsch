@@ -14,7 +14,7 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 - [Darwin](docs/FAQ-de.md)
 - [![Test 1/Darwin](https://travis-ci.org/DeviaVir/zenbot.svg?branch=master)](https://travis-ci.org/DeviaVir/zenbot) 
 
-- ## exchanges
+- ### exchanges
 - bitstamp-de.md Fügen Sie börsenspezifische Tipps hinzu, um anderen zu helfen, ähnliche Kopfschmerzen zu vermeiden.(https://github.com/DeviaVir/zenbot/pull/908)
 - bitstamp-en.md Englisches Original [Add exchange-specific tips to help others avoid similar headaches.](https://github.com/DeviaVir/zenbot/pull/908)
 - bitstamp.md [Add exchange-specific tips to help others avoid similar headaches.](https://github.com/DeviaVir/zenbot/pull/908)
@@ -30,7 +30,7 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 
 
 
-- ## installation
+- ### installation
 - README-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
 - README-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
 - README.md WIP: Rework docs (DeviaVir#1816)
@@ -52,7 +52,7 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 
 
  
-- ## notifiers
+- ### notifiers
 - README-de.md Update README-de.md
 - README-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
 - README.md Add notifications to ADAMANT Messenger
@@ -60,7 +60,7 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 
 
  
-- ## scripts
+- ### scripts
 - genetic_backtester-de.md
 - Update genetic_backtester-de.md
 - genetic_backtester-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
@@ -72,7 +72,7 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 
 
  
-- ## strategies
+- ### strategies
 - forex_analytics-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
 - forex_analytics.md Removed forex_analytics
 - howto_create_strategy-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
@@ -105,7 +105,7 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 
 
 
-- ## FAQ
+- ### FAQ
 - FAQ-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
 - FAQ-en.md 
 - FAQ.md FAQ Häufig gestellte Fragen
@@ -117,7 +117,7 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 - developers.md Add files via upload
 
 
-- ## scripts
+- ### scripts
 - scripts/genetic_algo/README-de.md Genetischer Algorithmus von @arpheno
 - scripts/genetic_algo/README-en.md Genetic Algorithm by @arpheno
 - scripts/genetic_algo/README.md Genetic Algorithm by @arpheno
@@ -137,12 +137,6 @@ Zenbot ist ein Befehlszeilenbasierender-Kryptowährungs-Handelsbot, der dazu Nod
 - Flexibler Stichprobenzeitraum und Handelshäufigkeit - durchschnittlich 1-2 Trades/Tag mit 1h Zeitraum, 15-50/Tag mit 5m Zeitraum.
 
 ## Haftungsausschluss
-
-- Zenbot is NOT a sure-fire profit machine. Use it AT YOUR OWN RISK.
-- Crypto-currency is still an experiment, and therefore so is Zenbot. Meaning, both may fail at any time.
-- Running a bot, and trading in general requires careful study of the risks and parameters involved. A wrong setting can cause you a major loss.
-- Never leave the bot un-monitored for long periods of time. Zenbot doesn't know when to stop, so be prepared to stop it if too much loss occurs.
-- Often times the default trade parameters will underperform vs. a buy-hold strategy, so run some simulations and find the optimal parameters for your chosen exchange/pair before going "all-in".
 
 - Zenbot ist KEINE sichere Gewinnmaschine. Verwendung nur auf eigenes Risiko!
 - Kryptowährung ist immer noch ein Experiment, und Zenbot auch. Das heißt, beide können jederzeit fehlschlagen.
