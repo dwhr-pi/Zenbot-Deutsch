@@ -7,10 +7,10 @@ Zumindest sollten Sie über ein Minimum an Code-Writing-Kenntnissen verfügen...
 https://www.reddit.com/r/zenbot/
 https://discord.gg/z2VyhmxP8P
 
-Zuallererst wird empfohlen, die zenbot-Basisdokumentation zu lesen, die [hier] (https://github.com/DeviaVir/zenbot/tree/unstable/docs "hier") zu finden ist.
+Zu aller erst wird empfohlen, die zenbot-Basisdokumentation zu lesen, die [hier](https://github.com/DeviaVir/zenbot/tree/unstable/docs "hier") zu finden ist.
 
 ## # Wie arbeitet Zenbot mit Strategien?
-Zenbot lädt eine Strategie, indem er die Dateierweiterungen/strategies/`<strategy-name>`/strategy.js . findet
+Zenbot lädt eine Strategie, indem er die Datei extensions/strategies/`<strategy-name>`/strategy.js findet.
 
 ## # Was zu tun ist?
 
@@ -25,38 +25,38 @@ https://github.com/DeviaVir/zenbot/tree/unstable/extensions/strategies
 Das finden Sie wahrscheinlich in der NOOP-Strategiedatei:
 
     module.exports = {
-      Name: 'noop',
-      Beschreibung: „Tu einfach nichts. Kann verwendet werden, um z.B. zum Trainieren der Strategie.',
-      getOptions: Funktion () {
+      name: 'noop',
+      description: 'Tu einfach nichts. Kann verwendet werden, z.B. zum Trainieren der Strategie.',
+      getOptions: function () {
         this.option('period', 'period length, same as --period_length', String, '30m')
         this.option('period_length', 'period length, same as --period', String, '30m')
      },
-     berechnen: Funktion () {
+     calculate: function () {
      },
-     onPeriod: Funktion (s, cb) {
+     onPeriod: function (s, cb) {
        cb()
      },
-    onReport: Funktion () {
-      var spalten = []
-      Rückgabespalte
+    onReport: function () { 
+      var cols = []
+      return cols
     }
     }
 
 ## # Wie ist die Strategiedatei organisiert?
 Die Zenbot-Strategiedatei ist in 4 Abschnitte unterteilt:
-- getOptionen
-- Berechnung
+- getOptions
+- calculate
 - onPeriod
 - onReport
 
 ## getOptionen
 Zenbot sucht dort, wo die Variablen für Ihre Strategie benötigt werden.
 
-    getOptions: Funktion(en) {
+    getOptions: function (s) {
     this.option('period', 'period length, same as --period_length', String, '5m')
     this.option('period_length', 'period length, same as --period', String, '5m')
-    this.option('min_periods', 'min. Anzahl der Historienperioden', Number, 200)
-    // fügen Sie hier die Variablen ein, die Ihre Strategie verwenden wird. **
+    this.option('min_periods', 'min. number of history periods', Number, 200)
+    // insert here the variables that your strategy will use. **
     }
 
 ## Berechnung
@@ -65,10 +65,10 @@ Es wird jedes Mal aufgerufen, wenn es einen neuen Trade gibt. es ist der richtig
     // MACD berechnen
     ema(s, 'ema_short', s.options.ema_short_period)
     ema(s, 'ema_long', s.options.ema_long_period)
-    if (s.periode.ema_short && s.periode.ema_long) {
-      s.periode.macd = (s.periode.ema_short - s.periode.ema_long)
+    if (s.period.ema_short && s.period.ema_long) {
+      s.period.macd = (s.period.ema_short - s.period.ema_long)
       ema(s, 'signal', s.options.signal_period, 'macd')
-      if (s.periode.signal) {
+      if (s.period.signal) {
         s.period.macd_histogram = s.period.macd - s.period.signal
     }
     
@@ -85,9 +85,10 @@ Es wird am Ende jeder Periode aufgerufen. Es ist der richtige Ort, um Kauf- oder
 
 Wenn Sie beispielsweise basierend auf dem RSI-Indikator kaufen oder verkaufen möchten:
 
-    if (s.periode.rsi < 30) {
-      am signal = 'kaufen'
+    if (s.period.rsi < 30) { 
+      s.signal = 'buy' 
     }
+
 
 ## onReport
 
@@ -95,19 +96,19 @@ wird jedes Mal aufgerufen, wenn die Konsole aktualisiert wird. Es muss ein Array
 
 Beispiel:
 
-      onReport: Funktion(en) {
-       var spalten = []
-       if (typeof s.period.rsi === 'Zahl') {
-         var color = 'grau'
+      onReport: function (s) {
+       var cols = []
+       if (typeof s.period.rsi === 'number') {
+         var color = 'grey'
          if (s.period.rsi <= s.options.oversold_rsi) {
-           Farbe = 'grün'
+           color = 'green'
          }
          if (s.period.rsi >= s.options.overbought_rsi) {
-           Farbe = 'rot'
+           color = 'red'
          }
-         cols.push(z(4, n(s.period.rsi).format('0'), ' ')[Farbe])
+         cols.push(z(4, n(s.period.rsi).format('0'), ' ')[color])
        }
-       Rückgabespalte
+       return cols 
        },
   
 
