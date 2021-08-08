@@ -11,6 +11,7 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 
 - Test
 - [Test](docs/FAQ-de.md)
+- [Darwin](docs/FAQ-de.md)
 - [![Test 1/Darwin](https://travis-ci.org/DeviaVir/zenbot.svg?branch=master)](https://travis-ci.org/DeviaVir/zenbot) 
 
 ## Beschreibung
