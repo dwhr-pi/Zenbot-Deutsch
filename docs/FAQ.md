@@ -39,7 +39,7 @@ Vielen Dank!
 Natürlich! Schauen Sie sich unsere Reddit-Community an ([subreddit zenbot](https://reddit.com/r/zenbot)).
 
 Es gibt auch [eine freigegebene Google Text & Tabellen-Tabelle mit Community-Sim-Ergebnissen und Variablenbeschreibungen](https://docs.google.com/spreadsheets/d/1WjFKRUY4KpkdIJiA3RVvKqiyNkMe9xtgLSfYESFXk1g/edit#gid=70204991).
-Oder hier einsehen: [eine freigegebene Google Text & Tabellen-Tabelle mit Community-Sim-Ergebnissen und Variablenbeschreibungen](https://github.com/dwhr-pi/zenbot/blob/unstable/docs/ZenBot%20Simulations%20-%20Variables.zip).
+Oder hier die Dateien einsehen: [eine freigegebene Google Text & Tabellen-Tabelle mit Community-Sim-Ergebnissen und Variablenbeschreibungen](https://github.com/dwhr-pi/zenbot/blob/unstable/docs/ZenBot%20Simulations%20-%20Variables.zip) und diese können von dort downgeladen werden..
 
 
 
@@ -114,7 +114,7 @@ zenbot sim --days 14
 ```
 
 Sie können [einen Befehl mit dieser freigegebenen Google Text & Tabellen-Tabelle generieren] (https://docs.google.com/spreadsheets/d/1HECEHW-I9Evve_FQV3LT_IWGV6FU34tHif9TEouKtfg/edit?usp=sharing).
-Die Dateien sind im Zip [einen Befehl mit dieser freigegebenen Google Text & Tabellen-Tabelle generieren] (https://github.com/dwhr-pi/zenbot/blob/unstable/docs/Alle%20Dateien%20-%20Zenbot%20Command%20Creator%20Update%20by%20effgee%20(Public%20Version)%20v1.1.2%20-%20Zenbot%20Command%20Creator.zip) enthalten.
+Die Dateien sind im Zip [einen Befehl mit dieser freigegebenen Google Text & Tabellen-Tabelle generieren] (https://github.com/dwhr-pi/zenbot/blob/unstable/docs/Alle%20Dateien%20-%20Zenbot%20Command%20Creator%20Update%20by%20effgee%20(Public%20Version)%20v1.1.2%20-%20Zenbot%20Command%20Creator.zip) enthalten und können von dort downgeladen werden.
 Zögern Sie nicht, diese Datei auf Ihr Google-Laufwerk zu kopieren oder als Tabelle herunterzuladen, da jeder sie gleichzeitig ändern kann.
 
 
