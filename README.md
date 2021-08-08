@@ -14,7 +14,7 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 - [Darwin](docs/FAQ-de.md)
 - [![Test 1/Darwin](https://travis-ci.org/DeviaVir/zenbot.svg?branch=master)](https://travis-ci.org/DeviaVir/zenbot) 
 
-- exchanges
+- ## exchanges
 - bitstamp-de.md Fügen Sie börsenspezifische Tipps hinzu, um anderen zu helfen, ähnliche Kopfschmerzen zu vermeiden.(https://github.com/DeviaVir/zenbot/pull/908)
 - bitstamp-en.md Englisches Original [Add exchange-specific tips to help others avoid similar headaches.](https://github.com/DeviaVir/zenbot/pull/908)
 - bitstamp.md [Add exchange-specific tips to help others avoid similar headaches.](https://github.com/DeviaVir/zenbot/pull/908)
@@ -30,7 +30,7 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 
 
 
-- installation
+- ## installation
 - README-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
 - README-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
 - README.md WIP: Rework docs (DeviaVir#1816)
@@ -52,7 +52,7 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 
 
  
-- notifiers
+- ## notifiers
 - README-de.md Update README-de.md
 - README-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
 - README.md Add notifications to ADAMANT Messenger
@@ -60,7 +60,7 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 
 
  
-- scripts
+- ## scripts
 - genetic_backtester-de.md
 - Update genetic_backtester-de.md
 - genetic_backtester-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
@@ -72,7 +72,7 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 
 
  
-- strategies
+- ## strategies
 - forex_analytics-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
 - forex_analytics.md Removed forex_analytics
 - howto_create_strategy-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
@@ -105,6 +105,7 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 
 
 
+- ## FAQ
 - FAQ-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
 - FAQ-en.md 
 - FAQ.md FAQ Häufig gestellte Fragen
@@ -114,6 +115,13 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 - developers-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
 - developers-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
 - developers.md Add files via upload
+
+
+- ## scripts
+- scripts/genetic_algo/README-de.md Genetischer Algorithmus von @arpheno
+- scripts/genetic_algo/README-en.md Genetic Algorithm by @arpheno
+- scripts/genetic_algo/README.md Genetic Algorithm by @arpheno
+
 
 
 ## Beschreibung
