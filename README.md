@@ -7,6 +7,12 @@
 
 Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen original Version v4.1.0 von [DeviaVir](https://github.com/DeviaVir/zenbot).
 
+## Inhaltsverzeichnis
+
+- Test
+- Test
+- [![Build/Test](https://travis-ci.org/DeviaVir/zenbot.svg?branch=master)](https://travis-ci.org/DeviaVir/zenbot) 
+
 ## Beschreibung
 
 Zenbot ist ein Befehlszeilenbasierender-Kryptowährungs-Handelsbot, der dazu Node.js und die MongoDB verwendet. Es verfügt über:
