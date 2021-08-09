@@ -1,99 +1,99 @@
-## Zenbot exchange API
-This document is written to help developers implement new extensions for Zenbot.
+## Zenbot Exchange API
+Dieses Dokument soll Entwicklern helfen, neue Erweiterungen für Zenbot zu implementieren. 
 
-It is reverse engineered from inspecting the Zenbot files and the GDAX extension and is not a definitive guide for developing an extension.
+Es wurde aus der Überprüfung der Zenbot-Dateien und der GDAX-Erweiterung rückentwickelt und ist kein endgültiger Leitfaden für die Entwicklung einer Erweiterung. 
 
-Any contribution that makes this document better is certainly welcome.
+Jeder Beitrag, der dieses Dokument verbessert, ist sicherlich willkommen.
 
-The document is an attempt to describe the interface functions used for communication with an exchange and a few helper functions. Each function has a set of calling parameters and return values and statuses
+Das Dokument ist ein Versuch, die Schnittstellenfunktionen zu beschreiben, die für die Kommunikation mit einem Austausch verwendet werden, sowie einige Hilfsfunktionen. Jede Funktion verfügt über eine Reihe von Aufrufparametern und gibt Werte und Status zurück. 
 
-The input parameters are packed in the "opts" object, and the results from invoking the function are returned in an object.
+Die Eingabeparameter werden in das Objekt "opts" gepackt, und die Ergebnisse aus dem Aufrufen der Funktion werden in einem Objekt zurückgegeben.
 
-## Error handling
+## Fehlerbehandlung
 
-Errors are returned to calling program through a callback functon of this form:
+Fehler werden über eine Rückruffunktion dieser Form an das aufrufende Programm zurückgegeben:
 ```javascript
 cb (err)
 ```
-The expected content of "err" is as follows:
+Der erwartete Inhalt von "err" ist wie folgt:
 ```javascript
   { code: 'HTTP_STATUS', body: body }
 ```
 
-**Non recoverable errors** should be handled by the actual extension function. A typical error is "Page not found", which most likely is caused by a malformed URL. Such errors should return a descriptive message and force a program exit.
+** Nicht behebbare Fehler ** sollten von der eigentlichen Erweiterungsfunktion behandelt werden. Ein typischer Fehler ist "Seite nicht gefunden", der höchstwahrscheinlich durch eine fehlerhafte URL verursacht wird. Solche Fehler sollten eine beschreibende Nachricht zurückgeben und einen Programmexit erzwingen.
 
-**Recoverable errors** affecting trades should be handled by zenbot, while others could be handled in the extension layer. This needs to be clarified.
+** Behebbare Fehler **, die Trades betreffen, sollten von zenbot behandelt werden, während andere in der Erweiterungsschicht behandelt werden könnten. Dies muss geklärt werden.
 
 
-Some named errors are already handled by the main program (see getTrades below). These are:
+Einige benannte Fehler werden bereits vom Hauptprogramm behandelt (siehe getTrades unten). Diese sind:
 ```
-  'ETIMEDOUT', // possibly recoverable
-  'ENOTFOUND', // not recoverable (404?)
-  'ECONNRESET' // possibly recoverable
+  'ETIMEDOUT', // möglicherweise wiederherstellbar
+  'ENOTFOUND', // nicht wiederherstellbar (404?)
+  'ECONNRESET' // möglicherweise wiederherstellbar
 ```
-Zenbot may have some GDAX-specific code. In particular that pertains to return values from exchange functions. Return values in general should be handled in a exchange agnostic and standardized way to make it easiest possible to write extensions.
+Zenbot verfügt möglicherweise über einen GDAX-spezifischen Code. Dies betrifft insbesondere Rückgabewerte von Austauschfunktionen. Rückgabewerte sollten im Allgemeinen austauschunabhängig und standardisiert behandelt werden, um das Schreiben von Erweiterungen zu vereinfachen.
 
-**Some variables in the "exchange" object are worth mentioning**
+** Einige Variablen im "Exchange" -Objekt sind erwähnenswert **
 ```
   name: 'some_exchange_name'
-  historyScan: 'forward', 'backward' or false
-  makerFee: exchange_maker_fee (numeric) // Set by a function if the exchange supports it
-  takerFee: exchange_taker_fee (numeric) // Else set with a constant
+  historyScan: 'vorwärts', 'rückwärts' or false
+  makerFee: exchange_maker_fee (numeric) // Wird von einer Funktion festgelegt, wenn der Austausch dies unterstützt. 
+  takerFee: exchange_taker_fee (numeric) // Sonst mit einer Konstante gesetzt. 
   backfillRateLimit: some_value_fitting_exchange_policy or 0
 ```
-## Functions
+## Funktionen
 
-**Connecting to the exchange for public requests**
+** Verbindung zum Austausch für öffentliche Anfragen herstellen **
 ```javascript
 funcion publicClient ()
 ```
-Called from:
+Angerufen von:
 - extension/*/exchange.js
 
-Returns a "client" object for use in exchange public access functions.
+Gibt ein "Client" -Objekt zur Verwendung in Exchange Public Access-Funktionen zurück.
 
-**Connecting and authenticating private requests**
+** Private Anfragen verbinden und authentifizieren **
 ```javascript
 function authedClient ()
 ```
-Called from:
+Angerufen von:
 - extension/*/exchange.js
 
-The function gets parameters from conf.js in the c object
-In particular these are:
+Die Funktion ruft Parameter aus conf.js im c-Objekt ab
+Insbesondere sind dies:
 ```
   c.<exchange>.key
   c.<exchange>.secret
 ```
-For specific exchanges also:
+Für bestimmten Austausch auch:
 ```
   c.bitstamp.client_id
   c.gdax.passphrase
 ```
-The functionm returns a "client" object for use in exchange authenticated access functions
+Die Funktion m gibt ein "Client"-Objekt zur Verwendung in Exchange-authentifizierten Zugriffsfunktionen zurück.
 
-**Helper function for returning conformant error messages**
+** Hilfsfunktion zur Rückgabe konformer Fehlermeldungen **
 ```javascript
 function statusErr (resp, body)
 ```
-Called from:
+Angerufen von:
 - extension/*/exchange.js
 
-**Getting public history and trade data**
+** Öffentlichen Geschichte und Handelsdaten abrufen **
 ```javascript
 getTrades: function (opts, cb)
 ```
-Called from:
+Angerufen von:
 - https://github.com/carlos8f/zenbot/blob/master/commands/backfill.js
 - https://github.com/carlos8f/zenbot/blob/master/commands/trade.js
 
-Input:
+Eingang:
 ```
   opts.product_id
   opts.from
   opts.to
 ```
-Return:
+Rückkehr:
 ```
   trades.length
   (array of?) {
@@ -104,15 +104,15 @@ Return:
     side : 'buy' or 'sell'
   }
 ```
-Expected error codes if error:
+Erwartete Fehlercodes bei Fehler:
 ```
   err.code
 
-  'ETIMEDOUT', // possibly recoverable
-  'ENOTFOUND', // not recoverable
-  'ECONNRESET' // possibly recoverable
+  'ETIMEDOUT', // möglicherweise wiederherstellbar
+  'ENOTFOUND', // nicht wiederherstellbar
+  'ECONNRESET' // möglicherweise wiederherstellbar
 ```
-Callback:
+Rückruf:
 ```javascript
 cb(null, trades)
 ```
@@ -121,78 +121,78 @@ cb(null, trades)
 ```javascript
 getBalance: function (opts, cb)
 ```
-Called from:
+Angerufen von:
 - https://github.com/carlos8f/zenbot/blob/master/lib/engine.js
 
-Input:
+Eingang:
 ```
   opts.currency
   opts.asset
 ```
-Return:
+Rückkehr:
 ```
   balance.asset
   balance.asset_hold
   balance.currency
   balance.currency_hold
 ```
-Callback:
+Rückruf:
 ```javascript
 cb(null, balance)
 ```
-Comment:
-Asset vs asset_hold and currency vs currency_hold is kind of mysterious to me.
-For most exchanges I would just return something similar to available_asset and available_currency
-For exchanges that returns some other values, I would do the calculation on the extension layer
-and not leave it to engine.js, because available_asset and available_currency are only interesting
-values from a buy/sell view, IMHO. If someone knows better, please clarify
+Kommentar:
+Asset vs. Asset_hold und Currency vs. Currency_hold sind für mich etwas mysteriös.
+Für die meisten Börsen würde ich nur etwas Ähnliches wie "available_asset" und "available_currency" zurückgeben.
+Für Börsen, die einige andere Werte zurückgeben, würde ich die Berechnung auf der Erweiterungsschicht durchführen
+und überlassen Sie es nicht engine.js, da available_asset und available_currency nur interessant sind
+Werte aus Kauf/Verkaufs-Sicht, IMHO. Wenn jemand es besser weiß, bitte klären.
 
-**Getting public ticker data**
+** Öffentliche Tickerdaten abrufen **
 ```javascript
 getQuote: function (opts, cb)
 ```
-Called from:
+Angerufen von:
 - https://github.com/carlos8f/zenbot/blob/master/lib/engine.js
 - https://github.com/carlos8f/zenbot/blob/master/commands/buy.js
 - https://github.com/carlos8f/zenbot/blob/master/commands/sell.js
 
-Input:
+Eingang:
 ```
   opts.product_id
 ```
-Return:
+Rückkehr:
 ```
   {bid: value_of_bid, ask: value_of_ask}
 ```
-Callback:
+Rückruf:
 ```javascript
 cb(null, {bid: body.bid, ask: body.ask})
 ```
 
-**Canceling a placed order**
+** Stornierung einer Bestellung **
 ```javascript
 cancelOrder: function (opts, cb)
 ```
-Called from:
+Angerufen von:
 - https://github.com/carlos8f/zenbot/blob/master/lib/engine.js
 
-Input:
+Eingang:
 ```
   opts.order_id
 ```
-Callback:
+Rückruf:
 ```javascript
 cb()
 ```
 
-**Buying function**
+** Kauffunktion **
 ```javascript
 buy: function (opts, cb)
 ```
-Called from:
+Angerufen von:
 - https://github.com/carlos8f/zenbot/blob/master/lib/engine.js
 
-Input:
+Eingang:
 ```
   opts.price
   opts.size
@@ -201,28 +201,28 @@ Returns:
 ```
 
 ```
-Callback:
+Rückruf:
 ```javascript
 cb(null, body)
 ```
 
-**Selling function**
+** Verkaufsfunktion **
 ```javascript
 sell: function (opts, cb)
 ```
-Called from:
+Angerufen von:
 - https://github.com/carlos8f/zenbot/blob/master/lib/engine.js
 
-Input:
+Eingang:
 ```
   opts.price
   opts.size
 ```
-Returns:
+Kehrt zurück:
 ```
 
 ```
-Callback:
+Rückruf:
 ```javascript
 cb(null, body)
 ```
@@ -231,61 +231,61 @@ cb(null, body)
 ```javascript
 getOrder: function (opts, cb)
 ```
-Called from:
+Angerufen von:
 - https://github.com/carlos8f/zenbot/blob/master/lib/engine.js
 
-Input:
+Eingang:
 ```
   opts.order_id
   opts.product_id
 ```
-Returns:
+Kehrt zurück:
 ```
   order.status
 ```
-Expected values in https://github.com/carlos8f/zenbot/blob/master/lib/engine.js:
+Erwartete Werte in https://github.com/carlos8f/zenbot/blob/master/lib/engine.js:
 - 'done', 'rejected'
   If 'rejected' order.reject_reason = some_reason ('post only')
-Is '*post only*' spesific for GDAX?
-Comment: Needs some clarifying
+Ist '*post only*' für den GDAX spezifisch?
+Kommentar: Muss geklärt werden
 
-Callback:
+Rückruf:
 ```javascript
 cb(null, body)
 ```
 
-**Getting details from an executed trade**
+** Details von einem ausgeführten Trade erhalten **
 ```javascript
 getCursor: function (trade)
 ```
-Called from:
+Angerufen von:
 - https://github.com/carlos8f/zenbot/blob/master/commands/backfill.js
 - https://github.com/carlos8f/zenbot/blob/master/commands/trade.js
 
-Input:
+Eingang:
 ```
-  trade - This is either a trade or a timestamp
+  Handel - Dies ist entweder ein Handel oder ein Zeitstempel
 ```
-Return:
+Rückkehr:
 ```
-  trade id or timestamp. It really depends on the exchange API. Some, like Gemini, use only timestamps and will only need to return a timestamp. Others, like GDAX operate on trade ids and it is expected to return 'undefined' when passed an initial timestamp to start backfilling.
+  Handels-ID oder Zeitstempel. Es hängt wirklich von der Exchange-API ab. Einige, wie Gemini, verwenden nur Zeitstempel und müssen nur einen Zeitstempel zurückgeben. Andere, wie der GDAX, arbeiten mit Handels-IDs und es wird erwartet, dass sie "undefiniert" zurückgeben, wenn ein anfänglicher Zeitstempel zum Starten des Nachfüllens überschritten wird.
 
-  Since backfilling requires a timestamp to select the numbers of days to backfill, it may not be possible to use this option if the exchange does not use timestamps for historical data. In this case return 'undefined' when passed a timestamp value.
+  Da für das Auffüllen ein Zeitstempel erforderlich ist, um die Anzahl der Tage für das Auffüllen auszuwählen, kann diese Option möglicherweise nicht verwendet werden, wenn die Börse keine Zeitstempel für historische Daten verwendet. In diesem Fall wird 'undefined' zurückgegeben, wenn ein Zeitstempelwert übergeben wird.
 
 ```
-Callback:
+Rückruf:
 ```javascript
 
 ```
 
-## Extensions
+## Erweiterungen
 
-Zenbot offers various extensions, arguably it is what makes zenbot so awesome.
+Zenbot bietet verschiedene Erweiterungen an, wohl ist es das, was Zenbot so großartig macht.
 
-### Extending notifiers
+### Benachrichtigungen erweitern
 
-If you wish to add a new notifier, please follow these steps:
+Wenn Sie einen neuen Notifier hinzufügen möchten, gehen Sie folgendermaßen vor:
 
-- create a your-service-name.js in `/extensions/notifiers/` make sure to use the same function returns as other notifiers
-- add config bootstrap to `/conf-sample.js`
-- send us a PR with your new service :)
+- Erstellen Sie in `/extensions/notifiers/` einen your-service-name.js. Stellen Sie sicher, dass Sie die selben Funktionsrückgaben wie bei anderen Notifiers verwenden.
+- Fügen Sie `/conf-sample.js` einen Konfigurations-Bootstrap hinzu.
+- senden Sie uns eine PR mit Ihrem neuen Service :)
