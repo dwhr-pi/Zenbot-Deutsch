@@ -106,15 +106,15 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 
 
 - ### FAQ
-- [Test](FAQ/FAQ-de.md) FAQ-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](FAQ/FAQ-de.md) FAQ-en.md 
-- [Test](FAQ/FAQ-de.md) FAQ.md FAQ Häufig gestellte Fragen
-- [Test](FAQ/FAQ-de.md) README-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](FAQ/FAQ-de.md) README-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](FAQ/FAQ-de.md) README.md Schnellstart
-- [Test](FAQ/FAQ-de.md) developers-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](FAQ/FAQ-de.md) developers-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](FAQ/FAQ-de.md) developers.md Add files via upload
+- [Test](docs/FAQ/FAQ-de.md) FAQ-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [Test](docs/FAQ/FAQ-de.md) FAQ-en.md 
+- [Test](docs/FAQ/FAQ-de.md) FAQ.md FAQ Häufig gestellte Fragen
+- [Test](docs/FAQ/FAQ-de.md) README-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [Test](docs/FAQ/FAQ-de.md) README-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [Test](docs/FAQ/FAQ-de.md) README.md Schnellstart
+- [Test](docs/FAQ/FAQ-de.md) developers-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [Test](docs/FAQ/FAQ-de.md) developers-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [Test](docs/FAQ/FAQ-de.md) developers.md Add files via upload
 
 
 - ### scripts
