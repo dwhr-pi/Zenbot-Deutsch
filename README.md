@@ -9,14 +9,6 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 
 ## Inhaltsverzeichnis
 
-- Test
-- [Test](docs/FAQ-de.md)
-- [Darwin](docs/FAQ-de.md)
-- [![Test 1/Darwin](https://travis-ci.org/DeviaVir/zenbot.svg?branch=master)](https://travis-ci.org/DeviaVir/zenbot) 
-
-
-
-
 - ### exchanges
 - [bitstamp-de.md](docs/exchanges/bitstamp-de.md) Fügen Sie börsenspezifische Tipps hinzu, um anderen zu helfen, ähnliche Kopfschmerzen zu vermeiden.(https://github.com/DeviaVir/zenbot/pull/908)
 - [bitstamp-en.md](docs/exchanges/bitstamp-en.md) Englisches Original [Add exchange-specific tips to help others avoid similar headaches.](https://github.com/DeviaVir/zenbot/pull/908)
@@ -65,8 +57,14 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 
 
 - ### scripts
+- [auto_backtester-de.md](docs/scripts/auto_backtester-de.md) fehlt Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [auto_backtester-en.md](docs/scripts/auto_backtester-en.md) fehlt Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [auto_backtester.md](docs/scripts/auto_backtester.md) fehlt Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [genetic_algo-de.md](docs/scripts/genetic_algo-de.md) fehlt Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [genetic_algo-en.md](docs/scripts/genetic_algo-en.md) fehlt Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [genetic_algo.md](docs/scripts/genetic_algo.md) fehlt Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+
 - [genetic_backtester-de.md](docs/scripts/genetic_backtester-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Update genetic_backtester-de.md](docs/scripts/Update genetic_backtester-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
 - [genetic_backtester-en.md](docs/scripts/genetic_backtester-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
 - [genetic_backtester.md](docs/scripts/genetic_backtester.md) Added -runGenerations parameter (DeviaVir#1504)
 - [readme-de.md](docs/scripts/readme-de.md) Update readme-de.md
