@@ -14,98 +14,102 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 - [Darwin](docs/FAQ-de.md)
 - [![Test 1/Darwin](https://travis-ci.org/DeviaVir/zenbot.svg?branch=master)](https://travis-ci.org/DeviaVir/zenbot) 
 
+
+
+
 - ### exchanges
-- [bitstamp-de.md](docs/bitstamp-de.md) Fügen Sie börsenspezifische Tipps hinzu, um anderen zu helfen, ähnliche Kopfschmerzen zu vermeiden.(https://github.com/DeviaVir/zenbot/pull/908)
-- [bitstamp-en.md](exchanges/bitstamp-en.md) Englisches Original [Add exchange-specific tips to help others avoid similar headaches.](https://github.com/DeviaVir/zenbot/pull/908)
-- [bitstamp.md](exchanges/bitstamp.md) [Add exchange-specific tips to help others avoid similar headaches.](https://github.com/DeviaVir/zenbot/pull/908)
-- [gdax-de.md](exchanges/gdax-de.md) Add files via upload
-- [gdax-en.md](exchanges/gdax-en.md)  Rename gdax.md to gdax-en.md
-- [gdax.md](exchanges/gdax.md)  Add files via upload
-- [kraken-de.md](exchanges/kraken-de.md) Update kraken-de.md
-- [kraken-en.md](exchanges/kraken-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [kraken.md](exchanges/kraken.md) Add exchange-specific tips to help others avoid similar headaches. (D…
-- [readme-de.md](exchanges/readme-de.md) Update readme-de.md
-- [readme-en.md](exchanges/readme-en.md) Update readme-en.md
- 
+- [bitstamp-de.md](docs/exchanges/bitstamp-de.md) Fügen Sie börsenspezifische Tipps hinzu, um anderen zu helfen, ähnliche Kopfschmerzen zu vermeiden.(https://github.com/DeviaVir/zenbot/pull/908)
+- [bitstamp-en.md](docs/exchanges/bitstamp-en.md) Englisches Original [Add exchange-specific tips to help others avoid similar headaches.](https://github.com/DeviaVir/zenbot/pull/908)
+- [bitstamp.md](docs/exchanges/bitstamp.md) [Add exchange-specific tips to help others avoid similar headaches.](https://github.com/DeviaVir/zenbot/pull/908)
+- [gdax-de.md](docs/exchanges/gdax-de.md) Add files via upload
+- [gdax-en.md](docs/exchanges/gdax-en.md)  Rename gdax.md to gdax-en.md
+- [gdax.md](docs/exchanges/gdax.md)  Add files via upload
+- [kraken-de.md](docs/exchanges/kraken-de.md) Update kraken-de.md
+- [kraken-en.md](docs/exchanges/kraken-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [kraken.md](docs/exchanges/kraken.md) Add exchange-specific tips to help others avoid similar headaches. (D…
+- [readme-de.md](docs/exchanges/readme-de.md) Update readme-de.md
+- [readme-en.md](docs/exchanges/readme-en.md) Update readme-en.md
+
 
 
 
 - ### installation
-- [README-de.md](installation/README-de.md)README-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](installation/FAQ-de.md) README-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](installation/FAQ-de.md) README.md WIP: Rework docs (DeviaVir#1816)
-- [Test](installation/FAQ-de.md) Schnell Installation.md Update Schnell Installation.md
-- [Test](installation/FAQ-de.md) debian-ubuntu-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](installation/FAQ-de.md) debian-ubuntu-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](installation/FAQ-de.md) debian-ubuntu.md Update file for last version on ubuntu 20.04 (DeviaVir#2539)
-- [Test](installation/FAQ-de.md) docker-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](installation/FAQ-de.md) docker-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](installation/FAQ-de.md) docker.md WIP: Rework docs (DeviaVir#1816)
-- [Test](installation/FAQ-de.md) raspberrypi-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](installation/FAQ-de.md) raspberrypi-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](installation/FAQ-de.md) raspberrypi.md WIP: Rework docs (DeviaVir#1816)
-- [Test](dinstallation/FAQ-de.md) requirements-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](installation/FAQ-de.md) requirements-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](installation/FAQ-de.md) requirements.md WIP: Rework docs (DeviaVir#1816)
-- [Test](installation/FAQ-de.md) README.md
+- [README-de.md](docs/installation/README-de.md)README-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [README-en.md](docs/installation/FAQ-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [README.md](docs/installation/README.md)  WIP: Rework docs (DeviaVir#1816)
+- [Installation.md](docs/installation/Installation.md) Schnell Installation
+
+- [debian-ubuntu-de.md](docs/installation/debian-ubuntu-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [debian-ubuntu-en.md](docs/installation/debian-ubuntu-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [debian-ubuntu.md](docs/installation/debian-ubuntu.md) Update file for last version on ubuntu 20.04 (DeviaVir#2539)
+- [docker-de.md](docs/installation/docker-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [docker-en.md](docs/installation/docker-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [docker.md](docs/installation/docker.md) WIP: Rework docs (DeviaVir#1816)
+- [raspberrypi-de.md](docs/installation/raspberrypi-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [raspberrypi-en.md](docs/installation/raspberrypi-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [raspberrypi.md](docs/installation/raspberrypi.md) WIP: Rework docs (DeviaVir#1816)
+- [requirements-de.md](docs/installation/requirements-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [requirements-en.md](docs/installation/requirements-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [requirements.md](docs/installation/requirements.md) WIP: Rework docs (DeviaVir#1816)
+- [README.md](docs/installation/README.md) 
 
 
 
- 
+
 - ### notifiers
-- [Test](notifiers/FAQ-de.md) README-de.md Update README-de.md
-- [Test](dnotifiers/FAQ-de.md) README-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](notifiers/FAQ-de.md) README.md Add notifications to ADAMANT Messenger
+- [README-de.md](docs/notifiers/README-de.md) Update README-de.md
+- [README-en.md](docs/notifiers/README-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [README.md](docs/notifiers/README.md) Add notifications to ADAMANT Messenger
 
 
 
- 
+
 - ### scripts
-- [Test](scripts/FAQ-de.md) genetic_backtester-de.md
-- [Test](scripts/FAQ-de.md) Update genetic_backtester-de.md
-- [Test](scripts/FAQ-de.md) genetic_backtester-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](dscripts/FAQ-de.md) genetic_backtester.md Added -runGenerations parameter (DeviaVir#1504)
-- [Test](scripts/FAQ-de.md) readme-de.md Update readme-de.md
-- [Test](dscripts/FAQ-de.md) readme-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](dscripts/FAQ-de.md) readme.md Update readme.md
+- [genetic_backtester-de.md](docs/scripts/genetic_backtester-de.md) 
+- [Update genetic_backtester-de.md](docs/scripts/Update genetic_backtester-de.md) 
+- [genetic_backtester-en.md](docs/scripts/genetic_backtester-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [genetic_backtester.md](docs/scripts/genetic_backtester.md) Added -runGenerations parameter (DeviaVir#1504)
+- [readme-de.md](docs/scripts/readme-de.md) Update readme-de.md
+- [readme-en.md](docs/scripts/readme-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [readme.md](docs/scripts/readme.md) Update readme.md
 
 
 
- 
+
 - ### strategies
-- [forex_analytics-de.md](strategies/forex_analytics-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [forex_analytics.md](strategies/forex_analytics.md) Removed forex_analytics
-- [howto_create_strategy-de.md](strategies/howto_create_strategy-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [howto_create_strategy.md](strategies/howto_create_strategy.md) Create howto_create_strategy.md (DeviaVir#2555)
-- [list-strategies-de.md](strategies/list-strategies-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [list-strategies-en.md](strategies/list-strategies-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [list-strategies.md](strategies/list-strategies.md) Remove forex_analytics (DeviaVir#1937)
-- [macd-de.md](strategies/macd-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [macd-en.md](strategies/macd-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [macd.md](strategies/macd.md) WIP: Rework docs (DeviaVir#1816)
-- [noop-de.md](strategies/noop-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [noop-en.md](strategies/noop-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [noop.md](strategies/noop.md) WIP: Rework docs (DeviaVir#1816)
-- [rsi-de.md](strategies/rsi-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [rsi-en.md](strategies/rsi-en.md) rsi-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [rsi.md](strategies/rsi.md) WIP: Rework docs (DeviaVir#1816)
-- [sar-de.md](strategies/sar-de.md)  Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [sar-en.md](strategies/sar-en.md)  Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [sar.md](strategies/sar.md)  WIP: Rework docs (DeviaVir#1816)
-- [speed-de.md](strategies/speed-de.md)  Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [speed-en.md](strategies/speed-en.md)  Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [speed.md](strategies/speed.md) WIP: Rework docs (DeviaVir#1816)
-- [trend_ema-de.md](strategies/trend_ema-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [trend_ema-en.md](strategies/trend_ema-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [trend_ema.md](strategies/trend_ema.md) WIP: Rework docs (DeviaVir#1816)
-- [tweaking-de.md](strategies/tweaking-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [tweaking-en.md](strategies/tweaking-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [tweaking.md](strategies/tweaking.md) WIP: Rework docs (DeviaVir#1816)
- 
+- [forex_analytics-de.md](docs/strategies/forex_analytics-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [forex_analytics.md](docs/strategies/forex_analytics.md) Removed forex_analytics
+- [howto_create_strategy-de.md](docs/strategies/howto_create_strategy-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [howto_create_strategy.md](docs/strategies/howto_create_strategy.md) Create howto_create_strategy.md (DeviaVir#2555)
+- [list-strategies-de.md](docs/strategies/list-strategies-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [list-strategies-en.md](docs/strategies/list-strategies-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [list-strategies.md](docs/strategies/list-strategies.md) Remove forex_analytics (DeviaVir#1937)
+- [macd-de.md](docs/strategies/macd-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [macd-en.md](docs/strategies/macd-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [macd.md](docs/strategies/macd.md) WIP: Rework docs (DeviaVir#1816)
+- [noop-de.md](docs/strategies/noop-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [noop-en.md](docs/strategies/noop-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [noop.md](docs/strategies/noop.md) WIP: Rework docs (DeviaVir#1816)
+- [rsi-de.md](docs/strategies/rsi-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [rsi-en.md](docs/strategies/rsi-en.md) rsi-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [rsi.md](docs/strategies/rsi.md) WIP: Rework docs (DeviaVir#1816)
+- [sar-de.md](docs/strategies/sar-de.md)  Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [sar-en.md](docs/strategies/sar-en.md)  Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [sar.md](docs/strategies/sar.md)  WIP: Rework docs (DeviaVir#1816)
+- [speed-de.md](docs/strategies/speed-de.md)  Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [speed-en.md](docs/strategies/speed-en.md)  Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [speed.md](docs/strategies/speed.md) WIP: Rework docs (DeviaVir#1816)
+- [trend_ema-de.md](docs/strategies/trend_ema-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [trend_ema-en.md](docs/strategies/trend_ema-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [trend_ema.md](docs/strategies/trend_ema.md) WIP: Rework docs (DeviaVir#1816)
+- [tweaking-de.md](docs/strategies/tweaking-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [tweaking-en.md](docs/strategies/tweaking-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [tweaking.md](docs/strategies/tweaking.md) WIP: Rework docs (DeviaVir#1816)
 
 
 
-- ### FAQ
+
+- ### FAQ und Readme
 - [FAQ-de.md](docs/FAQ-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
 - [FAQ-en.md](docs/FAQ-en.md )  
 - [FAQ.md](docs/FAQ.md) FAQ Häufig gestellte Fragen
@@ -115,6 +119,8 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 - [developers-de.md](docs/developers-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
 - [developers-en.md](docs/developers-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
 - [developers.md](docs/developers.md) Add files via upload
+
+
 
 
 - ### scripts
