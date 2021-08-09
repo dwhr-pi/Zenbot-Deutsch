@@ -73,34 +73,34 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 
  
 - ### strategies
-- [Test](dstrategies/FAQ-de.md) forex_analytics-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](strategies/FAQ-de.md) forex_analytics.md Removed forex_analytics
-- [Test](strategies/FAQ-de.md) howto_create_strategy-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](strategies/FAQ-de.md) howto_create_strategy.md Create howto_create_strategy.md (DeviaVir#2555)
-- [Test](strategies/FAQ-de.md) list-strategies-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](strategies/FAQ-de.md) list-strategies-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](strategies/FAQ-de.md) list-strategies.md Remove forex_analytics (DeviaVir#1937)
-- [Test](strategies/FAQ-de.md) macd-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](strategies/FAQ-de.md) macd-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](strategies/FAQ-de.md) macd.md WIP: Rework docs (DeviaVir#1816)
-- [Test](strategies/FAQ-de.md) noop-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](strategies/FAQ-de.md) noop-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](strategies/FAQ-de.md) noop.md WIP: Rework docs (DeviaVir#1816)
-- [Test](strategies/FAQ-de.md) rsi-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](strategies/FAQ-de.md) rsi-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](strategies/FAQ-de.md) rsi.md WIP: Rework docs (DeviaVir#1816)
-- [Test](strategies/FAQ-de.md) sar-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](strategies/FAQ-de.md) sar-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](strategies/FAQ-de.md) sar.md WIP: Rework docs (DeviaVir#1816)
-- [Test](strategies/FAQ-de.md) speed-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](strategies/FAQ-de.md) speed-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](strategies/FAQ-de.md) speed.md WIP: Rework docs (DeviaVir#1816)
-- [Test](strategies/FAQ-de.md) trend_ema-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](strategies/FAQ-de.md) trend_ema-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](strategies/FAQ-de.md) trend_ema.md WIP: Rework docs (DeviaVir#1816)
-- [Test](strategies/FAQ-de.md) tweaking-de.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](strategies/FAQ-de.md) tweaking-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
-- [Test](strategies/FAQ-de.md) tweaking.md WIP: Rework docs (DeviaVir#1816)
+- [forex_analytics-de.md](strategies/forex_analytics-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [forex_analytics.md](strategies/forex_analytics.md) Removed forex_analytics
+- [howto_create_strategy-de.md](strategies/howto_create_strategy-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [howto_create_strategy.md](strategies/howto_create_strategy.md) Create howto_create_strategy.md (DeviaVir#2555)
+- [list-strategies-de.md](strategies/list-strategies-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [list-strategies-en.md](strategies/list-strategies-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [list-strategies.md](strategies/list-strategies.md) Remove forex_analytics (DeviaVir#1937)
+- [macd-de.md](strategies/macd-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [macd-en.md](strategies/macd-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [macd.md](strategies/macd.md) WIP: Rework docs (DeviaVir#1816)
+- [noop-de.md](strategies/noop-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [noop-en.md](strategies/noop-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [noop.md](strategies/noop.md) WIP: Rework docs (DeviaVir#1816)
+- [rsi-de.md](strategies/rsi-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [rsi-en.md](strategies/rsi-en.md) rsi-en.md Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [rsi.md](strategies/rsi.md) WIP: Rework docs (DeviaVir#1816)
+- [sar-de.md](strategies/sar-de.md)  Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [sar-en.md](strategies/sar-en.md)  Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [sar.md](strategies/sar.md)  WIP: Rework docs (DeviaVir#1816)
+- [speed-de.md](strategies/speed-de.md)  Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [speed-en.md](strategies/speed-en.md)  Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [speed.md](strategies/speed.md) WIP: Rework docs (DeviaVir#1816)
+- [trend_ema-de.md](strategies/trend_ema-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [trend_ema-en.md](strategies/trend_ema-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [trend_ema.md](strategies/trend_ema.md) WIP: Rework docs (DeviaVir#1816)
+- [tweaking-de.md](strategies/tweaking-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [tweaking-en.md](strategies/tweaking-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [tweaking.md](strategies/tweaking.md) WIP: Rework docs (DeviaVir#1816)
  
 
 
