@@ -65,8 +65,8 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 
 
 - ### scripts
-- [genetic_backtester-de.md](docs/scripts/genetic_backtester-de.md) 
-- [Update genetic_backtester-de.md](docs/scripts/Update genetic_backtester-de.md) 
+- [genetic_backtester-de.md](docs/scripts/genetic_backtester-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
+- [Update genetic_backtester-de.md](docs/scripts/Update genetic_backtester-de.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
 - [genetic_backtester-en.md](docs/scripts/genetic_backtester-en.md) Deutsche Übersetzung, der Doc, Readme und config.js Dateien
 - [genetic_backtester.md](docs/scripts/genetic_backtester.md) Added -runGenerations parameter (DeviaVir#1504)
 - [readme-de.md](docs/scripts/readme-de.md) Update readme-de.md
