@@ -195,8 +195,15 @@ Zenbot begann mit 1.000 USD und endete nach 90 Tagen mit 2.954,50 USD, was einem
 
 - Beachten Sie, dass in diesem Beispiel optimierte Einstellungen verwendet wurden, um eine optimale Rendite zu erzielen: `--profit_stop_enable_pct=10`, `--profit_stop_pct=4`, `--trend_ema=36`, und `--sell_rate=-0.006`. Standardparameter ergaben einen ROI von ca. 65%.
 - [Rohdaten](https://gist.github.com/carlos8f/b09a734cf626ffb9bb3bcb1ca35f3db4) aus der Simulation
-
-
+- Der daraus abgeleitete Befehl aus den Rohdaten für Zenbot und Binance zum Testen lautet. 
+```
+zenbot.sh sim binance.BTC-USD --profit_stop_enable_pct 10 --profit_stop_pct 1 --sell_rate -0.006 --trend_ema 36 --period 1h --strategy trend_ema_rate --sell_stop_pct 4 --buy_stop_pct 0 --max_sell_loss_pct 25 --max_slippage_pct 2 --buy_pct 98 --sell_pct 98 --markup_pct 0 --currency_capital 0 --asset_capital 0.00002 --order_adjust_time 30000 --rsi_periods 14 --min_periods 37 --max_sell_duration 4
+```
+Hierbei wurden nicht mit verwendet:
+```
+  end: 1494547200000,
+  start: 1486771200000,
+```
 ## Zenbot ausführen
 
 Der folgende Befehl startet den Bot und wenn Sie `c.selector` in `conf.js` nicht berührt haben, wird das Standard-BTC/USD-Paar am GDAX gehandelt.
