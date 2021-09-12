@@ -185,6 +185,9 @@ Thanks!
 - [bot18](https://medium.com/@carlos8f_11468/introducing-bot18-the-new-crypto-trading-bot-to-supersede-zenbot-and-unleash-the-zalgo-da8464b41e53)
 - [magic8bot](https://github.com/notVitaliy/magic8bot)
 
+- [Mit Trend_ema_rate.js und einigen intressanten Änderungen](http://ec2-3-135-246-139.us-east-2.compute.amazonaws.com:8080/projects/TEST/repos/zenbot/browse?at=8a86755753de65387da725187585cd577f6562a8)
+
+
 - - -
 
 ## Lizenz: MIT
