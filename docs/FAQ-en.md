@@ -184,6 +184,7 @@ npm ERR! 404 Not Found - GET https://registry.npmjs.org/ccxt/-/ccxt-1.33.64.tgz 
  https://stackoverflow.com/questions/33870520/npm-install-cannot-find-module-semver
 
 Erster Schritt: 
+```
 sudo rm -rf /usr/local/lib/node_modules
 sudo rm -rf ~/.npm
 
@@ -194,11 +195,14 @@ brew install node
 
 Debian - uninstall node.js
 https://coderrocketfuel.com/article/how-to-uninstall-node-js-on-debian-10
+```
 
+Nodes.js entfernen. 
+```
 sudo apt remove nodejs
 sudo apt purge nodejs
 sudo apt autoremove
-
+```
 
 
 XXXXXXXXXXXXXXXXXXX
@@ -216,7 +220,9 @@ curl -sL https://deb.nodesource.com/setup_8.x | bash -
 apt-get install -y nodejs
 
 Node Version abfragen: 
+```
 node -v
+```
 
 Node Updade
 
@@ -224,10 +230,11 @@ Node Updade
 XXXXXXXXXXXXXXXXXXX
 NPM Update
 https://github.com/npm/
+```
 npm install -g npm@8.0.0
 
 npm audit fix
-
+```
 
 Nochmal: 
 https://forum.iobroker.net/topic/35090/howto-nodejs-installation-und-upgrades-unter-debian
@@ -249,20 +256,25 @@ sudo apt-get install -y nodejs
 Dies installiert trotzdem Version 15....
 
 Dies wäre richtig!
+```
 sudo apt-get install nodejs 12.x
-
+```
 https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
 
 Die NVM Pakete müssen manuell oder durch 
+```
 npm uninstall --save <package_name>
 npm uninstall --save Zenbot4@4.0.1
+```
 entfernt werden. 
 Durch versteckte Dateien im Stammverzeichnis den Ordner .config ausfindig machen und das Verzeichnis NVM einfach in NVM-alt umbenennen. 
 
 
 Für Node.js und NPM dies anschließend anwenden um zu installieren. 
+```
 npm install -g npm
+```
 
 We've deprecated any official yearly presets in 6.x in favor or babel-preset-env. For 7.x it would be @babel/preset-env.
 npm WARN deprecated crypto@1.0.1: This package is no longer supported. It's now a built-in Node module. If you've depended on crypto, you should switch to the one that's built-in.
@@ -294,7 +306,8 @@ brew install node
 21. If Yarn is already installed, brew uninstall --ignore-dependencies node works for me where brew uninstall --force node didn't.
 17. Its my fault for blindly pasting commands, but sudo rm -rf /usr/local/lib/node_modules caused me to lose global modules I use such as gulp and selenium server.
 
+```
 npm install -g semver
-
+```
 XXXXXXXXXXXXXXXXXXX
 
