@@ -96,7 +96,7 @@ npm install
 ./Zenbot.sh trade --paper
 ```
 
-Zusatz
+## Zusatz Abhängigkeiten
 
 ## To install the Yarn package manager, run:
 ```
@@ -104,6 +104,10 @@ Zusatz
      echo "deb [signed-by=/usr/share/keyrings/yarnkey.gpg] https://dl.yarnpkg.com/debian stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
      sudo apt-get update && sudo apt-get install yarn
 ```
+
+### ccxt
+https://www.npmjs.com/package/ccxt
+
 
 
 ### Docker (optional)
