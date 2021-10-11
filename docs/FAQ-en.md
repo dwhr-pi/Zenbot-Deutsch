@@ -163,3 +163,21 @@ in [zenbot.sh](../zenbot.sh) to
 `env node --max-old-space-size=<memory> zenbot.js $@`
 
  where `<memory>` is the amount of memory node is allowed to use (e.g. 4096 for 4GB). For Windows you have to change the file [zenbot.bat](../zenbot.bat) respectively.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ XXXXXXXXXXXXXXXXXXX Neu New
+ 
+ 
+ Error: Cannot find module 'semver'
+ https://stackoverflow.com/questions/33870520/npm-install-cannot-find-module-semver
+ 
+ sudo rm -rf /usr/local/lib/node_modules
+sudo rm -rf ~/.npm
+brew uninstall --force node
+brew install node
