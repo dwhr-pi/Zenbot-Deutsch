@@ -200,6 +200,8 @@ sudo apt purge nodejs
 sudo apt autoremove
 
 
+
+XXXXXXXXXXXXXXXXXXX
 https://nodesource.com/blog/installing-node-js-8-tutorial-linux-via-package-manager/
 
 Node install einer bestimmten Version. 
@@ -217,9 +219,11 @@ node -v
 Node Updade
 
 
-
+XXXXXXXXXXXXXXXXXXX
 NPM Update
 https://github.com/npm/
 npm install -g npm@8.0.0
+
+npm audit fix
 
 
