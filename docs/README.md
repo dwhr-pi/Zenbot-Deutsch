@@ -149,6 +149,14 @@ und anschließend bauen lassen, die Datenbank mit:
 ```
 python3 buildscripts/scons.py all
 ```
+Oder nur die Datenbank
+```
+python3 buildscripts/scons.py mongod
+```
+Danch installieren mit
+```
+python3 buildscripts/scons.py --prefix=/opt/mongo install
+```
 
 ### hapi
 ```
