@@ -289,5 +289,7 @@ brew install node
 21. If Yarn is already installed, brew uninstall --ignore-dependencies node works for me where brew uninstall --force node didn't.
 17. Its my fault for blindly pasting commands, but sudo rm -rf /usr/local/lib/node_modules caused me to lose global modules I use such as gulp and selenium server.
 
+npm install -g semver
+
 XXXXXXXXXXXXXXXXXXX
 
