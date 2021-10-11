@@ -179,16 +179,19 @@ npm ERR! 404 Not Found - GET https://registry.npmjs.org/ccxt/-/ccxt-1.33.64.tgz 
  XXXXXXXXXXXXXXXXXXX
  Error: Cannot find module 'semver'
  https://stackoverflow.com/questions/33870520/npm-install-cannot-find-module-semver
- 
+
+Erster Schritt: 
 sudo rm -rf /usr/local/lib/node_modules
 sudo rm -rf ~/.npm
 
-Unbuntu
+Zweiter Schritt - uninstall node.js
+Unbuntu - uninstall node.js
 brew uninstall --force node
 brew install node
 
-Debian
+Debian - uninstall node.js
 sudo apt remove nodejs
 sudo apt purge nodejs
+sudo apt autoremove
 
 
