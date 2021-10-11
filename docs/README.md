@@ -96,6 +96,16 @@ npm install
 ./Zenbot.sh trade --paper
 ```
 
+Zusatz
+
+## To install the Yarn package manager, run:
+```
+     curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/yarnkey.gpg >/dev/null
+     echo "deb [signed-by=/usr/share/keyrings/yarnkey.gpg] https://dl.yarnpkg.com/debian stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+     sudo apt-get update && sudo apt-get install yarn
+```
+
+
 ### Docker (optional)
 
 Um Zenbot unter Docker auszuführen, installieren Sie Docker, Docker Compose und Docker Machine (falls erforderlich). Sie können den Anweisungen unter https://docs.docker.com/compose/install/ folgen.
