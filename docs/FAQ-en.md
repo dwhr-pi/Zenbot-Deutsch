@@ -171,9 +171,12 @@ in [zenbot.sh](../zenbot.sh) to
  
  
  
- XXXXXXXXXXXXXXXXXXX Neu New
+XXXXXXXXXXXXXXXXXXX Neu New
  
+npm ERR! 404 Not Found - GET https://registry.npmjs.org/ccxt/-/ccxt-1.33.64.tgz - Not found
+
  
+ XXXXXXXXXXXXXXXXXXX
  Error: Cannot find module 'semver'
  https://stackoverflow.com/questions/33870520/npm-install-cannot-find-module-semver
  
