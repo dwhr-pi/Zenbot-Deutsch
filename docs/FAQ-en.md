@@ -201,6 +201,8 @@ sudo apt autoremove
 
 
 https://nodesource.com/blog/installing-node-js-8-tutorial-linux-via-package-manager/
+
+Node install einer bestimmten Version. 
 # Using Ubuntu
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
