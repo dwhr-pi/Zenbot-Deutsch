@@ -190,6 +190,8 @@ brew uninstall --force node
 brew install node
 
 Debian - uninstall node.js
+https://coderrocketfuel.com/article/how-to-uninstall-node-js-on-debian-10
+
 sudo apt remove nodejs
 sudo apt purge nodejs
 sudo apt autoremove
