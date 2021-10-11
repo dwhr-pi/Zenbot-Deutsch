@@ -310,4 +310,5 @@ brew install node
 npm install -g semver
 ```
 XXXXXXXXXXXXXXXXXXX
-
+ccxt wird vermisst.
+https://www.npmjs.com/package/ccxt
