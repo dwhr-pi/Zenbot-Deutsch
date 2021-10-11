@@ -75,6 +75,27 @@ npm install
 ./Zenbot.sh trade --paper
 ```
 
+### DietPis's Debian Bullseye - Schritt für Schritt
+[Video](https://youtu.be/BEhU55W9pBI)
+[Blog Post](https://jaynagpaul.com/algorithmic-crypto-trading?utm_source=Zenbot)
+
+funktioniert noch nicht!
+
+```
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install build-essential mongodb -y
+
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+git clone https://github.com/deviavir/Zenbot.git
+cd Zenbot
+npm install
+
+./Zenbot.sh trade --paper
+```
+
 ### Docker (optional)
 
 Um Zenbot unter Docker auszuführen, installieren Sie Docker, Docker Compose und Docker Machine (falls erforderlich). Sie können den Anweisungen unter https://docs.docker.com/compose/install/ folgen.
