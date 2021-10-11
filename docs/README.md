@@ -118,7 +118,7 @@ npm install -g semver
 ```
 
 ### Python 3.7
-
+Man kann auch die Build Essential von DietPi verwenden. 
 ```
 sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev curl libbz2-dev
 
