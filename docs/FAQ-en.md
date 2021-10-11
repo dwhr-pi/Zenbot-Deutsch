@@ -197,3 +197,11 @@ sudo apt purge nodejs
 sudo apt autoremove
 
 
+https://nodesource.com/blog/installing-node-js-8-tutorial-linux-via-package-manager/
+# Using Ubuntu
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# Using Debian, as root
+curl -sL https://deb.nodesource.com/setup_8.x | bash -
+apt-get install -y nodejs
