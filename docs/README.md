@@ -132,6 +132,17 @@ git clone -b r4.2.0 https://github.com/mongodb/mongo.git
 cd mongo
 ```
 
+Wenn Python 3 installiert ist, beispiewlsweise durch die Build-essensials
+
+Dann in das Stammverzeichnis von MongoDB wechseln.
+```
+cd mongo
+```
+und anschließend bauen lassen, die Datenbank mit: 
+```
+python3 buildscripts/scons.py all
+```
+
 ### hapi
 ```
 https://github.com/hapijs/hapi
