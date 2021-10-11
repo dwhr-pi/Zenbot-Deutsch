@@ -189,4 +189,6 @@ brew install node
 
 Debian
 sudo apt remove nodejs
+sudo apt purge nodejs
+
 
