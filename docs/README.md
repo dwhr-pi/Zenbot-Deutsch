@@ -158,6 +158,11 @@ Danch installieren mit
 python3 buildscripts/scons.py --prefix=/opt/mongo install
 ```
 
+```
+sudo apt install python-pymongo
+```
+
+
 ### hapi
 ```
 https://github.com/hapijs/hapi
