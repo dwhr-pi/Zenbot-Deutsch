@@ -252,3 +252,14 @@ Dies wäre richtig!
 sudo apt-get install nodejs 12.x
 
 https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+
+
+Die NVM Pakete müssen manuell oder durch 
+npm uninstall --save <package_name>
+npm uninstall --save Zenbot4@4.0.1
+entfernt werden. 
+Durch versteckte Dateien im Stammverzeichnis den Ordner .config ausfindig machen und das Verzeichnis NVM einfach in NVM-alt umbenennen. 
+
+
+Für Node.js und NPM dies anschließend anwenden um zu installieren. 
+npm install -g npm
