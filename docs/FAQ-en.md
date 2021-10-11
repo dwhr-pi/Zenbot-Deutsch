@@ -272,7 +272,18 @@ XXXXXXXXXXXXXXXXXXX
 Error: Cannot find module 'semver'
 https://stackoverflow.com/questions/33870520/npm-install-cannot-find-module-semver
 
+But I solve my problem with these steps (this will delete other global modules you may be using):
+sudo rm -rf /usr/local/lib/node_modules
+sudo rm -rf ~/.npm
+brew uninstall --force node
+brew install node
 
+3. Used this on two different machines running El Capitan, worked in both cases. 
+7. Use brew uninstall --force node to remove all versions
+6. just install npm again. curl -0 -L https://npmjs.org/install.sh | sudo sh after remove npm folder
+
+21. If Yarn is already installed, brew uninstall --ignore-dependencies node works for me where brew uninstall --force node didn't.
+17. Its my fault for blindly pasting commands, but sudo rm -rf /usr/local/lib/node_modules caused me to lose global modules I use such as gulp and selenium server.
 
 XXXXXXXXXXXXXXXXXXX
 
