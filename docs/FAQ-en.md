@@ -227,5 +227,24 @@ https://github.com/npm/
 npm install -g npm@8.0.0
 
 npm audit fix
+
+
+Nochmal: 
 https://forum.iobroker.net/topic/35090/howto-nodejs-installation-und-upgrades-unter-debian
+
+
+
+Das derzeitig empfohlene nodeJS-Paket ist Node 12 inklusive npm 6
+curl -sL https://deb.nodesource.com/setup_VV.x | sudo -E bash
+sudo apt install nodejs
+sudo ln -s /usr/bin/node /usr/bin/nodejs
+
+
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash
+sudo apt install nodejs
+sudo ln -s /usr/bin/node /usr/bin/nodejs
+
+sudo apt-get install -y nodejs
+
+Dies installiert trotzdem Version 15....
 
