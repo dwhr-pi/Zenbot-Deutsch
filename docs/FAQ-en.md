@@ -275,6 +275,10 @@ https://stackoverflow.com/questions/33870520/npm-install-cannot-find-module-semv
 But I solve my problem with these steps (this will delete other global modules you may be using):
 sudo rm -rf /usr/local/lib/node_modules
 sudo rm -rf ~/.npm
+sudo apt remove nodejs
+sudo apt install nodejs
+
+Unbuntu
 brew uninstall --force node
 brew install node
 
