@@ -312,3 +312,7 @@ npm install -g semver
 XXXXXXXXXXXXXXXXXXX
 ccxt wird vermisst.
 https://www.npmjs.com/package/ccxt
+
+```
+git clone https://github.com/ccxt/ccxt.git
+```
