@@ -315,4 +315,5 @@ https://www.npmjs.com/package/ccxt
 
 ```
 git clone https://github.com/ccxt/ccxt.git
+npm install ccxt
 ```
