@@ -248,5 +248,7 @@ sudo apt-get install -y nodejs
 
 Dies installiert trotzdem Version 15....
 
-Dies ist richtig!
+Dies wäre richtig!
 sudo apt-get install nodejs 12.x
+
+https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
