@@ -268,4 +268,11 @@ We've deprecated any official yearly presets in 6.x in favor or babel-preset-env
 npm WARN deprecated crypto@1.0.1: This package is no longer supported. It's now a built-in Node module. If you've depended on crypto, you should switch to the one that's built-in.
 
 
+XXXXXXXXXXXXXXXXXXX
 Error: Cannot find module 'semver'
+https://stackoverflow.com/questions/33870520/npm-install-cannot-find-module-semver
+
+
+
+XXXXXXXXXXXXXXXXXXX
+
