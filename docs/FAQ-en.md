@@ -248,3 +248,5 @@ sudo apt-get install -y nodejs
 
 Dies installiert trotzdem Version 15....
 
+Dies ist richtig!
+sudo apt-get install nodejs 12.x
