@@ -122,6 +122,11 @@ npm install -g semver
 ```
 ```
 
+### hapi
+```
+https://github.com/hapijs/hapi
+```
+
 ### Docker (optional)
 
 Um Zenbot unter Docker auszuführen, installieren Sie Docker, Docker Compose und Docker Machine (falls erforderlich). Sie können den Anweisungen unter https://docs.docker.com/compose/install/ folgen.
