@@ -117,9 +117,11 @@ npm install ccxt
 npm install -g semver
 ```
 
-### MongoDB 4.2
+### Python 3.7
 
 ```
+sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev curl libbz2-dev
+
 pip3 install -r etc/pip/compile-requirements.txt
 ```
 
