@@ -107,8 +107,20 @@ npm install
 
 ### ccxt
 https://www.npmjs.com/package/ccxt
+```
+git clone https://github.com/ccxt/ccxt.git
+npm install ccxt
+```
 
+### semver
+```
+npm install -g semver
+```
 
+### MongoDB 4.2
+
+```
+```
 
 ### Docker (optional)
 
