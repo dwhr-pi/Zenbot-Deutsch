@@ -120,6 +120,8 @@ npm install -g semver
 ### MongoDB 4.2
 
 ```
+git clone -b r4.2.0 https://github.com/mongodb/mongo.git
+cd mongo
 ```
 
 ### hapi
