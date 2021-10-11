@@ -202,6 +202,8 @@ sudo apt autoremove
 
 
 XXXXXXXXXXXXXXXXXXX
+https://forum.iobroker.net/topic/35090/howto-nodejs-installation-und-upgrades-unter-debian
+
 https://nodesource.com/blog/installing-node-js-8-tutorial-linux-via-package-manager/
 
 Node install einer bestimmten Version. 
@@ -225,5 +227,5 @@ https://github.com/npm/
 npm install -g npm@8.0.0
 
 npm audit fix
-
+https://forum.iobroker.net/topic/35090/howto-nodejs-installation-und-upgrades-unter-debian
 
