@@ -111,6 +111,16 @@ https://www.npmjs.com/package/ccxt
 git clone https://github.com/ccxt/ccxt.git
 npm install ccxt
 ```
+Lese im Verzeichnis Wiki die Install.md nach. 
+Beispielsweise
+```
+echo "binance\nftx" > exchanges.cfg
+npm run build
+
+npm link
+cd home/Daniel/zenbot/node-modules/
+npm link ccxt
+```
 
 ### semver
 ```
