@@ -51,7 +51,7 @@ Abhängigkeiten installieren:
 
 ```
 cd Zenbot
-npm install
+sudo npm install zenbot
 # optional, installiert die Binärdatei `Zenbot.sh` in '/usr/local/bin':
 npm link
 ```
@@ -124,7 +124,7 @@ sudo npm link ccxt
 
 ### semver
 ```
-npm install -g semver
+sudo npm install -g semver
 ```
 
 ### Python 3.7
