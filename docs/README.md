@@ -118,8 +118,8 @@ echo "binance\nftx" > exchanges.cfg
 npm run build
 
 npm link
-cd home/Daniel/zenbot/node-modules/
-npm link ccxt
+cd /home/Daniel/zenbot/node_modules/
+sudo npm link ccxt
 ```
 
 ### semver
