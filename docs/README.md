@@ -15,7 +15,7 @@ git clone https://github.com/deviavir/Zenbot.git
 
 Oder in der Deutschen Sprache verwenden Sie dieses .git von mir in Ihrer Konsole, mit Deutschen Dokumenten, Readme und conf-sample.js-Dateien.
 ```
-git clone https://github.com/dwhr-pi/zenbot-deutsch.git
+git clone https://github.com/dwhr-pi/zenbot.git
 ```
 
 Oder ohne Git in der Englischen Sprache und erhalten die original Dateien.
@@ -29,7 +29,7 @@ mv Zenbot-master Zenbot
 Oder in der Deutschen Sprache verwenden Sie dieses ohne .git von mir in Ihrer Konsole und erhalten die Deutschen Dateien.
 
 ```
-wget https://github.com/dwhr-pi/zenbot-deutsch/archive/master.tar.gz
+wget https://github.com/dwhr-pi/zenbot/archive/master.tar.gz
 tar -xf zenbot-master.tar.gz
 mv zenbot-master zenbot
 ```
