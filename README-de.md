@@ -7,6 +7,51 @@
 
 Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen original Version v4.1.0 von [DeviaVir](https://github.com/DeviaVir/zenbot).
 
+## Mein Update
+Für die Abhängigkeit "ccxt" wurde in package-lock.json von Version "1.33.64" auf Version "1.40.1" geändert und aktuallisiert. 
+Die original Abhängigkeit steht in der DAtei "package-lock-org.json" weiterhin und dient als Backup. 
+Weitere Versionen von "ccxt" unter "https://registry.npmjs.org/ccxt/" aufindbar. 
+
+## MongoDB 
+
+HIER: https://www.mongodb.com/developer/how-to/mongodb-on-raspberry-pi/
+
+
+Installation Möglichkeiten unter: "https://docs.mongodb.com/manual/administration/install-on-linux/"
+Debian: 5.0 https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/
+4.2 https://docs.mongodb.com/v4.2/tutorial/install-mongodb-on-debian/
+https://www.google.com/search?q=mongodb+install+linux+raspbian&sxsrf=AOaemvIIuQNQartxXTzQNSTf9M2QBRyyRA%3A1634604971023&ei=qxduYYp9zpKXBOzCtLAE&ved=0ahUKEwjK_pSFotXzAhVOyYUKHWwhDUYQ4dUDCA4&uact=5&oq=mongodb+install+linux+raspbian&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEBYQHjoHCAAQRxCwAzoHCAAQsAMQQzoFCAAQywE6CAgAEBYQChAeOggIIRAWEB0QHkoECEEYAFDUpA9Yz8IPYPvHD2gBcAJ4AIABXogB6QWSAQE5mAEAoAEByAEKwAEB&sclient=gws-wiz
+
+
+https://docs.mongodb.com/v4.2/tutorial/install-mongodb-on-ubuntu/
+wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
+sudo apt-get install gnupg
+wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
+
+Ubuntu 18.04 (Bionic)
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
+Ubuntu 16.04 (Xenial)
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
+sudo apt-get update
+
+Entweder
+sudo apt-get install -y mongodb-org
+ODER
+sudo apt-get install -y mongodb-org=4.2.15 mongodb-org-server=4.2.15 mongodb-org-shell=4.2.15 mongodb-org-mongos=4.2.15 mongodb-org-tools=4.2.15
+
+
+
+HIER: https://www.mongodb.com/developer/how-to/mongodb-on-raspberry-pi/
+# Install the MongoDB 4.4 GPG key:
+wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+# Add the source location for the MongoDB packages:
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+# Download the package details for the MongoDB packages:
+sudo apt-get update
+# Install MongoDB:
+sudo apt-get install -y mongodb-org
+
+
 ## Beschreibung
 
 Zenbot ist ein Befehlszeilenbasierender-Kryptowährungs-Handelsbot, der dazu Node.js und die MongoDB verwendet. Es verfügt über:

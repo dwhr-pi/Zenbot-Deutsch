@@ -5539,8 +5539,8 @@
       "integrity": "sha512-MCLjfpHAcI3gPdx26xoQx2JqRdNMf68ovhJkqNSiZIx/yQP6yNYYKbf8ww2J6kgNTPGIrXyugFlNz5jmGtg8BQ=="
     },
     "ccxt": {
-      "version": "1.40.1",
-      "resolved": "https://registry.npmjs.org/ccxt/-/ccxt-1.40.1.tgz",
+      "version": "1.33.64",
+      "resolved": "https://registry.npmjs.org/ccxt/-/ccxt-1.33.64.tgz",
       "integrity": "sha512-GvFDmUKd9gaAtGtXWAPqwXxfKCI67+RQoSrQehfFJD6jjhaxMWV2gJD9H/dZLnZgMaP0qHuJLaNQkEG09bAG1w=="
     },
     "cexio-api-node": {
