@@ -21,6 +21,10 @@ https://www.reddit.com/r/zenbot/comments/ipnhuy/stop_profit_with_trailing_stop/
 
 https://reposhub.com/javascript/misc/Superalgos-Superalgos.html
 
+https://github.com/Superalgos/Superalgos
+
+node setup
+
 
 
 
