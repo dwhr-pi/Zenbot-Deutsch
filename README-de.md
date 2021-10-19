@@ -18,8 +18,8 @@ HIER: https://www.mongodb.com/developer/how-to/mongodb-on-raspberry-pi/
 
 
 Installation Möglichkeiten unter: "https://docs.mongodb.com/manual/administration/install-on-linux/"
-Debian: 5.0 https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/
-4.2 https://docs.mongodb.com/v4.2/tutorial/install-mongodb-on-debian/
+Debian: MongoDB 5.0 https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/  
+MongoDB 4.2 https://docs.mongodb.com/v4.2/tutorial/install-mongodb-on-debian/
 https://www.google.com/search?q=mongodb+install+linux+raspbian&sxsrf=AOaemvIIuQNQartxXTzQNSTf9M2QBRyyRA%3A1634604971023&ei=qxduYYp9zpKXBOzCtLAE&ved=0ahUKEwjK_pSFotXzAhVOyYUKHWwhDUYQ4dUDCA4&uact=5&oq=mongodb+install+linux+raspbian&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEBYQHjoHCAAQRxCwAzoHCAAQsAMQQzoFCAAQywE6CAgAEBYQChAeOggIIRAWEB0QHkoECEEYAFDUpA9Yz8IPYPvHD2gBcAJ4AIABXogB6QWSAQE5mAEAoAEByAEKwAEB&sclient=gws-wiz
 
 `Die Unbuntu Version funktioniert auch auf Debian!`
@@ -50,6 +50,8 @@ echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb
 sudo apt-get update
 # Install MongoDB:
 sudo apt-get install -y mongodb-org
+
+Das Ausführen und Starten macht Zenbot selbst. 
 
 
 ## Beschreibung
