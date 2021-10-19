@@ -2,7 +2,7 @@
 
 Diese MongoDB bitte in ein anderes Verzeichnis möglichst verschieben und anschließend damit installieren.
 
-```
+```shell
 Als Vorlage:
 sudo apt install /PFAD/ZUR/DATEI/NAMEDESPAKETS.deb
 
