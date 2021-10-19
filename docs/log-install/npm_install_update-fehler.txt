@@ -1,0 +1,17 @@
+cd zenbot
+npm install update
+
+
+npm ERR! code ENOTEMPTY
+npm ERR! syscall rename
+npm ERR! path /root/zenbot/node_modules/acorn
+npm ERR! dest /root/zenbot/node_modules/.acorn-2WTLkgI6
+npm ERR! errno -39
+npm ERR! ENOTEMPTY: directory not empty, rename '/root/zenbot/node_modules/acorn' -> '/root/zenbot/node_modules/.acorn-2WTLkgI6'
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2021-10-19T03_39_24_410Z-debug.log
+
+
+
+

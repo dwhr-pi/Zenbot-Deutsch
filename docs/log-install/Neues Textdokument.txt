@@ -1,0 +1,27 @@
+Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+
+
+You can update your dependencies to winston@2.4.5 which should resolve this issue.
+
+
+https://reposhub.com/python/miscellaneous/DeviaVir-zenbot.html
+
+
+https://www.reddit.com/r/zenbot/
+
+
+http://ec2-3-135-246-139.us-east-2.compute.amazonaws.com:8080/projects/TEST/repos/zenbot/browse/ISSUE_TEMPLATE.md?at=d56c7108c38abba84d1024da9f771ec9766e1735
+
+
+https://stackoverflow.com/questions/tagged/zenbot
+
+
+https://www.reddit.com/r/zenbot/comments/ipnhuy/stop_profit_with_trailing_stop/
+
+
+https://reposhub.com/javascript/misc/Superalgos-Superalgos.html
+
+
+
+
+

@@ -1,0 +1,44 @@
+npm fund
+zenbot4@4.1.0
+├── https://opencollective.com/babel
+│   └── @babel/core@7.11.4
+├── https://opencollective.com/bootstrap
+│   └── bootstrap@4.5.2
+├─┬ https://opencollective.com/webpack
+│ │ └── css-loader@3.6.0, schema-utils@2.7.0, file-loader@6.0.0, sass-loader@8.0.2, style-loader@1.2.1, schema-utils@2.6.6, url-loader@4.1.0, webpack@4.44.1, schema-utils@2.6.5
+│ └── https://tidelift.com/funding/github/npm/postcss
+│     └── postcss@7.0.32
+├── https://github.com/sponsors/isaacs
+│   └── glob@7.1.6, rimraf@3.0.2
+├─┬ https://opencollective.com/husky
+│ │ └── husky@4.2.5
+│ └── https://github.com/chalk/chalk?sponsor=1
+│     └── chalk@4.0.0, chalk@4.1.0
+├─┬ https://opencollective.com/lint-staged
+│ │ └── lint-staged@10.2.13
+│ ├── https://github.com/sponsors/sindresorhus
+│ │   └── cli-truncate@2.1.0, get-stream@5.2.0, onetime@5.1.2, parse-json@5.1.0, figures@3.2.0, log-update@4.0.0, p-map@4.0.0, ansi-escapes@4.3.1, type-fest@0.11.0, p-limit@2.3.0, quick-lru@5.1.1, open@7.1.0, is-docker@2.1.1, boxen@4.2.0, term-size@2.2.0, is-installed-globally@0.3.2, make-dir@3.1.0, macos-release@2.4.1, windows-release@3.3.3
+│ ├── https://github.com/sindresorhus/execa?sponsor=1
+│ │   └── execa@4.0.3
+│ └── https://github.com/sponsors/jonschlinkert
+│     └── picomatch@2.2.2
+├── https://opencollective.com/popperjs
+│   └── popper.js@1.16.1
+├── https://github.com/sponsors/feross
+│   └── zero-fill@2.2.4, safe-buffer@5.2.1
+├── https://tidelift.com/funding/github/npm/browserslist
+│   └── browserslist@4.12.2
+├── https://opencollective.com/core-js
+│   └── core-js-compat@3.6.5, core-js-pure@3.6.5
+├── https://github.com/sponsors/ljharb
+│   └── has-symbols@1.0.1, qs@6.9.4, es-abstract@1.17.5, es-to-primitive@1.2.1, is-date-object@1.0.2, is-symbol@1.0.3, is-callable@1.1.5, is-regex@1.0.5, object-inspect@1.7.0, string.prototype.trimleft@2.1.2, string.prototype.trimstart@1.0.1, string.prototype.trimright@2.1.2, string.prototype.trimend@1.0.1, promiseback@2.0.3, promise-deferred@2.0.3
+├── https://github.com/sponsors/epoberezkin
+│   └── ajv@6.12.3
+├─┬ https://github.com/sindresorhus/got?sponsor=1
+│ │ └── got@11.5.2
+│ └── https://github.com/sindresorhus/is?sponsor=1
+│     └── @sindresorhus/is@3.1.1
+├── https://github.com/yeoman/update-notifier?sponsor=1
+│   └── update-notifier@4.1.1
+└── https://ko-fi.com/tunnckoCore/commissions
+    └── formidable@1.2.2
