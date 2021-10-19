@@ -39,19 +39,60 @@ sudo apt-get install -y mongodb-org
 ODER
 sudo apt-get install -y mongodb-org=4.2.15 mongodb-org-server=4.2.15 mongodb-org-shell=4.2.15 mongodb-org-mongos=4.2.15 mongodb-org-tools=4.2.15
 
+sudo apt-get install -y mongodb-org=4.2.0 mongodb-org-server=4.2.0 mongodb-org-shell=4.2.0 mongodb-org-mongos=4.2.0 mongodb-org-tools=4.2.0
 
 
 `HIER: https://www.mongodb.com/developer/how-to/mongodb-on-raspberry-pi/`
 # Install the MongoDB 4.4 GPG key:
+```
 wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+```
 # Add the source location for the MongoDB packages:
+```
 echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+```
 # Download the package details for the MongoDB packages:
+```
 sudo apt-get update
+```
 # Install MongoDB:
+```
 sudo apt-get install -y mongodb-org
-
+```
+# Hinweis:
 Das Ausführen und Starten macht Zenbot selbst. 
+Im übrigen es ist ok, das dabei Abhängigkeiten nicht installiert werden.
+```
+			Depends: mongodb-org-shell but it is not going to be installed
+            Depends: mongodb-org-server but it is not going to be installed
+            Depends: mongodb-org-mongos but it is not going to be installed
+```
+# Dann starten
+sudo systemctl daemon-reload
+sudo systemctl enable mongod
+sudo systemctl start mongod
+
+# Dann MonogDB kurz testen
+
+```
+sudo systemctl status mongod
+```
+
+
+
+
+HIER:
+https://www.heise.de/tipps-tricks/DEB-in-Debian-Systemen-installieren-so-klappt-s-4926444.html
+
+
+```
+sudo apt install /PFAD/ZUR/DATEI/NAMEDESPAKETS.deb
+
+sudo apt install /root/mongodb-org_4.2.0_arm64.deb.deb
+```
+
+
+
 
 
 ## Beschreibung
