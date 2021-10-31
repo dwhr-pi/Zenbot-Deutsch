@@ -169,7 +169,7 @@ Dieser Fehler kann auftreten, wenn Ihre "package-lock.json" Datei leider veralte
 Um den Fehler zu analysieren, geben Sie nach dem Sie in das Zenbot Verzeichnis wechselten ihre Zenbot Trade oder Sim Answeisung ein, wie beispeisweise: 
 
 `
-node --trace-warnings zenbot trade binance.btc-usdt --strategy retrend_price  --order_type maker  --avg_slippage_pct 2 --buy_pct 95 --sell_pct 95 --markdown_buy_pct 20 --markup_sell_pct 20 --order_adjust_time 5000 --order_poll_time 5000 --sell_stop_pct 0 --buy_stop_pct 15  --poll_trades 1000 --use_prev_trades --non-interactive --run_for 1440
+node --trace-warnings zenbot trade --paper
 `
 
 Hierbei wird Zenbot wie gewohnt ausgeführt, allerdings werden die von Node.js genannten Fehler dokumentiert. 
@@ -224,3 +224,6 @@ Mit den Befehlen im neuen CLI-Fenster:
 cd ./ccxt
 npm audit fix
 `
+
+
+npm update & npm dedupe
