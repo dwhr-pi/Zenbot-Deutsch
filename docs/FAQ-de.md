@@ -156,8 +156,70 @@ Lösung (Linux & Docker): Ändern Sie die Zeile
 
 `env node zenbot.js $@`
 
-in [zenbot.sh](../zenbot.sh) bis
+in [zenbot.sh](../zenbot.sh) zu: 
 
 `env node --max-old-space-size=<memory> zenbot.js $@`
 
- Dabei ist `<memory>` die Menge an Speicherknoten, die verwendet werden darf (z. B. 4096 für 4 GB). Für Windows müssen Sie die Datei [zenbot.bat](../zenbot.bat) ändern.
+ Dabei ist `<memory>` die Menge an Speicherknoten, die verwendet werden darf (z. B. 4096 für 4 GB). 
+ Für Windows müssen Sie die Datei [zenbot.bat](../zenbot.bat) ändern.
+
+#### (node:2772) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+
+Dieser Fehler kann auftreten, wenn Ihre "package-lock.json" Datei leider veraltet ist. 
+Um den Fehler zu analysieren, geben Sie nach dem Sie in das Zenbot Verzeichnis wechselten ihre Zenbot Trade oder Sim Answeisung ein, wie beispeisweise: 
+
+`
+node --trace-warnings zenbot trade binance.btc-usdt --strategy retrend_price  --order_type maker  --avg_slippage_pct 2 --buy_pct 95 --sell_pct 95 --markdown_buy_pct 20 --markup_sell_pct 20 --order_adjust_time 5000 --order_poll_time 5000 --sell_stop_pct 0 --buy_stop_pct 15  --poll_trades 1000 --use_prev_trades --non-interactive --run_for 1440
+`
+
+Hierbei wird Zenbot wie gewohnt ausgeführt, allerdings werden die von Node.js genannten Fehler dokumentiert. 
+In meinem Fall habe ich Winston als Fehler analysiert, da dieer innerhalb von Zenbot liegt. 
+
+`
+fetching pre-roll data:
+(node:2772) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+    at emitCircularRequireWarning (internal/modules/cjs/loader.js:650:11)
+    at Object.get (internal/modules/cjs/loader.js:664:5)
+    at Object.exports.setLevels (/root/zenbot/node_modules/winston/lib/winston/common.js:32:14)
+    at Object.<anonymous> (/root/zenbot/node_modules/winston/lib/winston.js:83:8)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+(node:2788) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency                                                                                                     
+(Use `node --trace-warnings ...` to show where the warning was created)                                                                                                                                           
+                                                                                                                                                                                                                  
+skipping 32 hrs of previously collected data                                                                                                                                                                      
+                                                                                                                                                                                                                  
+binance.BTC-USDT saved 23672 trades 1 days left                                                                                                                                                                   
+............        
+`
+
+In der Packet-Jonson Datei befindet sich "winston" mit hilfe der dortigen genannten URL, ermittelte ich daraus die URL für den Browser. 
+`
+https://registry.npmjs.org/cliff/
+`
+
+Es öffnet sich eine lange unübersichtliche Jonson-Datei im Browser, aus der ich dann die GitHub Position ermitteln konnte. 
+github.com/nodejitsu/cliff
+
+Dort stellte ich fest, das dieses "REPOSITORY HAS BEEN MOVED" und nach 
+https://github.com/flatiron/cliff
+umgezogen ist. 
+
+
+https://github.com/flatiron/cliff/pull/11
+
+`
+curl http://npmjs.org/install.sh | sh
+[sudo] npm install cliff
+`
+
+
+Mit den Befehlen im neuen CLI-Fenster:
+`
+cd ./ccxt
+npm audit fix
+`
