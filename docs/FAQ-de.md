@@ -219,6 +219,7 @@ curl http://npmjs.org/install.sh | sh
 
 
 Mit den Befehlen im neuen CLI-Fenster:
+
 `
 cd ./ccxt
 npm audit fix
