@@ -140,7 +140,7 @@ docker-compose up -d
 
 ### Fehler
 
-#### Warum erhalte ich immer wieder den Fehler "Nonce"?
+#### Warum erhalte ich immer wieder den Fehler: "Nonce"?
 
 Dieser Fehler kann auftreten, wenn mehrere Instanzen von Zenbot mit demselben API-Schlüssel verwendet werden. Um dies zu vermeiden, verwenden Sie für jede gleichzeitige Instanz von Zenbot einen anderen API-Schlüssel.
 
@@ -148,7 +148,7 @@ Dies kann auch auftreten, wenn die Uhrzeit des Zenbot-Servers nicht korrekt ist.
 
 
 
-#### Warum erhalte ich immer wieder den Fehler "JavaScript-Heap nicht genügend Speicher"
+#### Warum erhalte ich immer wieder den Fehler: "JavaScript-Heap nicht genügend Speicher"
 
 Dieser Fehler kann auftreten, wenn Ihre Knotenumgebung nicht über genügend Speicher verfügt.
 
@@ -163,7 +163,7 @@ in [zenbot.sh](../zenbot.sh) zu:
  Dabei ist `<memory>` die Menge an Speicherknoten, die verwendet werden darf (z. B. 4096 für 4 GB). 
  Für Windows müssen Sie die Datei [zenbot.bat](../zenbot.bat) ändern.
 
-#### (node:2772) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+#### Warum erhalte ich immer wieder den Fehler: "(node:2772) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency" 
 
 Dieser Fehler kann auftreten, wenn Ihre "package-lock.json" Datei leider veraltet ist. 
 Um den Fehler zu analysieren, geben Sie nach dem Sie in das Zenbot Verzeichnis wechselten ihre Zenbot Trade oder Sim Answeisung ein, wie beispeisweise: 
