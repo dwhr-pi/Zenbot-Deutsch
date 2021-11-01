@@ -185,8 +185,44 @@ Thanks!
 - [bot18](https://medium.com/@carlos8f_11468/introducing-bot18-the-new-crypto-trading-bot-to-supersede-zenbot-and-unleash-the-zalgo-da8464b41e53)
 - [magic8bot](https://github.com/notVitaliy/magic8bot)
 
-- [Mit Trend_ema_rate.js und einigen intressanten Änderungen](http://ec2-3-135-246-139.us-east-2.compute.amazonaws.com:8080/projects/TEST/repos/zenbot/browse?at=8a86755753de65387da725187585cd577f6562a8)
 
+- [Mit Trend_ema_rate.js und einigen intressanten Änderungen](http://ec2-3-135-246-139.us-east-2.compute.amazonaws.com:8080/projects/TEST/repos/zenbot/browse?at=8a86755753de65387da725187585cd577f6562a8)
+- [Sim Run / Backtesting Automator für Zenbot](https://github.com/jefc1111/zenbot-sim-runner)
+- [Sim Run / Backtesting Automator für Zenbot](https://www.reddit.com/r/zenbot/comments/nkyo79/im_building_a_sim_run_backtesting_automator_for/)
+
+
+- [multiple strategies in diferent periods with diferent combinations](https://github.com/marcelomf/tbfix)
+- [Ältere Version von zenbot](https://github.com/7s4r/zenbot)
+
+- [Questions tagged [zenbot]](https://stackoverflow.com/questions/tagged/zenbot)
+- [Can I run Zenbot on Android?](https://stackoverflow.com/questions/62904463/can-i-run-zenbot-on-android)
+
+
+- [Error: invalid bucket size spec: undefined](#https://stackoverflow.com/questions/47896238/error-invalid-bucket-size-spec-undefined)
+- [Error: invalid bucket size spec: undefined](#https://github.com/DeviaVir/zenbot/issues/938)
+- [Error: invalid bucket size spec: undefined](#https://github.com/DeviaVir/zenbot/pull/926)
+
+
+- [Raspberry pi](https://www.reddit.com/r/zenbot/comments/mc5c8h/raspberry_pi/)
+- [Trading multiple currencies on one exchange](https://www.reddit.com/r/zenbot/comments/jpjur9/trading_multiple_currencies_on_one_exchange/)
+- [I'm not strong in javascript programming, and new to zenbot: where can I see the logic behind the arbitrage strategy in a human readable format (not in javascript)? or in javascript , but with detailled comments?](https://www.reddit.com/r/zenbot/comments/f4m07w/im_not_strong_in_javascript_programming_and_new/)
+- [Cryptocurrency Trading Bot Developer](https://www.reddit.com/r/zenbot/comments/f9aa3c/cryptocurrency_trading_bot_developer/)
+- [Must you use a strategy with only one Selector/Pair?](https://www.reddit.com/r/zenbot/comments/9ypuug/must_you_use_a_strategy_with_only_one_selectorpair/)
+
+
+- [Made GUI and window manager for dip strategy. It's finally stable.](https://www.reddit.com/r/zenbot/comments/j4h4ze/made_gui_and_window_manager_for_dip_strategy_its/)
+- [Reverse parameter gives interesting results for default sim command](https://www.reddit.com/r/zenbot/comments/j49cj8/reverse_parameter_gives_interesting_results_for/)
+- [Zenbot is not executing trades?](https://www.reddit.com/r/zenbot/comments/ip21zn/zenbot_is_not_executing_trades/)
+
+- [Stop profit with trailing stop](https://www.reddit.com/r/zenbot/comments/ipnhuy/stop_profit_with_trailing_stop/)
+- [Binance.US Support](https://www.reddit.com/r/zenbot/comments/iv56am/binanceus_support/)
+- [Made first zenbot strategy then made a batch script to simulate the best values](https://www.reddit.com/r/zenbot/comments/i85ude/made_first_zenbot_strategy_then_made_a_batch/)
+
+
+## Videos
+
+- [Zenbot: How to simply Buy and Sell with limit orders?](https://www.youtube.com/watch?v=WeA7q67Jt1k)
+- [A deeper introduction to Zenbot trading bot](https://www.youtube.com/watch?v=wmtFmxc0dOM)
 
 - - -
 

@@ -163,7 +163,9 @@ in [zenbot.sh](../zenbot.sh) zu:
  Dabei ist `<memory>` die Menge an Speicherknoten, die verwendet werden darf (z. B. 4096 für 4 GB). 
  Für Windows müssen Sie die Datei [zenbot.bat](../zenbot.bat) ändern.
 
-#### Warum erhalte ich immer wieder den Fehler: "(node:2772) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency" 
+
+
+#### Warum erhalte ich immer wieder den Fehler: "Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency" 
 
 Dieser Fehler kann auftreten, wenn Ihre "package-lock.json" Datei leider veraltet ist. 
 Um den Fehler zu analysieren, geben Sie nach dem Sie in das Zenbot Verzeichnis wechselten ihre Zenbot Trade oder Sim Answeisung ein, wie beispeisweise: 
@@ -223,8 +225,19 @@ Mit den Befehlen im neuen CLI-Fenster:
 `
 cd ./ccxt
 npm audit fix
+npm install
 `
 
 ```
 npm update & npm dedupe
 ```
+
+
+#### Warum erhalte ich immer wieder den Fehler: "DeprecationWarning: collection.save is deprecated. Use insertOne, insertMany, updateOne, or updateMany instead."
+
+https://github.com/DeviaVir/zenbot/issues/2607
+https://stackoverflow.com/questions/52117442/deprecationwarning-collection-insert-is-deprecated-use-insertone-insertmany-o
+https://www.reddit.com/r/zenbot/comments/coyp13/collectionsave_is_deprecated/
+
+Meiner Meinung nach, wird hier nur eine aktuelle MongoDB dazu benötitgt um diese Warung zu beheben. 
+Da die MongoDB in Version 4.2 nur für den Raspberry Pi funktioniert, ist ein Update zur Zeit nicht mäglich. 
