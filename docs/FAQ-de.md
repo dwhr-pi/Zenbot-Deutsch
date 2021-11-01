@@ -225,5 +225,6 @@ cd ./ccxt
 npm audit fix
 `
 
-
+```
 npm update & npm dedupe
+```
