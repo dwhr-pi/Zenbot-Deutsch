@@ -193,6 +193,7 @@ Thanks!
 
 - [multiple strategies in diferent periods with diferent combinations](https://github.com/marcelomf/tbfix)
 - [Ältere Version von zenbot](https://github.com/7s4r/zenbot)
+- [train.js - andere Version](http://ec2-3-135-246-139.us-east-2.compute.amazonaws.com:8080/projects/TEST/repos/zenbot/browse?at=e28aa61e54a0464e4a1eeeedda863aa75cc9902f)
 
 - [Questions tagged [zenbot]](https://stackoverflow.com/questions/tagged/zenbot)
 - [Can I run Zenbot on Android?](https://stackoverflow.com/questions/62904463/can-i-run-zenbot-on-android)
@@ -201,7 +202,7 @@ Thanks!
 - [Error: invalid bucket size spec: undefined](#https://stackoverflow.com/questions/47896238/error-invalid-bucket-size-spec-undefined)
 - [Error: invalid bucket size spec: undefined](#https://github.com/DeviaVir/zenbot/issues/938)
 - [Error: invalid bucket size spec: undefined](#https://github.com/DeviaVir/zenbot/pull/926)
-
+- [Forex train not working...](https://www.reddit.com/r/zenbot/comments/8oinab/forex_train_not_working/)
 
 - [Raspberry pi](https://www.reddit.com/r/zenbot/comments/mc5c8h/raspberry_pi/)
 - [Trading multiple currencies on one exchange](https://www.reddit.com/r/zenbot/comments/jpjur9/trading_multiple_currencies_on_one_exchange/)
@@ -218,6 +219,9 @@ Thanks!
 - [Binance.US Support](https://www.reddit.com/r/zenbot/comments/iv56am/binanceus_support/)
 - [Made first zenbot strategy then made a batch script to simulate the best values](https://www.reddit.com/r/zenbot/comments/i85ude/made_first_zenbot_strategy_then_made_a_batch/)
 
+
+- [Getting Started With Algorithmic Crypto Trading](https://jaynagpaul.com/algorithmic-crypto-trading)
+- [Run a Crypto Trading Bot on Cloud Foundry](https://blog.bespinian.io/posts/run-a-crypto-trading-bot-on-cloud-foundry/)
 
 ## Videos
 
