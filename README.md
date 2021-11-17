@@ -225,9 +225,12 @@ Thanks!
 
 ## Videos
 
-- [Zenbot: How to simply Buy and Sell with limit orders?](https://www.youtube.com/watch?v=WeA7q67Jt1k)
-- [A deeper introduction to Zenbot trading bot](https://www.youtube.com/watch?v=wmtFmxc0dOM)
+- [1. ZenBot install on Ubuntu 16.04](https://www.youtube.com/watch?v=BEhU55W9pBI)
+- [2. Zenbot: How to simply Buy and Sell with limit orders?](https://www.youtube.com/watch?v=WeA7q67Jt1k)
+- [3. A deeper introduction to Zenbot trading bot](https://www.youtube.com/watch?v=wmtFmxc0dOM)
+- [4. Trying_to_understand_how_Zenbot_strategies_are_working](https://www.youtube.com/watch?v=zdxWANfCbU4)
 
+- [Zenbot Playlist at Youtube](https://www.youtube.com/playlist?list=PLSeF7wP23srtfvrjddCGUIdvfujWNf7tJ)
 - - -
 
 ## Lizenz: MIT
