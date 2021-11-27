@@ -23,3 +23,6 @@ Um diese Videos anzusehen, laden Sie sie herunter und sehen Sie sich von dort au
 
 
 
+- [Mehr auf YouTube zu Zenbot](https://www.youtube.com/results?search_query=zenbot+trade)
+
+
