@@ -18,7 +18,7 @@ Um diese Videos anzusehen, laden Sie sie herunter und sehen Sie sich von dort au
 - [5. Versuchen zu verstehen, wie Zenbot-Strategien funktionieren - YouTube](https://youtu.be/zdxWANfCbU4)
 - [5. Versuchen zu verstehen, wie Zenbot-Strategien funktionieren.mp4 - Download](./Videos/5.Trying_to_understand_how_Zenbot_strategies_are_working-YouTube.mp4)
 
-- [5. Zenbot Trade - mit Webinterface - YouTube](https://youtu.be/39FwIhHp20k)
+- [6. Zenbot Trade - mit Webinterface - YouTube](https://youtu.be/39FwIhHp20k)
 - [6. Zenbot Trade - with webinterface.mp4](./Videos/6. Zenbot Trade - with webinterface.mp4)
 
 
