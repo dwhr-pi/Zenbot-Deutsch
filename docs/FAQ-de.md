@@ -241,3 +241,17 @@ https://www.reddit.com/r/zenbot/comments/coyp13/collectionsave_is_deprecated/
 
 Meiner Meinung nach, wird hier nur eine aktuelle MongoDB dazu benötitgt um diese Warung zu beheben. 
 Da die MongoDB in Version 4.2 nur für den Raspberry Pi funktioniert, ist ein Update zur Zeit nicht mäglich. 
+
+
+## Exchange Fehler
+
+In einigen Fällen kommt es zu Fehlermeldungen, die nur im Terminal sichtbar sind. 
+Hierzu ist der Tipp, das man die Fehlermeldung versucht zu googeln. 
+
+binance 1013 min notional
+
+bedeutet, das man micht genügend Kapital für den Trade zur Verfügung stehen hat. 
+Unter (Binance Trader Rules)[https://www.binance.com/en/trade-rule] kann man nachlesen, was hierfür das Minimum ist.
+
+Fehler wie `Timestamp` 
+Oder `Binance API down` sind auf eine schlechte Internetverbindung zurück zu führen. 
