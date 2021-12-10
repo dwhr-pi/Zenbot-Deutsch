@@ -18,7 +18,10 @@ sudo apt-get install /home/<USERNAME>/zenbot/MongoDB/mongodb-org_4.2.0_arm64.deb
 wie beispielsweise: 
 sudo apt-get install /home/dietpi/zenbot/MongoDB/mongodb-org-mongos_4.2.0_arm64.deb
 
-mongodb-org_4.2.0_arm64.deb
+
+sudo apt-get install /home/dietpi/zenbot/MongoDB/mongodb-org-mongos_5.0.4_arm64.deb
+sudo apt-get install /home/dietpi/zenbot/MongoDB/mongodb-org-shell_5.0.4_amd64.deb
+sudo apt-get install /home/dietpi/zenbot/MongoDB/mongodb-org-server_5.0.4_arm64.deb
 
 
 mit Verschieben ins root-Verzeichnis:
@@ -28,7 +31,7 @@ sudo apt install /root/mongodb-org_4.2.0_arm64.deb.deb
 ## Dann die MongoDB starten
 
 ```
-sudo systemctl daemon-reload - Nachfolgede Befehle funktionierten nicht bei mir, aber die MongoDB läuft trotzdem.
+sudo systemctl daemon-reload - Nachfolgede Befehle funktionierten bei mir nicht, aber die MongoDB läuft trotzdem.
 sudo systemctl enable mongod
 sudo systemctl start mongod
 ```
@@ -57,6 +60,10 @@ Verzeichnis der weiterer arm64 Dateien.
 
 https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/4.2/multiverse/binary-arm64/
 
+https://www.mongodb.com/download-center/community/releases/archive
+
+
+Oder die Datei `mongodb-org_4.2.0_arm64.deb` im Internet suchen.
 
 
 
