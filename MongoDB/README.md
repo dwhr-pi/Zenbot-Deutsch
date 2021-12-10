@@ -88,7 +88,7 @@ sudo apt install /root/mongodb-org_4.2.0_arm64.deb.deb
 ## Dann die MongoDB starten
 
 ```bash
-sudo systemctl daemon-reload - Nachfolgede Befehle funktionierten bei mir nicht, aber die MongoDB läuft trotzdem.
+sudo systemctl daemon-reload
 sudo systemctl enable mongod
 sudo systemctl start mongod
 ```
@@ -96,7 +96,7 @@ sudo systemctl start mongod
 ## Dann MonogDB kurz antesten
 
 ```bash
-sudo systemctl status mongod - Bis hierhin waren Fehler, aber funktionierte halt.
+sudo systemctl status mongod
 ```
 
 Quelle der Datei: https://repo.mongodb.org/apt/ubuntu/dists/xenial/
