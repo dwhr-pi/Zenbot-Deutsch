@@ -5,7 +5,7 @@ Oder direkt aus dem Verzeichnis vopn Zenbot installieren.
 
 Die dortige MongoDB ist für Zenbot auf ARM-Systemen wie dem Raspian geeignet und funktioniert gut auf DietPi's Debian BullsEye und deren vorherigen Versionen. 
 
-```shell
+```bash
 Als Vorlage:
 sudo apt install /PFAD/ZUR/DATEI/NAMEDESPAKETS.deb
 
@@ -17,14 +17,25 @@ sudo apt-get install /home/<USERNAME>/zenbot/MongoDB/mongodb-org_4.2.0_arm64.deb
 
 wie beispielsweise: 
 sudo apt-get install /home/dietpi/zenbot/MongoDB/mongodb-org-mongos_4.2.0_arm64.deb
+```
+
+```bash
+ARM
+sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-mongos_5.0.4_arm64.deb
+sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-server_5.0.4_arm64.deb
+sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-shell_5.0.4_amd64.deb
+```
 
 
-sudo apt-get install /home/dietpi/zenbot/MongoDB/mongodb-org-mongos_5.0.4_arm64.deb
-sudo apt-get install /home/dietpi/zenbot/MongoDB/mongodb-org-shell_5.0.4_amd64.deb
-sudo apt-get install /home/dietpi/zenbot/MongoDB/mongodb-org-server_5.0.4_arm64.deb
+```bash
+AMD
+sudo apt-get install /home/dietpi/zenbot/MongoDB/AMD/mongodb-org-mongos_5.0.4_amd64.deb
+sudo apt-get install /home/dietpi/zenbot/MongoDB/AMD/mongodb-org-server_5.0.4_amd64.deb
+sudo apt-get install /home/dietpi/zenbot/MongoDB/AMD/mongodb-org-shell_5.0.4_amd64.deb
+```
 
-
-mit Verschieben ins root-Verzeichnis:
+```
+mit Verschieben ins root-Verzeichnis beispielsweise:
 sudo apt install /root/mongodb-org_4.2.0_arm64.deb.deb
 ```
 
@@ -60,6 +71,7 @@ Verzeichnis der weiterer arm64 Dateien.
 
 https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/4.2/multiverse/binary-arm64/
 
+Ab hier habe ich die aktuellen erhalten.
 https://www.mongodb.com/download-center/community/releases/archive
 
 
