@@ -70,6 +70,7 @@ sudo systemctl status mongod - Bis hierhin waren Fehler, aber funktionierte halt
 Quelle der Datei: https://repo.mongodb.org/apt/ubuntu/dists/xenial/
 
 
+(MongoDB erfolgreiche Installation)[./img/mongoDB.png 'MongoDB erfolgreiche Installation']
 
 
 
