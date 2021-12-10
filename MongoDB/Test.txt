@@ -1,0 +1,47 @@
+wget -qO - https://www.mongodb.org/static/pgp/server-5.0.asc | sudo apt-key add -
+
+echo "deb http://repo.mongodb.org/apt/debian buster/mongodb-org/5.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-5.0.list
+sudo apt-get update
+
+sudo apt-get install -y mongodb-org
+sudo apt-get install -y mongodb-org=4.2.1 mongodb-org-database=4.2.1 mongodb-org-server=4.2.1 mongodb-org-shell=4.2.1 mongodb-org-mongos=4.2.1 mongodb-org-tools=4.2.1
+
+sudo apt-get install -y mongodb=4.2.1 mongodb-database=4.2.1 mongodb-server=4.2.1 mongodb-shell=4.2.1 mongodb-mongos=4.2.1 mongodb-tools=4.2.1
+
+sudo rm /etc/apt/sources.list.d/mongodb-org-5.0.list
+
+
+
+
+Die richtige Version kann man auf 
+https://repo.mongodb.org/apt/
+herraussuchen. 
+
+
+xxxxx
+sudo apt-get install /home/dietpi/zenbot/MongoDB/mongodb-org_4.2.0_arm64.deb
+
+
+
+Verzeichnis der arm64 Dateien.
+
+https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/4.2/multiverse/binary-arm64/
+2
+Create a list file for MongoDB.
+Create the list file /etc/apt/sources.list.d/mongodb-org-4.2.0.list for your version of Ubuntu.
+
+Click on the appropriate tab for your version of Ubuntu. If you are unsure of what Ubuntu version the host is running, open a terminal or shell on the host and execute lsb_release -dc.
+
+
+Create the /etc/apt/sources.list.d/mongodb-org-4.2.0.list file for Ubuntu 20.04 (Focal):
+Type in termainal: 
+sudo echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/4.2/multiverse/binary-arm64/mongodb-org4.2.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.0.list
+
+sudo apt-get -q update
+
+
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org4.2.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.0.list
+
+
+echo "deb [ arch=amd64,arm64 ] https://https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/4.2/ multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.0.list
+
