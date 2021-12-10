@@ -20,6 +20,9 @@ sudo apt-get install /home/dietpi/zenbot/MongoDB/mongodb-org-mongos_4.2.0_arm64.
 ```
 
 Bitte ändern Sie die Benutzerbezeichnung `dietpi` auf Ihren Benutzer an, es kann auch root sein. 
+
+## ARM
+
 Nachfolgend für ARM basierende Systeme, wie der Raspberry PI, nur für 64bit Betriebssysteme.
 
 ```bash
@@ -28,6 +31,7 @@ sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-mongos_5.0.4_ar
 sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-server_5.0.4_arm64.deb
 sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-shell_5.0.4_amd64.deb
 ```
+## AMD
 
 Nachfolgend für AMD basierende Systeme, wie der Home PCs, nur für 64bit Betriebssysteme.
 ```bash
