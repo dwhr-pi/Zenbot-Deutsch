@@ -29,18 +29,23 @@ Bitte ändern Sie die Benutzerbezeichnung `dietpi` auf Ihren Benutzer an, es kan
 
 ## ARM
 
-Nachfolgend für ARM basierende Systeme, wie der Raspberry PI, nur für 64bit Betriebssysteme.
+Nachfolgend für ARM basierende Systeme, wie der Raspberry PI, nur für 64bit Betriebssysteme. 
+Jeden Befehl nach exakter Reihenfolge eingeben und ausführen. 
 
 
 ARM_4.2.0
+
+```bash
+sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM_4.2.0/mongodb-org-server_4.2.0_arm64.deb
+```
+```bash
+sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM_4.2.0/mongodb-org-shell_4.2.0_arm64.deb
+```
+```bash
+sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM_4.2.0/mongodb-org-tools_4.2.0_arm64.deb
+```
 ```bash
 sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM_4.2.0/mongodb-org_4.2.0_arm64.deb
-&& 
-sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM_4.2.0/mongodb-org-server_4.2.0_arm64.deb
-&& 
-sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM_4.2.0/mongodb-org-shell_4.2.0_arm64.deb
-&& 
-sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM_4.2.0/mongodb-org-tools_4.2.0_arm64.deb
 ```
 
 ARM_5.0.4 Mit Server, der funktionierte nicht.
@@ -87,7 +92,7 @@ sudo systemctl status mongod - Bis hierhin waren Fehler, aber funktionierte halt
 Quelle der Datei: https://repo.mongodb.org/apt/ubuntu/dists/xenial/
 
 
-!(MongoDB erfolgreiche Installation)[./img/mongoDB.png 'MongoDB erfolgreiche Installation']
+!(MongoDB erfolgreiche Installation)[../img/mongoDB.png 'MongoDB erfolgreiche Installation']
 
 ## MonogDB wieder entfernen
 
