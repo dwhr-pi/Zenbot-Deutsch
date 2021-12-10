@@ -8,14 +8,20 @@ Die dortige MongoDB ist für Zenbot auf ARM-Systemen wie dem Raspian geeignet un
 ```bash
 Als Vorlage:
 sudo apt install /PFAD/ZUR/DATEI/NAMEDESPAKETS.deb
+```
 
 Beispiel Ohne zu verschieben als Root-User:
+```bash
 sudo apt install /root/zenbot/MongoDB/mongodb-org_4.2.0_arm64.deb.deb
+```
 
 Wenn sich in einem Benutzerverzeichnis sich der Clone von Zenbot befindet.
+```bash
 sudo apt-get install /home/<USERNAME>/zenbot/MongoDB/mongodb-org_4.2.0_arm64.deb
+```
 
 wie beispielsweise: 
+```bash
 sudo apt-get install /home/dietpi/zenbot/MongoDB/mongodb-org-mongos_4.2.0_arm64.deb
 ```
 
