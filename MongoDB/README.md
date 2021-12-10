@@ -1,7 +1,6 @@
-# MondoDB
+# MongoDB
 
-Diese MongoDB bitte in ein anderes Verzeichnis möglichst verschieben und anschließend damit installieren. 
-Oder direkt aus dem Verzeichnis von Zenbot installieren. 
+Direkt aus dem Verzeichnis von Zenbot installieren, dazu muß nur der Installtionspfad wegen des `User's dietpi` noch von Ihnen angepasst werdem. 
 
 Die dortige MongoDB ist für Zenbot auf ARM-Systemen wie dem Raspian geeignet und funktioniert gut auf DietPi's Debian BullsEye und deren vorherigen Versionen. 
 
@@ -22,10 +21,16 @@ sudo apt-get install /home/<USERNAME>/zenbot/MongoDB/mongodb-org_4.2.0_arm64.deb
 
 wie beispielsweise: 
 ```bash
-sudo apt-get install /home/dietpi/zenbot/MongoDB/mongodb-org-mongos_4.2.0_arm64.deb
+sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM_4.2.0/mongodb-org-mongos_4.2.0_arm64.deb
 ```
 
+
 Bitte ändern Sie die Benutzerbezeichnung `dietpi` auf Ihren Benutzer an, es kann auch root sein. 
+
+Falls Sie in das root-Verzeichnis installieren: 
+```bash
+sudo apt-get install /root/zenbot/MongoDB/ARM_4.2.0/mongodb-org-mongos_4.2.0_arm64.deb
+```
 
 ## ARM
 
@@ -33,7 +38,7 @@ Nachfolgend für ARM basierende Systeme, wie der Raspberry PI, nur für 64bit Be
 Jeden Befehl nach exakter Reihenfolge eingeben und ausführen. 
 
 
-ARM_4.2.0, dies funktioniert!
+ARM_4.2.0, dies funktioniert einwandfrei!
 
 ```bash
 sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM_4.2.0/mongodb-org-server_4.2.0_arm64.deb
@@ -51,7 +56,7 @@ Weiter mit `Dann die MongoDB starten`
 
 
 
-ARM_5.0.4 Mit Server, dies funktionierte leider nicht.
+ARM_5.0.4 Mit Server, dies funktionierte leider (noch) nicht, es fehlt eventuell eine Datei.
 ```bash
 sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-mongos_5.0.4_arm64.deb 
 && sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-server_5.0.4_arm64.deb 
@@ -62,7 +67,9 @@ sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-mongos_5.0.4_ar
 
 Nachfolgend für AMD basierende Systeme, wie der Home PCs, nur für 64bit Betriebssysteme.
 ```bash
-sudo apt-get install /home/dietpi/zenbot/MongoDB/AMD/mongodb-org-mongos_5.0.4_amd64.deb && sudo apt-get install /home/dietpi/zenbot/MongoDB/AMD/mongodb-org-server_5.0.4_amd64.deb && sudo apt-get install /home/dietpi/zenbot/MongoDB/AMD/mongodb-org-shell_5.0.4_amd64.deb
+sudo apt-get install /home/dietpi/zenbot/MongoDB/AMD/mongodb-org-mongos_5.0.4_amd64.deb 
+&& sudo apt-get install /home/dietpi/zenbot/MongoDB/AMD/mongodb-org-server_5.0.4_amd64.deb 
+&& sudo apt-get install /home/dietpi/zenbot/MongoDB/AMD/mongodb-org-shell_5.0.4_amd64.deb
 ```
 
 
@@ -80,7 +87,7 @@ sudo apt install /root/mongodb-org_4.2.0_arm64.deb.deb
 
 ## Dann die MongoDB starten
 
-```
+```bash
 sudo systemctl daemon-reload - Nachfolgede Befehle funktionierten bei mir nicht, aber die MongoDB läuft trotzdem.
 sudo systemctl enable mongod
 sudo systemctl start mongod
@@ -88,7 +95,7 @@ sudo systemctl start mongod
 
 ## Dann MonogDB kurz antesten
 
-```
+```bash
 sudo systemctl status mongod - Bis hierhin waren Fehler, aber funktionierte halt.
 ```
 
@@ -99,18 +106,26 @@ Quelle der Datei: https://repo.mongodb.org/apt/ubuntu/dists/xenial/
 
 ## MonogDB wieder entfernen
 
-```
+Falls Sie die MongoDB wieder entfernen wollen, nutzen Sie nachfolgende Befehle: 
+
+
+```bash
 sudo service mongod stop
 ```
 
-```
+```bash
 sudo apt-get purge mongodb-org*
 ```
 
-```
+```bash
 sudo rm -r /var/log/mongodb
 sudo rm -r /var/lib/mongodb
 ```
+
+
+Fertig!
+
+
 
 
 
