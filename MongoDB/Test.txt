@@ -19,13 +19,11 @@ herraussuchen.
 
 
 xxxxx
-sudo apt-get install /home/dietpi/zenbot/MongoDB/mongodb-org_4.2.0_arm64.deb
+sudo rm /etc/apt/sources.list.d//mongodb-org-4.2.0.list
 
 
 
-Verzeichnis der arm64 Dateien.
 
-https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/4.2/multiverse/binary-arm64/
 2
 Create a list file for MongoDB.
 Create the list file /etc/apt/sources.list.d/mongodb-org-4.2.0.list for your version of Ubuntu.

@@ -32,14 +32,21 @@ Bitte ändern Sie die Benutzerbezeichnung `dietpi` auf Ihren Benutzer an, es kan
 Nachfolgend für ARM basierende Systeme, wie der Raspberry PI, nur für 64bit Betriebssysteme.
 
 ```bash
+sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-mongos_5.0.4_arm64.deb && sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-shell_5.0.4_arm64.deb
+```
+
+Mit Server, der funktionierte nicht.
+```bash
 sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-mongos_5.0.4_arm64.deb && sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-server_5.0.4_arm64.deb && sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-shell_5.0.4_arm64.deb
 ```
+
 ## AMD
 
 Nachfolgend für AMD basierende Systeme, wie der Home PCs, nur für 64bit Betriebssysteme.
 ```bash
 sudo apt-get install /home/dietpi/zenbot/MongoDB/AMD/mongodb-org-mongos_5.0.4_amd64.deb && sudo apt-get install /home/dietpi/zenbot/MongoDB/AMD/mongodb-org-server_5.0.4_amd64.deb && sudo apt-get install /home/dietpi/zenbot/MongoDB/AMD/mongodb-org-shell_5.0.4_amd64.deb
 ```
+
 
 ## Intel, noch nicht gefunden.
 
@@ -71,6 +78,22 @@ Quelle der Datei: https://repo.mongodb.org/apt/ubuntu/dists/xenial/
 
 
 !(MongoDB erfolgreiche Installation)[./img/mongoDB.png 'MongoDB erfolgreiche Installation']
+
+## MonogDB wieder entfernen
+
+```
+sudo service mongod stop
+```
+
+```
+sudo apt-get purge mongodb-org*
+```
+
+```
+sudo rm -r /var/log/mongodb
+sudo rm -r /var/lib/mongodb
+```
+
 
 
 
