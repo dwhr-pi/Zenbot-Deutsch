@@ -93,7 +93,7 @@ sudo systemctl enable mongod
 sudo systemctl start mongod
 ```
 
-## Dann MonogDB kurz antesten
+## Dann die MongoDB kurz antesten
 
 ```bash
 sudo systemctl status mongod
