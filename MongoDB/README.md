@@ -41,8 +41,15 @@ Nachfolgend für AMD basierende Systeme, wie der Home PCs, nur für 64bit Betrie
 sudo apt-get install /home/dietpi/zenbot/MongoDB/AMD/mongodb-org-mongos_5.0.4_amd64.deb && sudo apt-get install /home/dietpi/zenbot/MongoDB/AMD/mongodb-org-server_5.0.4_amd64.deb && sudo apt-get install /home/dietpi/zenbot/MongoDB/AMD/mongodb-org-shell_5.0.4_amd64.deb
 ```
 
+## Intel, noch nicht gefunden.
+
+Nachfolgend für Intel basierende Systeme, wie der Home PCs, nur für 64bit Betriebssysteme.
+```bash
+sudo apt-get install /home/dietpi/zenbot/MongoDB/Intel/ && sudo apt-get install /home/dietpi/zenbot/MongoDB/Intel/ && sudo apt-get install /home/dietpi/zenbot/MongoDB/Intel/
 ```
-mit Verschieben ins root-Verzeichnis beispielsweise:
+
+mit Verschieben in das root-Verzeichnis beispielsweise:
+```bash
 sudo apt install /root/mongodb-org_4.2.0_arm64.deb.deb
 ```
 
