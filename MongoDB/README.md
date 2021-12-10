@@ -1,7 +1,7 @@
 # MondoDB
 
 Diese MongoDB bitte in ein anderes Verzeichnis möglichst verschieben und anschließend damit installieren. 
-Oder direkt aus dem Verzeichnis vopn Zenbot installieren. 
+Oder direkt aus dem Verzeichnis von Zenbot installieren. 
 
 Die dortige MongoDB ist für Zenbot auf ARM-Systemen wie dem Raspian geeignet und funktioniert gut auf DietPi's Debian BullsEye und deren vorherigen Versionen. 
 
@@ -32,7 +32,7 @@ Bitte ändern Sie die Benutzerbezeichnung `dietpi` auf Ihren Benutzer an, es kan
 Nachfolgend für ARM basierende Systeme, wie der Raspberry PI, nur für 64bit Betriebssysteme.
 
 ```bash
-sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-mongos_5.0.4_arm64.deb && sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-server_5.0.4_arm64.deb && sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-shell_5.0.4_amd64.deb
+sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-mongos_5.0.4_arm64.deb && sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-server_5.0.4_arm64.deb && sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-shell_5.0.4_arm64.deb
 ```
 ## AMD
 
