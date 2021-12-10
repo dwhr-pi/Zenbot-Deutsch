@@ -41,7 +41,7 @@ Abhängigkeiten installieren:
 cd zenbot
 npm install
 npm audit fix
-npm audit fix --forces
+npm audit fix --force
 ```
 
 Optional:

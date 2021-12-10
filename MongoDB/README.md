@@ -1,6 +1,9 @@
 # MondoDB
 
-Diese MongoDB bitte in ein anderes Verzeichnis möglichst verschieben und anschließend damit installieren.
+Diese MongoDB bitte in ein anderes Verzeichnis möglichst verschieben und anschließend damit installieren. 
+Oder direkt aus dem Verzeichnis vopn Zenbot installieren. 
+
+Die dortige MongoDB ist für Zenbot auf ARM-Systemen wie dem Raspian geeignet und funktioniert gut auf DietPi's Debian BullsEye und deren vorherigen Versionen. 
 
 ```shell
 Als Vorlage:
@@ -9,22 +12,29 @@ sudo apt install /PFAD/ZUR/DATEI/NAMEDESPAKETS.deb
 Ohne verschieben:
 sudo apt install /root/zenbot/MongoDB/mongodb-org_4.2.0_arm64.deb.deb
 
+Wenn in einem Benutzerverzeichnis sich der Clone von Zenbot befindet.
+sudo apt-get install /home/<USERNAME>/zenbot/MongoDB/mongodb-org_4.2.0_arm64.deb
+
+wie beispielsweise: 
 sudo apt-get install /home/dietpi/zenbot/MongoDB/mongodb-org_4.2.0_arm64.deb
 
 
-mit Verschieben:
+mit Verschieben ins root-Verzeichnis:
 sudo apt install /root/mongodb-org_4.2.0_arm64.deb.deb
 ```
 
-# Dann starten
-sudo systemctl daemon-reload
-sudo systemctl enable mongod
-sudo systemctl start mongod
-
-# Dann MonogDB kurz antesten
+## Dann die MongoDB starten
 
 ```
-sudo systemctl status mongod
+sudo systemctl daemon-reload - Nachfolgede Befehle funktionierten nicht bei mir, aber die MongoDB läuft trotzdem.
+sudo systemctl enable mongod
+sudo systemctl start mongod
+```
+
+## Dann MonogDB kurz antesten
+
+```
+sudo systemctl status mongod - Bis hierhin waren Fehler, aber funktionierte halt.
 ```
 
 Quelle der Datei: https://repo.mongodb.org/apt/ubuntu/dists/xenial/

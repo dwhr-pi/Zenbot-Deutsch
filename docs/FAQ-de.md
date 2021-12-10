@@ -261,17 +261,31 @@ Oder `Binance API down` sind auf eine schlechte Internetverbindung zurück zu f�
 #### Zenbot startet nicht
 
 Den Zenbot-Befehl ausführbar machen, falls Zenbot nicht starten sollte: 
+Im Übrigen die Datei zenbot.sh und update.sh mit den Eigenschaften auf Ausführbarkeit und als Vertrauenwürdig gesetzt hin überprüfen. 
 ```
 sudo chmod + zenbot.sh
 ```
+
 #### Cannot find module 'semver'
 
 Wenn der Semver nicht gefunden wird.  
+Dann stimmt etwas mit Ihrer Node.js nicht. 
+Bitte deinstallieren Sie Node.js (oftmals installiert über den Paketmanger oder Softwaremanager des Betriebssystems) und installieren diese nachfolgend neu: 
 
 ```
-sudo rm -rf /usr/local/lib/node_modules
-sudo rm -rf ~/.npm
-brew uninstall --force node
-brew install node
+sudo apt update
+sudo apt install nodejs npm
 ```
 
+Mit dem Nachfolgenden Befehl, wird nach der fertigen Neuinstallation von Node.js eine Versionnummer von Node.js ausgegebenen. 
+Wie z.B. v12.22.5, ist das der Fall, sollte Semver funktionieren. 
+```
+node -v
+```
+
+Danach nehmen Sie anschießend im Zenbot-Verzeichnis die installation der NPMs erneut vor. 
+
+```
+npm install
+npm audit fix --forces
+```
