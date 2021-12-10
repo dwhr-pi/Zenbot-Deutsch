@@ -5,8 +5,8 @@ Oder direkt aus dem Verzeichnis vopn Zenbot installieren.
 
 Die dortige MongoDB ist für Zenbot auf ARM-Systemen wie dem Raspian geeignet und funktioniert gut auf DietPi's Debian BullsEye und deren vorherigen Versionen. 
 
-```bash
 Als Vorlage:
+```bash
 sudo apt install /PFAD/ZUR/DATEI/NAMEDESPAKETS.deb
 ```
 
