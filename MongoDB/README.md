@@ -51,6 +51,9 @@ Quelle der Datei: https://repo.mongodb.org/apt/ubuntu/dists/xenial/
 Install & Configure MongoDB on the Raspberry Pi
 HIER: https://www.mongodb.com/developer/how-to/mongodb-on-raspberry-pi/
 
+Verzeichnis der weiterer arm64 Dateien.
+
+https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/4.2/multiverse/binary-arm64/
 
 
 

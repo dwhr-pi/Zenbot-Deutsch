@@ -264,6 +264,9 @@ Den Zenbot-Befehl ausführbar machen, falls Zenbot nicht starten sollte:
 Im Übrigen die Datei zenbot.sh und update.sh mit den Eigenschaften auf Ausführbarkeit und als Vertrauenwürdig gesetzt hin überprüfen. 
 ```
 sudo chmod + zenbot.sh
+
+Und dann mit:
+./zenbot.sh
 ```
 
 #### Cannot find module 'semver'
