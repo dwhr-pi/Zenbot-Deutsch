@@ -16,7 +16,9 @@ Wenn in einem Benutzerverzeichnis sich der Clone von Zenbot befindet.
 sudo apt-get install /home/<USERNAME>/zenbot/MongoDB/mongodb-org_4.2.0_arm64.deb
 
 wie beispielsweise: 
-sudo apt-get install /home/dietpi/zenbot/MongoDB/mongodb-org_4.2.0_arm64.deb
+sudo apt-get install /home/dietpi/zenbot/MongoDB/mongodb-org-mongos_4.2.0_arm64.deb
+
+mongodb-org_4.2.0_arm64.deb
 
 
 mit Verschieben ins root-Verzeichnis:
