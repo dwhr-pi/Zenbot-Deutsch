@@ -9,6 +9,9 @@ sudo apt install /PFAD/ZUR/DATEI/NAMEDESPAKETS.deb
 Ohne verschieben:
 sudo apt install /root/zenbot/MongoDB/mongodb-org_4.2.0_arm64.deb.deb
 
+sudo apt-get install /home/dietpi/zenbot/MongoDB/mongodb-org_4.2.0_arm64.deb
+
+
 mit Verschieben:
 sudo apt install /root/mongodb-org_4.2.0_arm64.deb.deb
 ```
