@@ -50,7 +50,9 @@ Installieren Sie die Binärdatei `zenbot.sh` in `/usr/local/bin`:
 npm link
 ```
 
+
 Führen Sie einen Zenbot-Befehl aus:
 ```
 zenbot --help
 ```
+

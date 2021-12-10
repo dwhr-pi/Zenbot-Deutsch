@@ -255,3 +255,23 @@ Unter (Binance Trader Rules)[https://www.binance.com/en/trade-rule] kann man nac
 
 Fehler wie `Timestamp` 
 Oder `Binance API down` sind auf eine schlechte Internetverbindung zurück zu führen. 
+
+
+
+#### Zenbot startet nicht
+
+Den Zenbot-Befehl ausführbar machen, falls Zenbot nicht starten sollte: 
+```
+sudo chmod + zenbot.sh
+```
+#### Cannot find module 'semver'
+
+Wenn der Semver nicht gefunden wird.  
+
+```
+sudo rm -rf /usr/local/lib/node_modules
+sudo rm -rf ~/.npm
+brew uninstall --force node
+brew install node
+```
+
