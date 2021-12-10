@@ -46,10 +46,16 @@ Quelle der Datei: https://repo.mongodb.org/apt/ubuntu/dists/xenial/
 
 
 
-Unwichtig ab hier - funktioniert nicht!
+## Bedingt unwichtig ab hier - funktioniert nicht!
+
+Install & Configure MongoDB on the Raspberry Pi
 HIER: https://www.mongodb.com/developer/how-to/mongodb-on-raspberry-pi/
 
 
+
+
+
+## Unwichtig ab hier - funktioniert nicht!
 Installation Möglichkeiten unter: "https://docs.mongodb.com/manual/administration/install-on-linux/"
 Debian: MongoDB 5.0 https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/  
 MongoDB 4.2 https://docs.mongodb.com/v4.2/tutorial/install-mongodb-on-debian/
@@ -57,6 +63,7 @@ https://www.google.com/search?q=mongodb+install+linux+raspbian&sxsrf=AOaemvIIuQN
 
 `Die Unbuntu Version funktioniert auch auf Debian!`
 https://docs.mongodb.com/v4.2/tutorial/install-mongodb-on-ubuntu/
+
 wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
 sudo apt-get install gnupg
 wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
