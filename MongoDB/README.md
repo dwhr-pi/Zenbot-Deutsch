@@ -31,13 +31,23 @@ Bitte ändern Sie die Benutzerbezeichnung `dietpi` auf Ihren Benutzer an, es kan
 
 Nachfolgend für ARM basierende Systeme, wie der Raspberry PI, nur für 64bit Betriebssysteme.
 
+
+ARM_4.2.0
 ```bash
-sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-mongos_5.0.4_arm64.deb && sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-shell_5.0.4_arm64.deb
+sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM_4.2.0/mongodb-org_4.2.0_arm64.deb
+&& 
+sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM_4.2.0/mongodb-org-server_4.2.0_arm64.deb
+&& 
+sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM_4.2.0/mongodb-org-shell_4.2.0_arm64.deb
+&& 
+sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM_4.2.0/mongodb-org-tools_4.2.0_arm64.deb
 ```
 
-Mit Server, der funktionierte nicht.
+ARM_5.0.4 Mit Server, der funktionierte nicht.
 ```bash
-sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-mongos_5.0.4_arm64.deb && sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-server_5.0.4_arm64.deb && sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-shell_5.0.4_arm64.deb
+sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-mongos_5.0.4_arm64.deb 
+&& sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-server_5.0.4_arm64.deb 
+&& sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-shell_5.0.4_arm64.deb
 ```
 
 ## AMD
