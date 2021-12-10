@@ -33,7 +33,7 @@ Nachfolgend für ARM basierende Systeme, wie der Raspberry PI, nur für 64bit Be
 Jeden Befehl nach exakter Reihenfolge eingeben und ausführen. 
 
 
-ARM_4.2.0
+ARM_4.2.0, dies funktioniert!
 
 ```bash
 sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM_4.2.0/mongodb-org-server_4.2.0_arm64.deb
@@ -47,15 +47,18 @@ sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM_4.2.0/mongodb-org-tools_4.2
 ```bash
 sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM_4.2.0/mongodb-org_4.2.0_arm64.deb
 ```
+Weiter mit `Dann die MongoDB starten`
 
-ARM_5.0.4 Mit Server, der funktionierte nicht.
+
+
+ARM_5.0.4 Mit Server, dies funktionierte leider nicht.
 ```bash
 sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-mongos_5.0.4_arm64.deb 
 && sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-server_5.0.4_arm64.deb 
 && sudo apt-get install /home/dietpi/zenbot/MongoDB/ARM/mongodb-org-shell_5.0.4_arm64.deb
 ```
 
-## AMD
+## AMD, nicht getestet
 
 Nachfolgend für AMD basierende Systeme, wie der Home PCs, nur für 64bit Betriebssysteme.
 ```bash
@@ -92,7 +95,7 @@ sudo systemctl status mongod - Bis hierhin waren Fehler, aber funktionierte halt
 Quelle der Datei: https://repo.mongodb.org/apt/ubuntu/dists/xenial/
 
 
-!(MongoDB erfolgreiche Installation)[../img/mongoDB.png 'MongoDB erfolgreiche Installation']
+![MongoDB erfolgreiche Installation](../img/mongoDB.png 'MongoDB erfolgreiche Installation')
 
 ## MonogDB wieder entfernen
 
