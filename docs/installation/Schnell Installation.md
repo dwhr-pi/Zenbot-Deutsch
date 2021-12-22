@@ -45,8 +45,11 @@ Abhängigkeiten installieren:
 ```
 cd zenbot
 npm install
+npn audit fix
+npm audit fix --force
 # Optional, installieren Sie die `zenbot.sh` Binärdatei in /usr/local/bin: und verlinken diese mit:
-npm link
+npm link     
+Mit NPM LINK wird Zenbot erst ausführbar und funktioniert mit den beschrieben Befehlen, wie zenbot, ansonsten funktioniert es nur zenbot.sh als Befehl!
 ```
 
 
