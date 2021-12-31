@@ -57,7 +57,7 @@ npm link
 Mit NPM LINK wird Zenbot erst ausführbar gemacht und funktioniert mit den beschrieben Befehlen, wie zenbot, ansonsten funktioniert nur zenbot.sh als Befehl!
 ```
 
-### Die `package-lock.json` aktuallisieren - Noch nicht gültig
+### Die Depencies `package-lock.json` aktuallisieren - Noch nicht gültig
 Sollte man dennoch eine schwerwiegende Fehlermeldung mit `Node Install` erhalten und Zenbot kann und will nicht mehr starten, dann geht man hierbei wie folgt vor. 
 https://betterprogramming.pub/npm-ci-vs-npm-install-which-should-you-use-in-your-node-js-projects-51e07cb71e26
 Oder siehe bei [Handling Old Lockfiles](https://docs.npmjs.com/cli/v8/configuring-npm/package-lock-json) nach. 
@@ -79,6 +79,10 @@ funktioniert leider noch nicht.
 
 npm upgrade ???
 durchführen. 
+
+Die Depencies der nachfolgenden Zenbots auf DeviaVir haben stark abgenommen. 
+Daher habe ich endschlossen, lieber die alte Version vorerst beizubehalten. 
+
 
 
 # ausführbare Datei - Unbedingt!!!
