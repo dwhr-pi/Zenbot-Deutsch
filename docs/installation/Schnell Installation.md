@@ -2,7 +2,7 @@
 
 Schritt 1) ​​Anforderungen
 - Windows / Linux / macOS 10 (oder Docker)
--  [NodeJS und NPM](NodeJS_and_NPM.md) oder hier nachlesen: [Node.js](https://nodejs.org/) (Version 8.3.0 oder höher) und die [MongoDB](.././MongoDB/README.md) 4.2.0 für ARM ist getestet oder hier nachlesen: [MongoDB](https://www.mongodb.com/) installieren.
+-  [NodeJS und NPM](NodeJS_and_NPM.md) oder hier nachlesen: [Node.js](https://nodejs.org/) (Version 8.3.0 oder höher) und die [MongoDB](../././MongoDB/README.md) 4.2.0 für ARM ist getestet oder hier nachlesen: [MongoDB](https://www.mongodb.com/) installieren.
 
 
 Schritt 2) Installieren Sie zenbot 4
