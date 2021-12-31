@@ -97,10 +97,12 @@ Im Verzeichnis von Zenbot befindet sich eine update.sh, nach dem man Zenbot via 
 
 
 # Produkte Update - Unbedingt!!!
-in dem Verzeichnis `` `` befinden sich einige Börsen. 
-Die Exchanges müssen upgedatet werden. 
+in dem Verzeichnis `extensions` \ `exchanges` befinden sich einige Börsen. 
+Diese Exchanges müssen upgedatet werden. 
 
 
+
+### Anmerkung
 Für die forex.analytics die talib oder ta-lib funktioniert nicht.
 
 Im Stammverzeichniss: 
@@ -111,7 +113,7 @@ Jetzt sollte es troz einer neueren Node-Version auf einem DietPiOS Debian bullse
 
 
 
-### Ab hier wieder gültig
+### Ab hier nicht ganz gültig
 
 ## DietPI OS 7.0 Schritt für Schritt
 
