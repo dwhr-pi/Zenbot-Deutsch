@@ -23,8 +23,8 @@ Danach wieder erneut installieren mit.
 ```
 sudo apt-get install nodejs
 ```
-`node --version`: sollte zurückgeben ... keine Datei oder Verzeichnis 
-`nodejs --version`: sollte zurückgeben v1x.x.x. 
+`node --version`: sollte zurückgeben ... keine Datei oder Verzeichnis  
+`nodejs --version`: sollte zurückgeben v1x.x.x.  
 Dies ist die von apt installierte Version. 
 Es wird wahrscheinlich weniger aktuell sein als die neueste Version, die auf der Node JS-Website verfügbar ist.
 
