@@ -2,7 +2,8 @@
 
 Schritt 1) ​​Anforderungen
 - Windows / Linux / macOS 10 (oder Docker)
--  [Node.js](https://nodejs.org/) (Version 8.3.0 oder höher) und die [MongoDB](https://www.mongodb.com/) .
+-  [NodeJS und NPM](NodeJS_and_NPM.md) oder hier nachlesen: [Node.js](https://nodejs.org/) (Version 8.3.0 oder höher) und die [MongoDB](https://MongoDB/README.md) ARM 4.2.0 ist getestet oder hier nachlesen: [MongoDB](https://www.mongodb.com/) installieren.
+
 
 Schritt 2) Installieren Sie zenbot 4
 
@@ -45,13 +46,66 @@ Abhängigkeiten installieren:
 ```
 cd zenbot
 npm install
+npm update
+npm dedupe
 npn audit fix
 npm audit fix --force
-# Optional, installieren Sie die `zenbot.sh` Binärdatei in /usr/local/bin: und verlinken diese mit:
+npm link
+
+# Optional: Installieren Sie die `zenbot.sh` Binärdatei in /usr/local/bin: und verlinken diese ebenfalls mit:
 npm link     
-Mit NPM LINK wird Zenbot erst ausführbar und funktioniert mit den beschrieben Befehlen, wie zenbot, ansonsten funktioniert es nur zenbot.sh als Befehl!
+Mit NPM LINK wird Zenbot erst ausführbar gemacht und funktioniert mit den beschrieben Befehlen, wie zenbot, ansonsten funktioniert es nur zenbot.sh als Befehl!
 ```
 
+### Die `package-lock.json` aktuallisieren - Noch nicht gültig
+Sollte man dennoch eine schwerwiegende Fehlermeldung mit `Node Install` erhalten und Zenbot kann und will nicht mehr starten, dann geht man hierbei wie folgt vor. 
+https://betterprogramming.pub/npm-ci-vs-npm-install-which-should-you-use-in-your-node-js-projects-51e07cb71e26
+Oder siehe bei [Handling Old Lockfiles](https://docs.npmjs.com/cli/v8/configuring-npm/package-lock-json) nach. 
+
+```
+npm ci
+```
+
+Sobald der Duchgang mit Node ci abgeschlossen ist, im Zenbot-Verzeichnis die Datei `package-lock.json` umbennen und/oder sogar löschen. Dann wieder erneut: 
+Um eine neue aktuelle `package-lock.json`-Datei mit Node zu generieren und zu erstellen. 
+Siehe in dem Verzeichnis: `node_moduls` von Zenbot nach, dort ist eine versteckte `.package-lock.json`-Datei. 
+
+```
+npm i -package-lock-only --force
+```
+
+funktioniert leider noch nicht.
+
+npm upgrade ???
+durchführen. 
+
+## Update.sh-Datei
+
+Im Verzeichnis von Zenbot befindet sich eine update.sh, nach dem man Zenbot via NPM installiert hat, sollte man diese auch ausführen. 
+
+
+# ausführbare Datei - Unbedingt!!!
+Überprüfe, ob die Datei `zenbot.sh` in den Dateiattributen als ausführbare Datei gilt. 
+Gleiches gilt in den Unterordern, auch dort befinden sich einige .sh-Dateien, einige sind nicht ausführbar. 
+Da einige Dateinen diese Dateiattribute zur Ausführbarkeit leider nicht mit übernommen haben. 
+
+
+# Produkte Update - Unbedingt!!!
+in dem Verzeichnis `` `` befinden sich einige Börsen. 
+Die Exchanges müssen upgedatet werden. 
+
+
+Für die forex.analytics die talib oder ta-lib funktioniert nicht.
+
+Im Stammverzeichniss: 
+
+
+Jetzt sollte es troz einer neueren Node-Version auf einem DietPiOS Debian bullseye es funktionieren. 
+Übrigens auch andere unterstützte Linux Versionen, kommen damit klar. 
+
+
+
+### Ab hier wieder gültig
 
 ## DietPI OS 7.0 Schritt für Schritt
 
