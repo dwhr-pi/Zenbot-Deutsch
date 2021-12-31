@@ -42,4 +42,4 @@ npm install semver
 npm run snyk-protect
 ```
 
-ausführen.
+ausführen.  

@@ -125,7 +125,9 @@ sudo rm -r /var/lib/mongodb
 
 Fertig!
 
-
+Anmerkung: Wie lange die MongoDB noch funktionieren wird, ist fraglich. 
+Fakt ist, das die Version 4.2.0 angeblich bald von den Machern bald entfernt wird. 
+Leider habe ich für ARM-Prozzessoren noch keine andere neuere funktionierene Version gefunden. 
 
 
 
