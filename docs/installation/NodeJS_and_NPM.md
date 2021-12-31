@@ -31,10 +31,10 @@ Es wird wahrscheinlich weniger aktuell sein als die neueste Version, die auf der
 ```
 sudo apt-get install npm
 ```
-`npm --version`: it will use the nodejs installed by apt and work correctly.
+`npm --version`: Es verwendet die von apt installierte nodejs und funktioniert ordnungsgemäß.
 
 
-Ebenfalls im absoluten Stammverzeichnis ausführen, jedoch nicht in Zenbot's Verzeichnis.
+Ebenfalls im absoluten Stammverzeichnis ausführen, jedoch ebenfalls nicht in Zenbot's Verzeichnis.
 ```
 npm install semver
 ```
