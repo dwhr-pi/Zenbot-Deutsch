@@ -68,7 +68,8 @@ npm ci
 
 Sobald der Duchgang mit Node ci abgeschlossen ist, im Zenbot-Verzeichnis die Datei `package-lock.json` umbennen und/oder sogar löschen. Dann wieder erneut: 
 Um eine neue aktuelle `package-lock.json`-Datei mit Node zu generieren und zu erstellen. 
-Siehe in dem Verzeichnis: `node_moduls` von Zenbot nach, dort ist eine versteckte `.package-lock.json`-Datei. 
+Siehe in dem Verzeichnis: `node_moduls` von Zenbot nach, dort ist eine aktuelle versteckte `.package-lock.json`-Datei. 
+Durch kopieren, umbennen könnte man die `package-lock.json`-Datei im Zenbot-Verzeichnis nun ersetzen und mal ausprobieren, ob diese dann als aktuell gilt. 
 
 ```
 npm i -package-lock-only --force
