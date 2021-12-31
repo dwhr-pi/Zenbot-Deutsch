@@ -108,7 +108,7 @@ Für die forex.analytics die talib oder ta-lib funktioniert nicht.
 Im Stammverzeichniss: 
 
 
-Jetzt sollte es troz einer neueren Node-Version auf einem DietPiOS Debian bullseye es funktionieren. 
+Jetzt sollte es trotz einer neueren Node-Version auf einem DietPiOS Debian bullseye funktionieren. 
 Übrigens auch andere unterstützte Linux Versionen, kommen damit klar. 
 
 
