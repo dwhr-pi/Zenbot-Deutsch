@@ -54,7 +54,7 @@ npm link
 
 # Optional: Installieren Sie die `zenbot.sh` Binärdatei in /usr/local/bin: und verlinken diese ebenfalls mit:
 npm link     
-Mit NPM LINK wird Zenbot erst ausführbar gemacht und funktioniert mit den beschrieben Befehlen, wie zenbot, ansonsten funktioniert es nur zenbot.sh als Befehl!
+Mit NPM LINK wird Zenbot erst ausführbar gemacht und funktioniert mit den beschrieben Befehlen, wie zenbot, ansonsten funktioniert nur zenbot.sh als Befehl!
 ```
 
 ### Die `package-lock.json` aktuallisieren - Noch nicht gültig
