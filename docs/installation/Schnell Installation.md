@@ -80,15 +80,16 @@ funktioniert leider noch nicht.
 npm upgrade ???
 durchführen. 
 
-## Update.sh-Datei
-
-Im Verzeichnis von Zenbot befindet sich eine update.sh, nach dem man Zenbot via NPM installiert hat, sollte man diese auch ausführen. 
-
 
 # ausführbare Datei - Unbedingt!!!
 Überprüfe, ob die Datei `zenbot.sh` in den Dateiattributen als ausführbare Datei gilt. 
 Gleiches gilt in den Unterordern, auch dort befinden sich einige .sh-Dateien, einige sind nicht ausführbar. 
 Da einige Dateinen diese Dateiattribute zur Ausführbarkeit leider nicht mit übernommen haben. 
+
+
+## Update.sh-Datei
+
+Im Verzeichnis von Zenbot befindet sich eine update.sh, nach dem man Zenbot via NPM installiert hat, sollte man diese auch ausführen. 
 
 
 # Produkte Update - Unbedingt!!!
