@@ -13,4 +13,5 @@ Jeder Beitrag, der dies für alle verbessert, ist sicherlich willkommen.
 * [GDAX](gdax-de.md)
 * [Kraken](kraken-de.md)
 
-Technische Infomationen findet man unter [Extensions Exchanges](../../extensions/exchanges/readme.md)
+Technische Infomationen findet man unter 
+[Extensions Exchanges](../../extensions/exchanges/readme.md)
