@@ -23,3 +23,7 @@ Diese Börsen sind gegenwärtig möglich zu verwenden, um damit handeln zu könn
 [wexnz](wexnz/README.md)
 
 ###
+
+Siehe unter
+
+[Siehe hier](../../docs/exchanges/README.md)
