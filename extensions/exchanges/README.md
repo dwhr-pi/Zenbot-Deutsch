@@ -1,7 +1,11 @@
-## Exchanges
+## Exchanges - Technische Informationen
 
 Hier ist eine Übersicht zu den vorhandenen Exchanges. 
 Diese Börsen sind gegenwärtig möglich zu verwenden, um damit handeln zu können. 
+Die hier aufgelisten Börsen erscheinen auch als vertrauenswürdig. 
+
+Weitere andere Informationen vorzugsweise zur Einrichtung und Nutzung der [Exchanges](../../../docs/exchanges/readme.md) und Zenbot siehe dort. 
+Hier sollen im Verzeichnis Technische Informationen zu den Exchanges genannt werden. 
 
 In den Abhängigkeiten zur Depencie `ccxt` können auch weitere Börsen verwendet werden. 
 Sollte eine andere hier nicht genannte Börse verwendet werden, so hat diese mit `ccxt` kompatibel zu sein. 
@@ -27,8 +31,6 @@ Damit weitere hier nicht aufgeführte Börsen, die aber mit `ccxt` kompatibel si
 * [therock](therock/readme.md)
 * [wexnz](wexnz/readme.md)
 
-###
+### Siehe unter
 
-Siehe unter
-
-[Siehe hier](../../docs/exchanges/readme.md)
+[Siehe hier](../../../docs/exchanges/readme.md)
