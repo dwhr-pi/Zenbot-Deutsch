@@ -2,7 +2,10 @@
 
 Hier ist eine Übersicht zu den vorhandenen Exchanges. 
 Diese Börsen sind gegenwärtig möglich zu verwenden, um damit handeln zu können. 
-In Abhängigkeit zur Depencie "ccxt" können auch weitere Börsen verwendet werden. 
+
+In den Abhängigkeiten zur Depencie "ccxt" können auch weitere Börsen verwendet werden. 
+Solle eine andere hier nicht genannte Börse verwendet werden, so hat diese mit ccxt kompatibel zu sein. 
+Oder Änderungen an ccxt müssen dazu vorgenommen werden. 
 ### Exchanges
 
 * [_stub](_stub/readme.md)
