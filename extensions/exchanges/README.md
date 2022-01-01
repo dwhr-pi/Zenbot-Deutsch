@@ -5,25 +5,25 @@ Diese Börsen sind gegenwärtig möglich zu verwenden, um damit handeln zu könn
 
 ### Exchanges
 
-* [_stub](_stub/README.md)
-* [Binance](binance/README.md)
-* [binanceus](binanceus/README.md)
-* [bitfinex](bitfinex/README.md)
-* [bitstamp](bitstamp/README.md)
-* [bitrex](bitrex/README.md)
-* [cexio](cexio/README.md)
-* [gdax](gdax/README.md)
-* [gemini](gemini/README.md)
-* [hitbtc](hitbtc/README.md)
-* [kraken](kraken/README.md)
-* [poloniex](poloniex/README.md)
-* [quadriga](quadriga/README.md)
-* [sim](sim/README.md)
-* [therock](therock/README.md)
-* [wexnz](wexnz/README.md)
+* [_stub](_stub/readme.md)
+* [Binance](binance/readme.md)
+* [binanceus](binanceus/readme.md)
+* [bitfinex](bitfinex/readme.md)
+* [bitstamp](bitstamp/readme.md)
+* [bitrex](bitrex/readme.md)
+* [cexio](cexio/readme.md)
+* [gdax](gdax/readme.md)
+* [gemini](gemini/readme.md)
+* [hitbtc](hitbtc/readme.md)
+* [kraken](kraken/readme.md)
+* [poloniex](poloniex/readme.md)
+* [quadriga](quadriga/readme.md)
+* [sim](sim/readme.md)
+* [therock](therock/readme.md)
+* [wexnz](wexnz/readme.md)
 
 ###
 
 Siehe unter
 
-[Siehe hier](../../docs/exchanges/README.md)
+[Siehe hier](../../docs/exchanges/readme.md)
