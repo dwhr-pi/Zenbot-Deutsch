@@ -7,25 +7,29 @@ Die folgenden Tipps können die Zuverlässigkeit bei der Verwendung von Zenbot m
 Unbedingt die `update-products.sh`-Datei im Verzeichnis \extensions\exchanges\binance\ von Zenbot auf Ausführbarkeit und Dateiberechtigung hin überprüfen und ausführen. 
 Hierdurch wird die Datei `products.json` aktuallisiert. 
 
-* [Binance-Handelsregeln](https://www.binance.com/en/trade-rule) Wenn Zenbot nicht oder nicht mehr traden sollte, liegt es an der Missachtung dieser Regeln. 
-* [Binance APIs and Streams](https://github.com/binance/binance-spot-api-docs) - Hier gibt es mitunter die Fehlercodes von Binance. 
+* [Binance-Handelsregeln](https://www.binance.com/en/trade-rule) - Wenn Zenbot nicht oder nicht mehr traden sollte, liegt es meißt an der Missachtung dieser Regeln. 
+* [Binance APIs and Streams](https://github.com/binance/binance-spot-api-docs) - Hier gibt es mitunter die Fehlercodes von Binance zu finden. 
 
 
 Error code: [Link](https://binance-docs.github.io/apidocs/spot/en/#185368440e "")
 Hier wird man eher fündig: https://github.com/binance/binance-spot-api-docs/blob/master/errors.md
 
 `-1013 msg MIN_NOTIONAL` "Not enough balance for buy, aborting. Not enough balance, or signal switched, cancel buy" - Dieser Fehlercode steht leider nicht auf 'Binance APIs and Streams' beschrieben. 
-Zum einen heißt es, das zu wenig Kapitital vorhanden ist, um zu traden. 
-Zum anderen weil dadurch die Trader-Rules, also die Binance-Handelsregeln missachtet wurden und daher Zenbot fehlerhaft konfiguiert wurde. 
-Obwohl genügend Kapiatal vorhanden ist. 
+Zum einen heißt es, das zu wenig Kapitital vorhanden ist, um traden zu können. 
+Zum anderen weil dadurch die Trader-Rules, also die Binance-Handelsregeln missachtet wurden und daher Zenbot fehlerhaft konfiguiert wurde, obwohl genügend Kapiatal dazu vorhanden ist. 
 Zu letzt, durch ein Update der `products.json`-Datei dieser Fehler einfach verschwindet. 
-Und ist zu wenig Kapital zum Traden danach vorhanden, sieht die Fehlermeldung etwas anders aus im Terminal und es steht kein -1013 mit angegeben. 
+Und ist zu wenig Kapital zum Traden danach vorhanden, sieht die Fehlermeldung etwas anders aus im Terminal und es steht kein -1013 mehr mit angegeben. 
+
+Die aktuellen Fehlercodes stehen ausschließlich nur im ausführenden Terminal angegeben. 
+Und werden nicht im Webinterface oder in den Benachrichtigungen, beispielsweise auf Telegram auch nicht mit ausgegeben. 
+Folglich, sollte etwas nicht stimmen, im Terminal aktuell prüfen und nachlesen. 
+
 
 Von dem dortig beschrieben anderen Tipps zu -1013, halte ich daher nicht soviel. 
 * [Reddit](https://www.reddit.com/r/binance/comments/74ocol/api_errorfilter_failure_min_notional/)
 
 MIN_NOTIONAL is thrown then the quantity specified in the order is below the minimum acceptable. You can find the values of these thresholds using the exchange Information endpoints for the respective symbol in your order.
-MIN_NOTIONAL wird geworfen, wenn die in der Bestellung angegebene Menge unter dem akzeptablen Minimum liegt. Die Werte dieser Schwellenwerte finden Sie über die Exchange-Informationsendpunkte für das jeweilige Symbol in Ihrer Bestellung.
+MIN_NOTIONAL wird angegeben, wenn die in der Bestellung angegebene Menge unter dem akzeptablen Minimum liegt. Die Werte dieser Schwellenwerte finden Sie über die Exchange-Informationsendpunkte für das jeweilige Symbol in Ihrer Bestellung.
 
 Please note that after the trade takes place successfully, you will not be able to refund it. Please trade carefully.
 
