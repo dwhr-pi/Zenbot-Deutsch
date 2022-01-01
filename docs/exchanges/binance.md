@@ -4,5 +4,5 @@ Die folgenden Tipps können die Zuverlässigkeit bei der Verwendung von Zenbot m
 
 ## 
 
-
+* [Binance-Handelsregeln](https://www.binance.com/en/trade-rule)
 
