@@ -83,15 +83,15 @@ https://www.binance.com/en/chat
 ## Fehlermeldungen
 
 Die Fehlermeldungen von Zenbot sind etwas anders und sind meißt nur im Terminal von Zenbot so richtig ersichtlich. 
-Die Fehlermeldungen von Binnance mit den Fehlercodes erscheinen auch als sehr wichtig. 
+Die Fehlermeldungen von Binance mit den Fehlercodes erscheinen auch als sehr wichtig. 
 
 ### invalid order for sell, aborting
 
 Es kann passieren, das nicht (mehr) genügend Kapital zur Verfügung steht. 
 Zum einen kann es sein, das nur noch unterhalb der Tradingregeln Kapital zum Handeln verfügbar ist. Daher nicht genug Kapital zur Verfügung steht. 
 Dies kann passieren, wenn der Kurs so angestiegen ist, das man unterhalb der Tradingregeln das Kapital nur noch gutschreiben bekommt. 
-Also somit festliegt. 
-Hier hilft nur noch Kapital auffüllen und nachschießen.  
+Also somit fest liegt. 
+Hier hilft nur noch Kapital auffüllen und nachzuschießen.  
 Ein weitere Fehlerursache kann sein, das man manuell getradet hat. Und noch einen offenen Trade dadurch erhalten hat. 
 Tagelang wurde mein Kapital nicht verkauft. Durch den Abbruch des Handels auf der 
 [Binance Openorder](https://www.binance.com/en/my/orders/exchange/openorder)-Seite kann man sehen, wo das vermisste Kapital sich befindet und wieder manuell abbrechen. 
@@ -107,7 +107,7 @@ not enought balance, or signal switches, cancel sell.
 Im Bot auf Telegram sieht diese Fehlermeldung von Zenbot jedoch ganz anders aus:  
 ![Telegram: enought balance, or signal switches, cancel sell](binance-not_enought_balance,_or_signal_switches,_cancel_sell-Telegram.png "Telegram: enought balance, or signal switches, cancel sell")  
 Und wird nur mit NaN angegeben, wird der Trade auf der Binance-Webseite abgebrochen, dann erscheint auch wieder die Platzierung des Kapitals, wie im unteren Teil des Bildes zu sehen. 
-Bei einer Abrfrage, wie `zenbot balance binance.eth-btc` würde dann offengelegt, wieviel Kapital zum Trade zur Verfügung steht bei Aviable. Vermisst man Geld, dann hilft nur noch ebend diese Openorder-Seite von Binance. 
+Bei einer Abrfrage, wie `zenbot balance binance.eth-btc` würde dann offengelegt, wieviel Kapital zum Traden zur Verfügung steht bei Aviable angegeben. Vermisst man Geld, dann hilft nur noch ebend diese Openorder-Seite von Binance, wegen eines möglichen offenen Trades der Abgebrochen werden sollte. 
 
 
 
