@@ -84,10 +84,15 @@ https://www.binance.com/en/chat
 Es kann passieren, das nicht (mehr) genügend Kapital zur Verfügung steht. 
 Zum einen kann es sein, das nur noch unterhalb der Tradingregeln Kapital zum Handeln verfügbar ist. Daher nicht genug Kapital zur Verfügung steht. 
 Dies kann passieren, wenn der Kurs so angestiegen ist, das man unterhalb der Tradingregeln Kapital gutschreiben bekommt. 
-Ein weitere Fehlerursache kann sein, das man manuell getradet hat. Un noch einen offenen Trade dadurch hat. 
+Ein weitere Fehlerursache kann sein, das man manuell getradet hat. Und noch einen offenen Trade dadurch erhalten hat. 
 Tagelang wurde mein Kapital nicht verkauft. Durch den Abbruch des Handels auf der 
 https://www.binance.com/en/my/orders/exchange/openorder
-Seite kann man sehen, wo das vermisste Kapital sich befindet und manuell abbrehen. 
+Seite kann man sehen, wo das vermisste Kapital sich befindet und manuell abbrechen. 
+Wenn das Kapital von Zenbot genügend aufweist und trotzdem dieser Fehler kommt, dann liegt es an einem offenen Trade, der womöglich manuell durchgeführt wurde. 
+
+invalid order for sell, aborting
+not enought balance, or signal switches, cancel sell.
+[Binance: not enought balance](binance-not_enought_balance,_or_signal_switches,_cancel_sell.png "Binance: not enought balance")
 
 Beispiel: 
 
