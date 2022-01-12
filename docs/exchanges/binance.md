@@ -85,8 +85,9 @@ https://www.binance.com/en/chat
 
 Es kann passieren, das nicht (mehr) genügend Kapital zur Verfügung steht. 
 Zum einen kann es sein, das nur noch unterhalb der Tradingregeln Kapital zum Handeln verfügbar ist. Daher nicht genug Kapital zur Verfügung steht. 
-Dies kann passieren, wenn der Kurs so angestiegen ist, das man unterhalb der Tradingregeln Kapital nur noch gutschreiben bekommt. 
-Hier hilft nur noch Kapital auffüllen und nachschuießen.  
+Dies kann passieren, wenn der Kurs so angestiegen ist, das man unterhalb der Tradingregeln das Kapital nur noch gutschreiben bekommt. 
+Also somit festliegt. 
+Hier hilft nur noch Kapital auffüllen und nachschießen.  
 Ein weitere Fehlerursache kann sein, das man manuell getradet hat. Und noch einen offenen Trade dadurch erhalten hat. 
 Tagelang wurde mein Kapital nicht verkauft. Durch den Abbruch des Handels auf der 
 https://www.binance.com/en/my/orders/exchange/openorder
