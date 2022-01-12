@@ -8,12 +8,13 @@ Unbedingt die `update-products.sh`-Datei im Verzeichnis \extensions\exchanges\bi
 Hierdurch wird die Datei `products.json` aktuallisiert. 
 
 * [Binance-Handelsregeln](https://www.binance.com/en/trade-rule) - Wenn Zenbot nicht oder nicht mehr traden sollte, liegt es meißt an der Missachtung dieser Regeln. 
+* [Binance Openorder](https://www.binance.com/en/my/orders/exchange/openorder) - Hier hat man eine Übersicht zu den gegenwärtigen offenen Handel. Und Durchgeführte Aktionen auf der Binance-Webseite. 
 * [Binance APIs and Streams](https://github.com/binance/binance-spot-api-docs) - Hier gibt es mitunter die Fehlercodes von Binance zu finden. 
 
-Hilfen zu Binace findet man hier: 
-* [Binance community](https://www.binance.com/en/community)  
-* [Telegram binanceexchange](https://t.me/binanceexchange)  
-* [Telegram binance_api_english](https://t.me/binance_api_english)  
+Hilfen zu Binance findet man hier: 
+* [Binance Community](https://www.binance.com/en/community)  
+* [Telegram Binance Exchange](https://t.me/binanceexchange)  
+* [Telegram Binance_api_english](https://t.me/binance_api_english)  
 * [Binance chat](https://www.binance.com/en/chat)
 
 Die aktuellen Fehlercodes stehen ausschließlich nur im ausführenden Terminal angegeben. 
