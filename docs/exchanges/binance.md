@@ -102,7 +102,9 @@ not enought balance, or signal switches, cancel sell.
 
 Im Bot auf Telegram sieht diese Fehlermeldung von Zenbot jedoch ganz anders aus:  
 ![Telegram: enought balance, or signal switches, cancel sell](binance-not_enought_balance,_or_signal_switches,_cancel_sell-Telegram.png "Telegram: enought balance, or signal switches, cancel sell")  
-Und wird nur mit NaN angegeben, wird der Trade auf der Binance-Webseite abgebrochen, dann erscheint auch wieder die Platzierung des Kapitals, wie unten im Bild zu sehen. 
+Und wird nur mit NaN angegeben, wird der Trade auf der Binance-Webseite abgebrochen, dann erscheint auch wieder die Platzierung des Kapitals, wie im unteren Teil des Bildes zu sehen. 
+
+
 
 
 
