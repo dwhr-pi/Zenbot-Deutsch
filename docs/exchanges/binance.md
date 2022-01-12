@@ -97,7 +97,8 @@ Tagelang wurde mein Kapital nicht verkauft. Durch den Abbruch des Handels auf de
 https://www.binance.com/en/my/orders/exchange/openorder
 Seite kann man sehen, wo das vermisste Kapital sich befindet und wieder manuell abbrechen. 
 Wenn das Kapital von Zenbot genügend aufweist und trotzdem dieser Fehler kommt, dann liegt es meißt an einem offenen Trade, der womöglich manuell durchgeführt wurde oder von irgendeinem Käufer nicht mehr angenommen wird.  
-
+Normalerweise bricht Zenbot Verkäufe selbst ab, wenn diese sich nicht mehr lohnen oder aktuell sind. 
+Manuelle Trades können Zenbot also stören.  
 ```
 invalid order for sell, aborting  
 not enought balance, or signal switches, cancel sell.  
