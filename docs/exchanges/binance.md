@@ -81,22 +81,29 @@ https://www.binance.com/en/chat
 * [The crypto bot's most common errors](Bot Fehler.md)
 
 
+## invalid order for sell, aborting
+
 Es kann passieren, das nicht (mehr) genügend Kapital zur Verfügung steht. 
 Zum einen kann es sein, das nur noch unterhalb der Tradingregeln Kapital zum Handeln verfügbar ist. Daher nicht genug Kapital zur Verfügung steht. 
-Dies kann passieren, wenn der Kurs so angestiegen ist, das man unterhalb der Tradingregeln Kapital gutschreiben bekommt. 
+Dies kann passieren, wenn der Kurs so angestiegen ist, das man unterhalb der Tradingregeln Kapital nur noch gutschreiben bekommt. 
+Hier hilft nur noch Kapital auffüllen und nachschuießen.  
 Ein weitere Fehlerursache kann sein, das man manuell getradet hat. Und noch einen offenen Trade dadurch erhalten hat. 
 Tagelang wurde mein Kapital nicht verkauft. Durch den Abbruch des Handels auf der 
 https://www.binance.com/en/my/orders/exchange/openorder
-Seite kann man sehen, wo das vermisste Kapital sich befindet und manuell abbrechen. 
-Wenn das Kapital von Zenbot genügend aufweist und trotzdem dieser Fehler kommt, dann liegt es an einem offenen Trade, der womöglich manuell durchgeführt wurde. 
+Seite kann man sehen, wo das vermisste Kapital sich befindet und wieder manuell abbrechen. 
+Wenn das Kapital von Zenbot genügend aufweist und trotzdem dieser Fehler kommt, dann liegt es meißt an einem offenen Trade, der womöglich manuell durchgeführt wurde oder von irgendeinem Käufer nicht mehr angenommen wird.  
 
-invalid order for sell, aborting
-not enought balance, or signal switches, cancel sell.
-![Binance: not enought balance](binance-not_enought_balance,_or_signal_switches,_cancel_sell.png "Binance: not enought balance")
+```
+invalid order for sell, aborting  
+not enought balance, or signal switches, cancel sell.  
+```
+![Binance: not enought balance](binance-not_enought_balance,_or_signal_switches,_cancel_sell.png "Binance: not enought balance")  
 
-Im Bot auf Telegram sieht diese Fehlermeldung ganz anders aus:
-![Telegram: enought balance, or signal switches, cancel sell](binance-not_enought_balance,_or_signal_switches,_cancel_sell-Telegram.png "Telegram: enought balance, or signal switches, cancel sell")
-Und wird nur mit NaN angegeben, wird der Trade abgebrochen, erscheint auch wieder die Platzierung des Kapitals. 
+Im Bot auf Telegram sieht diese Fehlermeldung von Zenbot jedoch ganz anders aus:  
+![Telegram: enought balance, or signal switches, cancel sell](binance-not_enought_balance,_or_signal_switches,_cancel_sell-Telegram.png "Telegram: enought balance, or signal switches, cancel sell")  
+Und wird nur mit NaN angegeben, wird der Trade auf der Binance-Webseite abgebrochen, dann erscheint auch wieder die Platzierung des Kapitals, wie unten im Bild zu sehen. 
+
+
 
 
 
