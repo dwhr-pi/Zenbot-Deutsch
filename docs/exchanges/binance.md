@@ -10,6 +10,9 @@ Hierdurch wird die Datei `products.json` aktuallisiert.
 * [Binance-Handelsregeln](https://www.binance.com/en/trade-rule) - Wenn Zenbot nicht oder nicht mehr traden sollte, liegt es meißt an der Missachtung dieser Regeln. 
 * [Binance APIs and Streams](https://github.com/binance/binance-spot-api-docs) - Hier gibt es mitunter die Fehlercodes von Binance zu finden. 
 
+Die aktuellen Fehlercodes stehen ausschließlich nur im ausführenden Terminal angegeben. 
+Und werden nicht im Webinterface oder in den Benachrichtigungen, beispielsweise auf Telegram auch nicht mit ausgegeben. 
+Folglich, sollte etwas nicht stimmen, im Terminal aktuell prüfen und nachlesen. 
 
 Error code: [Link](https://binance-docs.github.io/apidocs/spot/en/#185368440e "")
 Hier wird man eher fündig: https://github.com/binance/binance-spot-api-docs/blob/master/errors.md
@@ -17,16 +20,18 @@ Hier wird man eher fündig: https://github.com/binance/binance-spot-api-docs/blo
 `-1013 msg MIN_NOTIONAL` "Not enough balance for buy, aborting. Not enough balance, or signal switched, cancel buy" - Dieser Fehlercode steht leider nicht auf 'Binance APIs and Streams' beschrieben. 
 Zum einen heißt es, das zu wenig Kapitital vorhanden ist, um traden zu können. 
 Zum anderen weil dadurch die Trader-Rules, also die Binance-Handelsregeln missachtet wurden und daher Zenbot fehlerhaft konfiguiert wurde, obwohl genügend Kapiatal dazu vorhanden ist. 
+Auch das die Abhängigkeiten mit NPM vielleicht nicht richtig installiert wurden. 
 Zu letzt, durch ein Update der `products.json`-Datei dieser Fehler einfach verschwindet. 
 Und ist zu wenig Kapital zum Traden danach vorhanden, sieht die Fehlermeldung etwas anders aus im Terminal und es steht kein -1013 mehr mit angegeben. 
 
-Die aktuellen Fehlercodes stehen ausschließlich nur im ausführenden Terminal angegeben. 
-Und werden nicht im Webinterface oder in den Benachrichtigungen, beispielsweise auf Telegram auch nicht mit ausgegeben. 
-Folglich, sollte etwas nicht stimmen, im Terminal aktuell prüfen und nachlesen. 
 
-
-Von dem dortig beschrieben anderen Tipps zu -1013, halte ich daher nicht soviel. 
+Von dem dortig beschrieben anderen Tipps zu -1013, halte ich daher nicht so viel. 
 * [Reddit](https://www.reddit.com/r/binance/comments/74ocol/api_errorfilter_failure_min_notional/)
+* [[bug] Filter failure: MIN_NOTIONAL #1688](https://github.com/DeviaVir/zenbot/issues/1688)
+* [MIN_NOTIONAL error on binance.ETC-BNB #1793](https://github.com/DeviaVir/zenbot/issues/1793)
+* [Fixed to make proper use of the MIN_NOTIONAL parameter. (#1693)](http://ec2-3-135-246-139.us-east-2.compute.amazonaws.com:8080/projects/TEST/repos/zenbot/commits/3d98df111755dba40c7b3f7741dbbdf13cb7ecda)
+* [Bitbucket - Chema Vinacua](http://ec2-3-135-246-139.us-east-2.compute.amazonaws.com:8080/projects/TEST/repos/zenbot/browse/extensions/exchanges/binance/update-products.sh?at=042f137c60cb537302c967374af2dc3c8a62deb5)
+* []()
 
 MIN_NOTIONAL is thrown then the quantity specified in the order is below the minimum acceptable. You can find the values of these thresholds using the exchange Information endpoints for the respective symbol in your order.
 MIN_NOTIONAL wird angegeben, wenn die in der Bestellung angegebene Menge unter dem akzeptablen Minimum liegt. Die Werte dieser Schwellenwerte finden Sie über die Exchange-Informationsendpunkte für das jeweilige Symbol in Ihrer Bestellung.
@@ -68,3 +73,22 @@ https://t.me/binanceexchange
 https://t.me/binance_api_english
 
 https://www.binance.com/en/chat
+
+
+
+
+* [The crypto bot's most common errors](https://tradesanta.com/en/most-common-crypto-bot-errors)
+* [The crypto bot's most common errors](Bot Fehler.md)
+
+
+Es kann passieren, das nicht (mehr) genügend Kapital zur Verfügung steht. 
+Zum einen kann es sein, das nur noch unterhalb der Tradingregeln Kapital zum Handeln verfügbar ist. Daher nicht genug Kapital zur Verfügung steht. 
+Dies kann passieren, wenn der Kurs so angestiegen ist, das man unterhalb der Tradingregeln Kapital gutschreiben bekommt. 
+Ein weitere Fehlerursache kann sein, das man manuell getradet hat. Un noch einen offenen Trade dadurch hat. 
+Tagelang wurde mein Kapital nicht verkauft. Durch den Abbruch des Handels auf der 
+https://www.binance.com/en/my/orders/exchange/openorder
+Seite kann man sehen, wo das vermisste Kapital sich befindet und manuell abbrehen. 
+
+Beispiel: 
+
+
