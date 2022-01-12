@@ -80,8 +80,12 @@ https://www.binance.com/en/chat
 * [The crypto bot's most common errors](https://tradesanta.com/en/most-common-crypto-bot-errors)
 * [The crypto bot's most common errors](Bot Fehler.md)
 
+## Fehlermeldungen
 
-## invalid order for sell, aborting
+Die Fehlermeldungen von Zenbot sind etwas anders und sind meißt nur im Terminal von Zenbot so richtig ersichtlich. 
+Die Fehlermeldungen von Binnance mit den Fehlercodes erscheinen auch als sehr wichtig. 
+
+### invalid order for sell, aborting
 
 Es kann passieren, das nicht (mehr) genügend Kapital zur Verfügung steht. 
 Zum einen kann es sein, das nur noch unterhalb der Tradingregeln Kapital zum Handeln verfügbar ist. Daher nicht genug Kapital zur Verfügung steht. 
