@@ -10,6 +10,12 @@ Hierdurch wird die Datei `products.json` aktuallisiert.
 * [Binance-Handelsregeln](https://www.binance.com/en/trade-rule) - Wenn Zenbot nicht oder nicht mehr traden sollte, liegt es meißt an der Missachtung dieser Regeln. 
 * [Binance APIs and Streams](https://github.com/binance/binance-spot-api-docs) - Hier gibt es mitunter die Fehlercodes von Binance zu finden. 
 
+Hilfen zu Binace findet man hier: 
+* [Binance community](https://www.binance.com/en/community)  
+* [Telegram binanceexchange](https://t.me/binanceexchange)  
+* [Telegram binance_api_english](https://t.me/binance_api_english)  
+* [Binance chat](https://www.binance.com/en/chat)
+
 Die aktuellen Fehlercodes stehen ausschließlich nur im ausführenden Terminal angegeben. 
 Und werden nicht im Webinterface oder in den Benachrichtigungen, beispielsweise auf Telegram auch nicht mit ausgegeben. 
 Folglich, sollte etwas nicht stimmen, im Terminal aktuell prüfen und nachlesen. 
@@ -67,12 +73,6 @@ Binance recommends that you whitelist trusted IP address(es) for the API Key to 
 # Machen Sie Ihren ersten Trade manuell
 * [Manuell Spot-Trade ETH_BTC](https://www.binance.com/en/trade/ETH_BTC?layout=basic) - Zenbot wird mit diesem Spot-Trade handeln, wenn Sie Ihre API von Binance entsprechend konfiguriert haben. 
 * [Manuell Margin-Trade ETH_BTC](https://www.binance.com/en/trade-margin/ETH_BTC)  - Mit diesem Margin-Trade wird Zenbot agieren, wenn Sie Ihre API von Binance darauf hin konfiguierten. 
-
-https://www.binance.com/en/community
-https://t.me/binanceexchange
-https://t.me/binance_api_english
-
-https://www.binance.com/en/chat
 
 
 
