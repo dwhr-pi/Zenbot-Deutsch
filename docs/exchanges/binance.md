@@ -94,6 +94,9 @@ invalid order for sell, aborting
 not enought balance, or signal switches, cancel sell.
 [Binance: not enought balance](binance-not_enought_balance,_or_signal_switches,_cancel_sell.png "Binance: not enought balance")
 
-Beispiel: 
+Im Bot auf Telegram sieht diese Fehlermeldung ganz anders aus:
+[Telegram: enought balance, or signal switches, cancel sell](binance-not_enought_balance,_or_signal_switches,_cancel_sell-Telegram.png "Telegram: enought balance, or signal switches, cancel sell")
+Und wird nur mit NaN angegeben, wird der Trade abgebrochen, erscheint auch wieder die Platzierung des Kapitals. 
+
 
 
