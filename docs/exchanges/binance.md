@@ -94,10 +94,9 @@ Also somit festliegt.
 Hier hilft nur noch Kapital auffüllen und nachschießen.  
 Ein weitere Fehlerursache kann sein, das man manuell getradet hat. Und noch einen offenen Trade dadurch erhalten hat. 
 Tagelang wurde mein Kapital nicht verkauft. Durch den Abbruch des Handels auf der 
-https://www.binance.com/en/my/orders/exchange/openorder
-Seite kann man sehen, wo das vermisste Kapital sich befindet und wieder manuell abbrechen. 
-Wenn das Kapital von Zenbot genügend aufweist und trotzdem dieser Fehler kommt, dann liegt es meißt an einem offenen Trade, der womöglich manuell durchgeführt wurde oder von irgendeinem Käufer nicht mehr angenommen wird.  
-Normalerweise bricht Zenbot Verkäufe selbst ab, wenn diese sich nicht mehr lohnen oder aktuell sind. 
+[Binance Openorder](https://www.binance.com/en/my/orders/exchange/openorder)-Seite kann man sehen, wo das vermisste Kapital sich befindet und wieder manuell abbrechen. 
+Wenn das Kapital von Zenbot genügend aufweist und trotzdem dieser Fehler kommt, dann liegt es meißt an einem offenen Trade, der womöglich manuell durchgeführt wurde und/oder von irgendeinem Käufer nicht mehr angenommen wird.  
+Normalerweise bricht Zenbot die Verkäufe selbst ab, wenn diese sich nicht mehr lohnen oder aktuell sind. 
 Manuelle Trades können Zenbot also stören.  
 ```
 invalid order for sell, aborting  
@@ -108,6 +107,7 @@ not enought balance, or signal switches, cancel sell.
 Im Bot auf Telegram sieht diese Fehlermeldung von Zenbot jedoch ganz anders aus:  
 ![Telegram: enought balance, or signal switches, cancel sell](binance-not_enought_balance,_or_signal_switches,_cancel_sell-Telegram.png "Telegram: enought balance, or signal switches, cancel sell")  
 Und wird nur mit NaN angegeben, wird der Trade auf der Binance-Webseite abgebrochen, dann erscheint auch wieder die Platzierung des Kapitals, wie im unteren Teil des Bildes zu sehen. 
+Bei einer Abrfrage, wie `zenbot balance binance.eth-btc` würde dann offengelegt, wieviel Kapital zum Trade zur Verfügung steht bei Aviable. Vermisst man Geld, dann hilft nur noch ebend diese Openorder-Seite von Binance. 
 
 
 
