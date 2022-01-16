@@ -8,6 +8,7 @@ Unbedingt die `update-products.sh`-Datei im Verzeichnis \extensions\exchanges\bi
 Hierdurch wird die Datei `products.json` aktuallisiert. 
 
 * [Binance-Handelsregeln](https://www.binance.com/en/trade-rule) - Wenn Zenbot nicht oder nicht mehr traden sollte, liegt es meißt an der Missachtung dieser Regeln. 
+* [Fiat and Spot, Crypto Balance](https://www.binance.com/en/my/wallet/account/main)- , Siehe bei Crypto Balance die Open Order bei Ihrer gehandelten Währung.
 * [Binance Openorder](https://www.binance.com/en/my/orders/exchange/openorder) - Hier hat man eine Übersicht zu den gegenwärtigen offenen Handel. Und Durchgeführte Aktionen auf der Binance-Webseite. 
 * [Binance APIs and Streams](https://github.com/binance/binance-spot-api-docs) - Hier gibt es mitunter die Fehlercodes von Binance zu finden. 
 
@@ -105,7 +106,8 @@ not enought balance, or signal switches, cancel sell.
 ```
 ![Binance: not enought balance](binance-not_enought_balance,_or_signal_switches,_cancel_sell.png "Binance: not enought balance")  
 
-Im Bot auf Telegram sieht diese Fehlermeldung von Zenbot jedoch ganz anders aus:  
+### NaN
+Im Bot auf Telegram sieht diese Fehlermeldung von Zenbot jedoch ganz anders aus, als bei 'invalid order for sell, aborting':  
 ![Telegram: enought balance, or signal switches, cancel sell](binance-not_enought_balance,_or_signal_switches,_cancel_sell-Telegram.png "Telegram: enought balance, or signal switches, cancel sell")  
 Und wird nur mit NaN angegeben, wird der Trade auf der Binance-Webseite abgebrochen, dann erscheint auch wieder die Platzierung des Kapitals, wie im unteren Teil des Bildes zu sehen. 
 Bei einer Abrfrage, wie `zenbot balance binance.eth-btc` würde dann offengelegt, wieviel Kapital zum Traden zur Verfügung steht bei Aviable angegeben. Vermisst man Geld, dann hilft nur noch ebend diese Openorder-Seite von Binance, wegen eines möglichen offenen Trades der Abgebrochen werden sollte. 
