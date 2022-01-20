@@ -4,6 +4,7 @@ Um diese Videos anzusehen, laden Sie sie herunter und sehen Sie sich von dort au
 
 
 - [1. TOP 5 Cryptocurrency Trading Bots - Crypto Trading Bot Review](https://youtu.be/48-aTzv1_5Q)
+<iframe src="https://www.youtube-nocookie.com/embed/48-aTzv1_5Q?rel?=0" frameborder="0" allow="fullscreen" width="560" height="315" loading="lazy"></iframe>
 - [1. TOP 5 Cryptocurrency Trading Bots - Crypto Trading Bot Review.mp4 - Download](./Videos/1.TOP_5_Cryptocurrency_Trading_Bots_-_Crypto_Trading_Bot_Review.mp4)
 
 - [2. ZenBot installieren auf Ubuntu 16.04 - YouTube](https://youtu.be/BEhU55W9pBI)
