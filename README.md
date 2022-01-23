@@ -3,15 +3,22 @@
 > Um dem Pfad zu folgen: “Schauen Sie zum Meister, folgen Sie dem Meister, gehen Sie mit dem Meister, sehen Sie durch den Meister und werden Sie der Meister.”
 > – Zenbot-Sprichwort
 
-# Zenbot-Deutsch [![Build/Test Status](https://travis-ci.org/DeviaVir/zenbot.svg?branch=master)](https://travis-ci.org/DeviaVir/zenbot) 
+# Zenbot Deutsch [![Build/Test Status](https://travis-ci.org/DeviaVir/zenbot.svg?branch=master)](https://travis-ci.org/DeviaVir/zenbot) 
 
 Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen original Version v4.1.0 von [DeviaVir](https://github.com/DeviaVir/zenbot).
+
+## Mein Update
+Für die Abhängigkeit "ccxt" wurde in package-lock.json von Version "1.33.64" auf Version "1.40.1" geändert und aktuallisiert. 
+Die original Abhängigkeit steht in der Datei "package-lock-org.json" weiterhin und dient als Backup. 
+Weitere Versionen von "ccxt" unter "https://registry.npmjs.org/ccxt/" aufindbar. 
+
+## MongoDB - Das Problem auf dem Raspbian!
 
 ## Inhaltsverzeichnis
 
 - ### exchanges
 - [bitstamp-de.md](docs/exchanges/bitstamp-de.md) Fügen Sie börsenspezifische Tipps hinzu, um anderen zu helfen, ähnliche Kopfschmerzen zu vermeiden.(https://github.com/DeviaVir/zenbot/pull/908)
-- [bitstamp-en.md](docs/exchanges/bitstamp-en.md) Englisches Original [Add exchange-specific tips to help others avoid similar headaches.](https://github.com/DeviaVir/zenbot/pull/908)
+
 - [bitstamp.md](docs/exchanges/bitstamp.md) [Add exchange-specific tips to help others avoid similar headaches.](https://github.com/DeviaVir/zenbot/pull/908)
 - [gdax-de.md](docs/exchanges/gdax-de.md) Add files via upload
 - [gdax-en.md](docs/exchanges/gdax-en.md)  Rename gdax.md to gdax-en.md
@@ -126,7 +133,17 @@ Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen ori
 - [scripts/genetic_algo/README-en.md](scripts/genetic_algo/README-en.md)  Genetic Algorithm by @arpheno
 - [scripts/genetic_algo/README.md](scripts/genetic_algo/README.md) Genetic Algorithm by @arpheno
 
+## Aktueller Status
 
+Zenbot 4 ist funktionsfähig, hat aber Probleme, zuverlässig Gewinne zu erzielen. An dieser Stelle **würde ich davon abraten, mit großen Beträgen zu handeln**, bis einige dieser Probleme gelöst werden können:
+
+- Viele Leute melden [Verluste im Live-Handel](https://github.com/carlos8f/zenbot/issues/189), auch wenn die Simulationsergebnisse und/oder der Papierhandel positiv sind.
+- Dies ist im Moment meine höchste Priorität, da ein unrentabler Bot nicht viel wert ist, aber verstehen Sie bitte, dass es schwierig ist, zuverlässig Gewinne zu erzielen, und ebenso einen realistischen Simulator.
+- Die Verluste können darauf zurückzuführen sein, dass die Default-Strategie bei seitwärts gerichteten (nicht tendierenden) Marktbedingungen nicht gut funktioniert, während der Ausführung von Limit-Orders ausrutscht oder beides. Derzeit würde ich davon abraten, Zenbot auf einem Markt zu verwenden, der keinen Trend aufweist oder allgemein abwärts tendiert.
+- Die Limit-Order-Strategie, die Zenbot verwendet, um Taker-Gebühren zu vermeiden, ist anfällig für Rennbedingungen und Verzögerungen. Es muss wahrscheinlich ein Modus für die Verwendung von marktüblichen Aufträgen geschaffen werden, der häufige Handelsstrategien aufgrund von Gebühren weniger rentabel machen kann, aber insgesamt eine zuverlässigere Ausführung.
+- Eine bevorstehende Funktion wird es Zenbot ermöglichen, einen begrenzten Betrag Ihres Guthabens zu verwenden. Dies soll beim Experimentieren mit dem Live-Handel helfen, es wird die möglichen Verluste durch die oben genannten Probleme mindern.
+
+Zenbot ist für mich ein Hobbyprojekt und es tut mir leid, dass ich mich ihm nicht Vollzeit widmen kann. Da ich immer beschäftigter werde, kann sich die Entwicklung ab hier etwas verlangsamen, also haben Sie bitte etwas Geduld, wenn Probleme nicht sofort behoben werden.
 
 ## Beschreibung
 
@@ -235,8 +252,8 @@ Thanks!
 
 ## Lizenz: MIT
 
-- Copyright (C) 2018 Carlos Rodriguez
-- Copyright (C) 2018 Terra Eclipse, Inc. (http://www.terraeclipse.com/)
+- Copyright (C) 2017-2022 Carlos Rodriguez
+- Copyright (C) 2017-2022 Terra Eclipse, Inc. (http://www.terraeclipse.com/)
 
 Hiermit wird jeder Person, die eine Kopie dieser Software und der zugehörigen Dokumentationsdateien (die &quot;Software&quot;) erhält, kostenlos die Erlaubnis erteilt, uneingeschränkt mit der Software umzugehen. 
 Einschließlich, jedoch nicht beschränkt auf die Rechte zur Nutzung, zum Kopieren, Ändern, Zusammenführen, veröffentlichen, vertreiben, unterlizenzieren und/oder verkaufen Kopien der Software und erlaubten Personen, denen die Software zur Verfügung gestellt wird, dies unter den folgenden Bedingungen: 
@@ -245,5 +262,4 @@ Der obige Urheberrechtshinweis und dieser Erlaubnishinweis sind in allen Kopien 
 
 DIE SOFTWARE WIRD &quot;WIE GESEHEN&quot; OHNE JEGLICHE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GEWÄHRLEISTUNG ZUR VERFÜGUNG GESTELLT. 
 EINSCHLIESSLICH DER GEWÄHRLEISTUNG FÜR MARKTGÄNGIGKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTVERLETZUNG. 
-IN KEINEM FALL HAFTEN DIE AUTOREN ODER COPYRIGHT-INHABER FÜR JEGLICHE ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, OB VERTRAGS-, TORT- ODER ANDERWEITIGE MASSNAHMEN AUS, AUS ODER IM ZUSAMMENHANG MIT DER SOFTWARE ODER DER NUTZUNG ODER ANDEREN ANGEBOTE SOFTWARE.
-
+IN KEINEM FALL HAFTEN DIE AUTOREN ODER COPYRIGHT-INHABER FÜR JEGLICHE ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, OB VERTRAGS-, TORT- ODER ANDERWEITIGE MASSNAHMEN AUS, AUS ODER IM ZUSAMMENHANG MIT DER SOFTWARE ODER DER NUTZUNG ODER ANDEREN ANGEBOTE SOFTWARE. 
