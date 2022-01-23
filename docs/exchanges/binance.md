@@ -18,9 +18,12 @@ Hilfen zu Binance findet man hier:
 * [Telegram Binance_api_english](https://t.me/binance_api_english)  
 * [Binance chat](https://www.binance.com/en/chat)
 
+Auf dem `Taker`-Marktplatz ist mehr los, als auf dem `Maker`. Wenn Zenbot also nicht tradet also keinen Verkauf abschließt auf Binance, dann versuchen Sie den `--order_type taker` als Anweisung. 
+
 Die aktuellen Fehlercodes stehen ausschließlich nur im ausführenden Terminal angegeben. 
 Und werden nicht im Webinterface oder in den Benachrichtigungen, beispielsweise auf Telegram auch nicht mit ausgegeben. 
 Folglich, sollte etwas nicht stimmen, im Terminal aktuell prüfen und nachlesen. 
+
 
 Error code: [Link](https://binance-docs.github.io/apidocs/spot/en/#185368440e "")
 Hier wird man eher fündig: https://github.com/binance/binance-spot-api-docs/blob/master/errors.md
