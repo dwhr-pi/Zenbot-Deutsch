@@ -83,7 +83,7 @@ Binance recommends that you whitelist trusted IP address(es) for the API Key to 
 
 
 * [The crypto bot's most common errors](https://tradesanta.com/en/most-common-crypto-bot-errors)
-* [The crypto bot's most common errors](Bot Fehler.md)
+* [The crypto bot's most common errors](Bot_Fehler.md)
 
 ## Fehlermeldungen
 
@@ -112,7 +112,7 @@ not enought balance, or signal switches, cancel sell.
 ### NaN
 Im Bot auf Telegram sieht diese Fehlermeldung von Zenbot jedoch ganz anders aus, als bei 'invalid order for sell, aborting':  
 ![Telegram: enought balance, or signal switches, cancel sell](binance-not_enought_balance,_or_signal_switches,_cancel_sell-Telegram.png "Telegram: enought balance, or signal switches, cancel sell")  
-Und wird nur mit NaN angegeben, wird der Trade auf der Binance-Webseite abgebrochen, dann erscheint auch wieder die Platzierung des Kapitals, wie im unteren Teil des Bildes zu sehen. 
+Und wird nur mit NaN angegeben, wird der Trade auf der Binance-Webseite abgebrochen, dann erscheint auch wieder die Platzierung des Kapitals, wie im ganz unteren Teil des vorherigen Bildes zu sehen. 
 Bei einer Abrfrage, wie `zenbot balance binance.eth-btc` würde dann offengelegt, wieviel Kapital tatsächlich zum Traden bei Aviable zur Verfügung steht angegeben. Vermisst man Geld hierbei, dann hilft nur noch ebend diese [Binance Openorder](https://www.binance.com/en/my/orders/exchange/openorder)-Seite, wegen eines möglichen offenen Trades der infolge abgebrochen werden sollte. 
 
 
