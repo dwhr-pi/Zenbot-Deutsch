@@ -8,7 +8,7 @@ Unbedingt die `update-products.sh`-Datei im Verzeichnis `\extensions\exchanges\b
 Hierdurch wird die Datei `products.json` aktuallisiert. (Mit aufkommenden Problemen aktualiere ich diese Datei vorsichtshalber.)
 
 * [Binance-Handelsregeln](https://www.binance.com/en/trade-rule) - Wenn Zenbot nicht oder nicht mehr traden sollte, liegt es meißt an der Missachtung dieser Regeln. 
-* [Fiat and Spot, Crypto Balance](https://www.binance.com/en/my/wallet/account/main)- , Siehe bei Crypto Balance die Open Order bei Ihrer gehandelten Währung.
+* [Fiat and Spot, Crypto Balance](https://www.binance.com/en/my/wallet/account/main) - Siehe bei Crypto Balance die Open Order bei Ihrer gehandelten Währung.
 * [Binance Openorder](https://www.binance.com/en/my/orders/exchange/openorder) - Hier hat man eine Übersicht zu den gegenwärtigen offenen Handel. Und Durchgeführte Aktionen auf der Binance-Webseite. 
 * [Binance APIs and Streams](https://github.com/binance/binance-spot-api-docs) - Hier gibt es mitunter die Fehlercodes von Binance zu finden. 
 
