@@ -121,3 +121,26 @@ Bei einer Abrfrage, wie `zenbot balance binance.eth-btc` würde dann offengelegt
 
 
 
+
+
+
+
+
+
+## Binance
+
+__Filter failure: MIN_NOTIONAL__ - Your first order does not exceed the minimum set by Binance. You should increase the amount of the extra order or your first order. $11 is usually enough. The fixed-value option will help you set the first order amount in a more accurate way.
+
+__The account has got insufficient balance for requested action__ 
+
+* If the error occurs in the very beginning, it means you don’t have enough funds to start a trading deal;
+* If the error occurs at the take-profit stage, after the first order had been executed, it means that the trading bot can’t sell the amount of coins that were originally bought. This can happen if the fee was partially paid in certain coins. In your future transactions, allow the crypto bot to buy coins for fees or pay it directly on Binance in Binance Coin (BNB). To fix this, you need to buy the minimum amount of traded coins, unfreeze the cryptocurrency bot and reset Take Profit.  
+
+__Invalid API-key, IP, or permissions for action__ - API keys or exchange permissions are set wrong.
+
+__Market is closed__ - the pair is not trading due to maintenance or it was delisted.
+
+
+
+
+
