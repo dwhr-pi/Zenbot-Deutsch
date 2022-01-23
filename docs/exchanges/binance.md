@@ -44,8 +44,8 @@ Von dem dortig beschrieben anderen Tipps zu -1013, halte ich daher nicht so viel
 * [Bitbucket - Chema Vinacua](http://ec2-3-135-246-139.us-east-2.compute.amazonaws.com:8080/projects/TEST/repos/zenbot/browse/extensions/exchanges/binance/update-products.sh?at=042f137c60cb537302c967374af2dc3c8a62deb5)
 * []()
 
-MIN_NOTIONAL is thrown then the quantity specified in the order is below the minimum acceptable. You can find the values of these thresholds using the exchange Information endpoints for the respective symbol in your order.
-MIN_NOTIONAL wird angegeben, wenn die in der Bestellung angegebene Menge unter dem akzeptablen Minimum liegt. Die Werte dieser Schwellenwerte finden Sie über die Exchange-Informationsendpunkte für das jeweilige Symbol in Ihrer Bestellung.
+MIN_NOTIONAL is thrown then the quantity specified in the order is below the minimum acceptable. You can find the values of these thresholds using the exchange Information endpoints for the respective symbol in your order.  
+MIN_NOTIONAL wird angegeben, wenn die in der Bestellung angegebene Menge unter dem akzeptablen Minimum liegt. Die Werte dieser Schwellenwerte finden Sie über die Exchange-Informationsendpunkte für das jeweilige Symbol in Ihrer Bestellung.  
 
 Please note that after the trade takes place successfully, you will not be able to refund it. Please trade carefully.
 
