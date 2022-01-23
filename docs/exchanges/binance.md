@@ -4,7 +4,7 @@ Die folgenden Tipps können die Zuverlässigkeit bei der Verwendung von Zenbot m
 
 ## Wichtig
 
-Unbedingt die `update-products.sh`-Datei im Verzeichnis \extensions\exchanges\binance\ von Zenbot auf Ausführbarkeit und Dateiberechtigung hin überprüfen und ausführen. 
+Unbedingt die `update-products.sh`-Datei im Verzeichnis `\extensions\exchanges\binance\` von Zenbot auf Ausführbarkeit und Dateiberechtigung hin überprüfen und ausführen. 
 Hierdurch wird die Datei `products.json` aktuallisiert. (Mit aufkommenden Problemen aktualiere ich diese Datei vorsichtshalber.)
 
 * [Binance-Handelsregeln](https://www.binance.com/en/trade-rule) - Wenn Zenbot nicht oder nicht mehr traden sollte, liegt es meißt an der Missachtung dieser Regeln. 
