@@ -19,6 +19,7 @@ c.gdax.sandbox = process.env.ZENBOT_GDAX_SANDBOX || true
 Der GDAX (Coinbase Pro) verwendet ein Maker-Taker-Gebührenmodell zur Bestimmung seiner Handelsgebühren. Aufträge, die Liquidität bereitstellen (Herstelleraufträge), werden mit anderen Gebühren berechnet als Aufträge, die Liquidität aufnehmen (Abnehmeraufträge). Die Gebühren werden basierend auf der aktuellen Preisstufe berechnet, in der Sie sich zum Zeitpunkt der Bestellung befinden, und nicht auf der Stufe, in der Sie sich nach Abschluss eines Handels befinden würden.
 
 Hier finden Sie Ihre GDAX-Gebühren (Coinbase Pro) - https://pro.coinbase.com/orders/fees.
+Hier sind die GDAX-Handelsregeln - https://pro.coinbase.com/markets https://www.coinbase.com/de/legal/trading_rules
 
 Ändern Sie die folgende Javascript-Datei, um die Gebührenlimits an Ihre aktuelle Preisstufe anzupassen.
 

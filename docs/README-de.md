@@ -50,9 +50,9 @@ Wenn Sie Docker verwenden, fahren Sie mit Abschnitt "Docker" fort.
 Abhängigkeiten installieren:
 
 ```
-cd zenbot
-npm install
-# optional, installiert die Binärdatei `zenbot.sh` in '/usr/local/bin':
+cd Zenbot
+sudo npm install zenbot
+# optional, installiert die Binärdatei `Zenbot.sh` in '/usr/local/bin':
 npm link
 ```
 
@@ -73,6 +73,114 @@ cd Zenbot
 npm install
 
 ./Zenbot.sh trade --paper
+```
+
+### DietPis's Debian Bullseye - Schritt für Schritt
+[Video](https://youtu.be/BEhU55W9pBI)
+[Blog Post](https://jaynagpaul.com/algorithmic-crypto-trading?utm_source=Zenbot)
+
+funktioniert noch nicht!
+
+```
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install build-essential mongodb -y
+
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+git clone https://github.com/deviavir/Zenbot.git
+cd Zenbot
+npm install
+
+./Zenbot.sh trade --paper
+```
+
+## Zusatz Abhängigkeiten
+
+## To install the Yarn package manager, run:
+```
+     curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/yarnkey.gpg >/dev/null
+     echo "deb [signed-by=/usr/share/keyrings/yarnkey.gpg] https://dl.yarnpkg.com/debian stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+     sudo apt-get update && sudo apt-get install yarn
+```
+
+### ccxt
+https://www.npmjs.com/package/ccxt
+```
+git clone https://github.com/ccxt/ccxt.git
+npm install ccxt
+```
+Lese im Verzeichnis Wiki die Install.md nach. 
+Beispielsweise
+```
+echo "binance\nftx" > exchanges.cfg
+npm run build
+
+npm link
+cd /home/Daniel/zenbot/node_modules/
+sudo npm link ccxt
+```
+
+### semver
+```
+sudo npm install -g semver
+```
+
+### Python 3.7
+Man kann auch die Build Essential von DietPi verwenden. 
+```
+sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev curl libbz2-dev
+
+pip3 install -r etc/pip/compile-requirements.txt
+```
+
+Ich habe stattdessen die Build-Esseensials von DietPi verwendet. 
+
+### MongoDB 4.2
+
+```
+git clone -b r4.2.0 https://github.com/mongodb/mongo.git
+cd mongo
+```
+
+Wenn Python 3 zuvor installiert ist, beispiewlsweise durch die Build-Essensials
+
+Dann in das Stammverzeichnis von MongoDB wechseln.
+```
+cd mongo
+```
+Und die Abhängigkeiten von Python 3 erstellen lassen durch: 
+
+```
+pip3 install -r etc/pip/compile-requirements.txt
+```
+und anschließend bauen lassen, die Datenbank mit: 
+```
+python3 buildscripts/scons.py all
+```
+Oder nur die Datenbank
+```
+python3 buildscripts/scons.py mongod
+```
+Danch installieren mit
+```
+python3 buildscripts/scons.py --prefix=/opt/mongo install
+```
+
+```
+sudo apt install python-pymongo
+```
+
+
+### hapi
+```
+https://github.com/hapijs/hapi
+```
+
+## Node.js und NPM
+```
+npm install -g npm
 ```
 
 ### Docker (optional)
@@ -114,8 +222,9 @@ Sie können den tags/builds hier folgen: https://hub.docker.com/r/deviavir/Zenbo
 
 Ein "Selektor" ist eine kurze Kennung, die Zenbot mitteilt, auf welches Wechselkurs- und Währungspaar zu reagieren ist. Verwenden Sie das Formular `{exchange_slug}.{asset}-{currency}`. Eine vollständige Liste der Selektoren, die Ihre Zenbot-Installation unterstützt, finden Sie unter:
 
+### Zenbot-Listenselektoren
 ```
-Zenbot-Listenselektoren
+zenbot list-selectors
 
 gdax:
   gdax.BTC-EUR   (BTC/EUR)
@@ -194,8 +303,20 @@ Kauf halten 61,06%
 Zenbot begann mit 1.000 USD und endete nach 90 Tagen mit 2.954,50 USD, was einem ROI von 195% entspricht! Trotz einer Buy/Hold-Strategie mit respektablen 83,44% hat Zenbot ein beträchtliches Potenzial, Buy/Holder zu schlagen.
 
 - Beachten Sie, dass in diesem Beispiel optimierte Einstellungen verwendet wurden, um eine optimale Rendite zu erzielen: `--profit_stop_enable_pct=10`, `--profit_stop_pct=4`, `--trend_ema=36`, und `--sell_rate=-0.006`. Standardparameter ergaben einen ROI von ca. 65%.
-- [Rohdaten](https://gist.github.com/carlos8f/b09a734cf626ffb9bb3bcb1ca35f3db4) aus der Simulation
+- [Rohdaten](https://gist.github.com/carlos8f/b09a734cf626ffb9bb3bcb1ca35f3db4) aus der Simulation.
 
+- Der daraus abgeleitete Befehl aus den Rohdaten für Zenbot und Binance zum Testen lautet. 
+
+```
+zenbot.sh sim binance.BTC-USD --profit_stop_enable_pct 10 --profit_stop_pct 1 --sell_rate -0.006 --trend_ema 36 --period 1h --strategy trend_ema_rate --sell_stop_pct 4 --buy_stop_pct 0 --max_sell_loss_pct 25 --max_slippage_pct 2 --buy_pct 98 --sell_pct 98 --markup_pct 0 --currency_capital 0 --asset_capital 0.00002 --order_adjust_time 30000 --rsi_periods 14 --min_periods 37 --max_sell_duration 4
+```
+
+Hierbei wurden nicht mit verwendet:
+
+```
+  end: 1494547200000,
+  start: 1486771200000,
+```
 
 ## Zenbot ausführen
 
@@ -700,10 +821,10 @@ Handeln Sie, wenn die prozentuale Veränderung % gegenüber den letzten beiden 1
 ### Tipps zum Optimieren von Optionen
 
 - Die Handelsfrequenz wird mit einer Kombination aus `--period` und `--trend_ema` angepasst. Wenn Sie beispielsweise häufiger handeln möchten, versuchen Sie `--period=5m` oder `--trend_ema=15` oder beides. Wenn Sie zu viele Ping-Pong-Trades oder Verluste durch Gebühren erhalten, versuchen Sie, `period` oder `trend_ema` oder `neutral_rate` zu erhöhen. 
-- Manchmal ist es verlockend, dem Bot-Handel sehr oft davon zu erzählen. Versuchen Sie, diesem Drang zu widerstehen, und streben Sie nach Qualität vor Quantität, da jeder Trade mit einem angemessenen Rutsch- und Peitschenrisiko verbunden ist. 
-- `--oversold_rsi=<rsi>` wird versuchen zu kaufen, wenn der Preis sinkt. Dies ist eine der Möglichkeiten, um einen Gewinn über Buy/Hold zu erzielen. Wenn Sie ihn jedoch zu hoch einstellen, kann dies zu einem Verlust führen, wenn der Preis weiter fällt. 
-- In einem Markt mit vorhersehbaren Preisanstiegen und Korrekturen versucht `--profit_stop_enable_pct=10` zu verkaufen, wenn der letzte Kauf 10% Gewinn erreicht und dann auf 9% fällt (der Rückgang % wird mit `--profit_stop_pct` festgelegt). In starken, langen Aufwärtstrends kann diese Option jedoch zu einem frühen Verkauf führen. 
-- Für Kraken und GDAX möchten Sie möglicherweise `--order_type="taker"` verwenden, dies verwendet Market Orders anstelle von Limit Orders. Normalerweise zahlen Sie eine höhere Gebühr, aber Sie können sicher sein, dass Ihre Bestellung sofort ausgeführt wird. Dies bedeutet, dass die Sim Ihrem Live-Handel besser entspricht. Bitte beachten Sie, dass der GDAX keine Herstellergebühren (Limit Orders) erhebt. Sie müssen daher wählen, ob Sie keine Gebühren zahlen und die Risikoaufträge nicht rechtzeitig ausführen oder einen hohen Prozentsatz der Gebühren zahlen und sicherstellen möchten, dass Ihre Bestellungen immer gültig sind pünktlich gefüllt. 
+- Manchmal ist es verlockend, dem Bot-Handel sehr oft davon zu erzählen. Versuchen Sie, diesem Drang zu widerstehen, und streben Sie nach Qualität vor Quantität, da jeder Trade mit einem angemessenen Rutsch- und Peitschenrisiko verbunden ist.
+- `--oversold_rsi=<rsi>` wird versuchen zu kaufen, wenn der Preis sinkt. Dies ist eine der Möglichkeiten, um einen Gewinn über Buy/Hold zu erzielen. Wenn Sie ihn jedoch zu hoch einstellen, kann dies zu einem Verlust führen, wenn der Preis weiter fällt.
+- In einem Markt mit vorhersehbaren Preisanstiegen und Korrekturen versucht `--profit_stop_enable_pct=10` zu verkaufen, wenn der letzte Kauf 10% Gewinn erreicht und dann auf 9% fällt (der Rückgang % wird mit `--profit_stop_pct` festgelegt). In starken, langen Aufwärtstrends kann diese Option jedoch zu einem frühen Verkauf führen.
+- Für Kraken und GDAX möchten Sie möglicherweise `--order_type="taker"` verwenden, dies verwendet Market Orders anstelle von Limit Orders. Normalerweise zahlen Sie eine höhere Gebühr, aber Sie können sicher sein, dass Ihre Bestellung sofort ausgeführt wird. Dies bedeutet, dass die Sim Ihrem Live-Handel besser entspricht. Bitte beachten Sie, dass der GDAX keine Herstellergebühren (Limit Orders) erhebt. Sie müssen daher wählen, ob Sie keine Gebühren zahlen und die Risikoaufträge nicht rechtzeitig ausführen oder einen hohen Prozentsatz der Gebühren zahlen und sicherstellen möchten, dass Ihre Bestellungen immer gültig sind pünktlich gefüllt.
 
 ## Benachrichtigungen
 

@@ -222,6 +222,7 @@ Sie können den tags/builds hier folgen: https://hub.docker.com/r/deviavir/Zenbo
 
 Ein "Selektor" ist eine kurze Kennung, die Zenbot mitteilt, auf welches Wechselkurs- und Währungspaar zu reagieren ist. Verwenden Sie das Formular `{exchange_slug}.{asset}-{currency}`. Eine vollständige Liste der Selektoren, die Ihre Zenbot-Installation unterstützt, finden Sie unter:
 
+### Zenbot-Listenselektoren
 ```
 zenbot list-selectors
 
@@ -302,16 +303,21 @@ Kauf halten 61,06%
 Zenbot begann mit 1.000 USD und endete nach 90 Tagen mit 2.954,50 USD, was einem ROI von 195% entspricht! Trotz einer Buy/Hold-Strategie mit respektablen 83,44% hat Zenbot ein beträchtliches Potenzial, Buy/Holder zu schlagen.
 
 - Beachten Sie, dass in diesem Beispiel optimierte Einstellungen verwendet wurden, um eine optimale Rendite zu erzielen: `--profit_stop_enable_pct=10`, `--profit_stop_pct=4`, `--trend_ema=36`, und `--sell_rate=-0.006`. Standardparameter ergaben einen ROI von ca. 65%.
-- [Rohdaten](https://gist.github.com/carlos8f/b09a734cf626ffb9bb3bcb1ca35f3db4) aus der Simulation
+- [Rohdaten](https://gist.github.com/carlos8f/b09a734cf626ffb9bb3bcb1ca35f3db4) aus der Simulation.
+
 - Der daraus abgeleitete Befehl aus den Rohdaten für Zenbot und Binance zum Testen lautet. 
+
 ```
 zenbot.sh sim binance.BTC-USD --profit_stop_enable_pct 10 --profit_stop_pct 1 --sell_rate -0.006 --trend_ema 36 --period 1h --strategy trend_ema_rate --sell_stop_pct 4 --buy_stop_pct 0 --max_sell_loss_pct 25 --max_slippage_pct 2 --buy_pct 98 --sell_pct 98 --markup_pct 0 --currency_capital 0 --asset_capital 0.00002 --order_adjust_time 30000 --rsi_periods 14 --min_periods 37 --max_sell_duration 4
 ```
+
 Hierbei wurden nicht mit verwendet:
+
 ```
   end: 1494547200000,
   start: 1486771200000,
 ```
+
 ## Zenbot ausführen
 
 Der folgende Befehl startet den Bot und wenn Sie `c.selector` in `conf.js` nicht berührt haben, wird das Standard-BTC/USD-Paar am GDAX gehandelt.
@@ -814,10 +820,7 @@ Handeln Sie, wenn die prozentuale Veränderung % gegenüber den letzten beiden 1
 
 ### Tipps zum Optimieren von Optionen
 
-- Die Handelsfrequenz wird mit einer Kombination aus `--period` und `--trend_ema` angepasst. Wenn Sie beispielsweise häufiger handeln möchten, versuchen Sie `--period=5m` oder `--trend_ema=15` oder beides. 
-
-
-If you get too many ping-pong trades or losses from fees, try increasing `period` or `trend_ema` or increasing `neutral_rate`.
+- Die Handelsfrequenz wird mit einer Kombination aus `--period` und `--trend_ema` angepasst. Wenn Sie beispielsweise häufiger handeln möchten, versuchen Sie `--period=5m` oder `--trend_ema=15` oder beides. Wenn Sie zu viele Ping-Pong-Trades oder Verluste durch Gebühren erhalten, versuchen Sie, `period` oder `trend_ema` oder `neutral_rate` zu erhöhen. 
 - Manchmal ist es verlockend, dem Bot-Handel sehr oft davon zu erzählen. Versuchen Sie, diesem Drang zu widerstehen, und streben Sie nach Qualität vor Quantität, da jeder Trade mit einem angemessenen Rutsch- und Peitschenrisiko verbunden ist.
 - `--oversold_rsi=<rsi>` wird versuchen zu kaufen, wenn der Preis sinkt. Dies ist eine der Möglichkeiten, um einen Gewinn über Buy/Hold zu erzielen. Wenn Sie ihn jedoch zu hoch einstellen, kann dies zu einem Verlust führen, wenn der Preis weiter fällt.
 - In einem Markt mit vorhersehbaren Preisanstiegen und Korrekturen versucht `--profit_stop_enable_pct=10` zu verkaufen, wenn der letzte Kauf 10% Gewinn erreicht und dann auf 9% fällt (der Rückgang % wird mit `--profit_stop_pct` festgelegt). In starken, langen Aufwärtstrends kann diese Option jedoch zu einem frühen Verkauf führen.
