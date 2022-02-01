@@ -18,6 +18,21 @@ Hilfen zu Binance findet man hier:
 * [Telegram Binance_api_english](https://t.me/binance_api_english)  
 * [Binance chat](https://www.binance.com/en/chat)
 
+
+## Fehler auf Binance
+* [Why Zenbot can`t place buy order? Binance](https://www.reddit.com/r/zenbot/comments/cw26vn/why_zenbot_cant_place_buy_order_binance/)
+
+```
+An error occurred { InsufficientFunds [Error]: binance Account has insufficient balance for requested action. at binance.handleErrors (/root/zenbot/node_modules/ccxt/js/binance.js:1297:27) at response.text.then (/root/zenbot/node_modules/ccxt/js/base/Exchange.js:692:18) at processTicksAndRejections (internal/process/task_queues.js:86:5) constructor: [Function: InsufficientFunds] }
+```
+
+```
+An error occurred { InvalidOrder [Error]: binance createOrder method requires a price argument for a limit order
+
+at binance.createOrder (/home/sauregurkenzeit/zenbot/node_modules/ccxt/js/binance.js:726:23) constructor: [Function: InvalidOrder] }
+```
+
+
 Auf dem `Taker`-Marktplatz ist mehr los, als auf dem `Maker`. Wenn Zenbot also nicht tradet also keinen Verkauf abschließt auf Binance, dann versuchen Sie den `--order_type taker` als Anweisung. 
 
 Die aktuellen Fehlercodes stehen ausschließlich nur im ausführenden Terminal angegeben. 
@@ -140,6 +155,30 @@ __Invalid API-key, IP, or permissions for action__ - API keys or exchange permis
 
 __Market is closed__ - the pair is not trading due to maintenance or it was delisted.
 
+
+
+## Zeitfehler
+
+Diese Art Fehler erhält man, wenn der Server/Computer zu lange läuft. 
+Leider ist das Uhrenmodul nicht so gut, sodass nach ein paar wenigen Tagen die Uhrzeit nicht mehr stimmt. 
+Die aufgestellte Behauptung, das man die Uhrzeit des Betriebssystems stündlich oder auch nur täglich mit dem Zeitserver synchronisieren stimmt oftmals nicht und ist Betriebsystemabhänig. 
+Wenn die Uhrzeit nicht mehr mit dem des Netzwerks bzw. den Zeitservern übereinstimmt, dann liefert Binance diese Art Fehler. 
+In der Regel hilft ein Neustart des Computers, da zumindest zu Anfangs die Zeit ordnungsgemäß synchronisiert wird. 
+Leide ein ehrblicher Mangel für unbeaufsichtigtiges Handeln...  
+
+Der Fehler tritt auch nur Zeitweise auf, immer dann wenn Zenbot kaufen/verkaufen will. 
+Ansonsten nicht und er verfolgt weiter den Handel. 
+
+```
+An error occurred RequestTimeout: binance GET https://api.binance.com/api/v3/aggTrades?symbol=LTCBTC&startTime=1643061347131&endTime=1643064947131 request timed out (10000 ms)
+   at /root/zenbot/node_modules/ccxt/js/base/Exchange.js:403:27
+    at runNextTicks (internal/process/task_queues.js:62:5)
+    at listOnTimeout (internal/timers.js:523:9)
+    at processTimers (internal/timers.js:497:7)
+    at async binance.request (/root/zenbot/node_modules/ccxt/js/binance.js:2633:26)
+    at async binance.fetchTrades (/root/zenbot/node_modules/ccxt/js/binance.js:1412:26) {
+  constructor: [class RequestTimeout extends NetworkError]
+```
 
 
 

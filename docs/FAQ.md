@@ -29,6 +29,15 @@ Vielen Dank!
 * [Warum erhalte ich immer wieder einen "Nonce" -Fehler?](#Warum-erhalte-ich-immer-wieder-den-Fehler-nonce)
 * [Warum erhalte ich immer wieder den Fehler "JavaScript-Heap nicht genügend Speicher"](#Warum-erhalte-ich-immer-wieder-den-Fehler-JavaScript-Heap-nicht-genügend-Speicher)
 
+### [Fehler](#Fehler-2)
+Intressante englichsprachige Artikel auf DeviaVir zu Zenbot. 
+* [ZenBot not buying/selling](https://github.com/DeviaVir/zenbot/issues/868)
+* [Bot trades with loss all the time.](https://github.com/DeviaVir/zenbot/issues/189)
+* []()
+* []()
+* []()
+
+* [Why Zenbot can`t place buy order? Binance](https://www.reddit.com/r/zenbot/comments/cw26vn/why_zenbot_cant_place_buy_order_binance/)
 
 ## Antworten
 
@@ -140,7 +149,7 @@ docker-compose up -d
 
 ### Fehler
 
-#### Warum erhalte ich immer wieder den Fehler "Nonce"?
+#### Warum erhalte ich immer wieder den Fehler: "Nonce"?
 
 Dieser Fehler kann auftreten, wenn mehrere Instanzen von Zenbot mit demselben API-Schlüssel verwendet werden. Um dies zu vermeiden, verwenden Sie für jede gleichzeitige Instanz von Zenbot einen anderen API-Schlüssel.
 
@@ -148,7 +157,7 @@ Dies kann auch auftreten, wenn die Uhrzeit des Zenbot-Servers nicht korrekt ist.
 
 
 
-#### Warum erhalte ich immer wieder den Fehler "JavaScript-Heap nicht genügend Speicher"
+#### Warum erhalte ich immer wieder den Fehler: "JavaScript-Heap nicht genügend Speicher"
 
 Dieser Fehler kann auftreten, wenn Ihre Knotenumgebung nicht über genügend Speicher verfügt.
 
@@ -156,8 +165,139 @@ Lösung (Linux & Docker): Ändern Sie die Zeile
 
 `env node zenbot.js $@`
 
-in [zenbot.sh](../zenbot.sh) bis
+in [zenbot.sh](../zenbot.sh) zu: 
 
 `env node --max-old-space-size=<memory> zenbot.js $@`
 
- Dabei ist `<memory>` die Menge an Speicherknoten, die verwendet werden darf (z. B. 4096 für 4 GB). Für Windows müssen Sie die Datei [zenbot.bat](../zenbot.bat) ändern.
+ Dabei ist `<memory>` die Menge an Speicherknoten, die verwendet werden darf (z. B. 4096 für 4 GB). 
+ Für Windows müssen Sie die Datei [zenbot.bat](../zenbot.bat) ändern.
+
+
+
+#### Warum erhalte ich immer wieder den Fehler: "Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency" 
+
+Dieser Fehler kann auftreten, wenn Ihre "package-lock.json" Datei leider veraltet ist. 
+Um den Fehler zu analysieren, geben Sie nach dem Sie in das Zenbot Verzeichnis wechselten ihre Zenbot Trade oder Sim Answeisung ein, wie beispeisweise: 
+
+`
+node --trace-warnings zenbot trade --paper
+`
+
+Hierbei wird Zenbot wie gewohnt ausgeführt, allerdings werden die von Node.js genannten Fehler dokumentiert. 
+In meinem Fall habe ich Winston als Fehler analysiert, da dieer innerhalb von Zenbot liegt. 
+
+`
+fetching pre-roll data:
+(node:2772) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+    at emitCircularRequireWarning (internal/modules/cjs/loader.js:650:11)
+    at Object.get (internal/modules/cjs/loader.js:664:5)
+    at Object.exports.setLevels (/root/zenbot/node_modules/winston/lib/winston/common.js:32:14)
+    at Object.<anonymous> (/root/zenbot/node_modules/winston/lib/winston.js:83:8)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+(node:2788) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency                                                                                                     
+(Use `node --trace-warnings ...` to show where the warning was created)                                                                                                                                           
+                                                                                                                                                                                                                  
+skipping 32 hrs of previously collected data                                                                                                                                                                      
+                                                                                                                                                                                                                  
+binance.BTC-USDT saved 23672 trades 1 days left                                                                                                                                                                   
+............        
+`
+
+In der Packet-Jonson Datei befindet sich "winston" mit hilfe der dortigen genannten URL, ermittelte ich daraus die URL für den Browser. 
+`
+https://registry.npmjs.org/cliff/
+`
+
+Es öffnet sich eine lange unübersichtliche Jonson-Datei im Browser, aus der ich dann die GitHub Position ermitteln konnte. 
+github.com/nodejitsu/cliff
+
+Dort stellte ich fest, das dieses "REPOSITORY HAS BEEN MOVED" und nach 
+https://github.com/flatiron/cliff
+umgezogen ist. 
+
+
+https://github.com/flatiron/cliff/pull/11
+
+`
+curl http://npmjs.org/install.sh | sh
+[sudo] npm install cliff
+`
+
+
+Mit den Befehlen im neuen CLI-Fenster:
+
+`
+cd ./ccxt
+npm audit fix
+npm install
+`
+
+```
+npm update & npm dedupe
+```
+
+
+#### Warum erhalte ich immer wieder den Fehler: "DeprecationWarning: collection.save is deprecated. Use insertOne, insertMany, updateOne, or updateMany instead."
+
+https://github.com/DeviaVir/zenbot/issues/2607
+https://stackoverflow.com/questions/52117442/deprecationwarning-collection-insert-is-deprecated-use-insertone-insertmany-o
+https://www.reddit.com/r/zenbot/comments/coyp13/collectionsave_is_deprecated/
+
+Meiner Meinung nach, wird hier nur eine aktuelle MongoDB dazu benötitgt um diese Warung zu beheben. 
+Da die MongoDB in Version 4.2 nur für den Raspberry Pi funktioniert, ist ein Update zur Zeit nicht mäglich. 
+
+
+## Exchange Fehler
+
+In einigen Fällen kommt es zu Fehlermeldungen, die nur im Terminal sichtbar sind. 
+Hierzu ist der Tipp, das man die Fehlermeldung versucht zu googeln. 
+
+binance 1013 min notional
+
+bedeutet, das man micht genügend Kapital für den Trade zur Verfügung stehen hat. 
+Unter (Binance Trader Rules)[https://www.binance.com/en/trade-rule] kann man nachlesen, was hierfür das Minimum ist.
+
+Fehler wie `Timestamp` 
+Oder `Binance API down` sind auf eine schlechte Internetverbindung zurück zu führen. 
+
+
+
+#### Zenbot startet nicht
+
+Den Zenbot-Befehl ausführbar machen, falls Zenbot nicht starten sollte: 
+Im Übrigen die Datei zenbot.sh und update.sh mit den Eigenschaften auf Ausführbarkeit und als Vertrauenwürdig gesetzt hin überprüfen. 
+```
+sudo chmod + zenbot.sh
+
+Und dann mit:
+./zenbot.sh
+```
+
+#### Cannot find module 'semver'
+
+Wenn der Semver nicht gefunden wird.  
+Dann stimmt etwas mit Ihrer Node.js nicht. 
+Bitte deinstallieren Sie Node.js (oftmals installiert über den Paketmanger oder Softwaremanager des Betriebssystems) und installieren diese nachfolgend neu: 
+
+```
+sudo apt update
+sudo apt install nodejs npm
+```
+
+Mit dem Nachfolgenden Befehl, wird nach der fertigen Neuinstallation von Node.js eine Versionnummer von Node.js ausgegebenen. 
+Wie z.B. v12.22.5, ist das der Fall, sollte Semver funktionieren. 
+```
+node -v
+```
+
+Danach nehmen Sie anschießend im Zenbot-Verzeichnis die installation der NPMs erneut vor. 
+
+```
+npm install
+npm audit fix --forces
+```
