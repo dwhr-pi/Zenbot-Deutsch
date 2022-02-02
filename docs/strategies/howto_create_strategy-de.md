@@ -114,7 +114,7 @@ Beispiel:
 
 
   
-## # Wie kann ich nach vergangenen Werten suchen?
+### Wie kann ich nach vergangenen Werten suchen?
 ## Zurückschauen
 
 Bei jeder Periodenänderung wird die aktuelle Periode an den Anfang von `s.lookback` gesetzt und `s.period` zurückgesetzt. So können Sie den letzten Punkt in `s.lookback[0]` überprüfen, den vorherigen in `s.lookback[1]` und so weiter.

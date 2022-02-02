@@ -113,7 +113,7 @@ Example:
 
 
   
-## # How can I look for past values?
+### How can I look for past values?
 ## Lookback
 
 Each time the period change, the current period is put at the beginning of `s.lookback` and `s.period` is reset. So you can check the last period in `s.lookback[0]`, the one before in `s.lookback[1]`, and so on.
