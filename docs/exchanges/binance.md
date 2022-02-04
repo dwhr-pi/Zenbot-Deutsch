@@ -54,6 +54,7 @@ Folglich, sollte etwas nicht stimmen, im Terminal aktuell prüfen und nachlesen.
 
 Error code: [Link](https://binance-docs.github.io/apidocs/spot/en/#185368440e "")
 Hier wird man eher fündig: https://github.com/binance/binance-spot-api-docs/blob/master/errors.md
+Oder hier: [Link](binance-errors.md "")
 
 
 `-1013 msg MIN_NOTIONAL` "Not enough balance for buy, aborting. Not enough balance, or signal switched, cancel buy" - Dieser Fehlercode steht leider nicht auf 'Binance APIs and Streams' beschrieben. 
