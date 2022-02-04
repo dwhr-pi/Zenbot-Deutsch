@@ -85,7 +85,7 @@ You can also check our Spot account trade interface: [Link](https://binance-docs
 <details>
 <summary>
 There are 3 types of limitations when using API to trade: 
-</summary>
+</summary>  
 ```
 1. 	Hard-Limits:  
 	-1,200 request weight per minute (keep in mind that this is not necessarily the same as 1,200 requests)  
