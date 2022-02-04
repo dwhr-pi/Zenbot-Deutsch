@@ -85,6 +85,7 @@ You can also check our Spot account trade interface: [Link](https://binance-docs
 <summary>
 There are 3 types of limitations when using API to trade: 
 </summary>
+```
 1. 	Hard-Limits:  
 	-1,200 request weight per minute (keep in mind that this is not necessarily the same as 1,200 requests)  
 1b. 	50 orders per 10 seconds  
@@ -94,6 +95,7 @@ There are 3 types of limitations when using API to trade:
 	Trading behavior is evaluated against the average user. If you deviate too far, you will be banned for a set amount of time ranging from 5 minutes to 3 days.  
 3.	Web Application Firewall (WAF) Limits:  
 	While we do not provide exact details on our WAF rules, if you are receiving an HTTP 403 error, you have broken a rule. Most likely, it will be a result of excessive requests within a duration of 5 minutes. However, if you are sending a request that could be perceived as malicious, it could also result in a ban of a longer duration.  
+```
 </details>
 
 ## API key permissions
