@@ -22,7 +22,8 @@ Hilfen zu Binance findet man hier:
 ## Fehler auf Binance
 <details>
 <summary>* [Why Zenbot can`t place buy order? Binance](https://www.reddit.com/r/zenbot/comments/cw26vn/why_zenbot_cant_place_buy_order_binance/)
-</summary>
+</summary>  
+
 ```
 An error occurred { InsufficientFunds [Error]: binance Account has insufficient balance for requested action. at binance.handleErrors (/root/zenbot/node_modules/ccxt/js/binance.js:1297:27) at response.text.then (/root/zenbot/node_modules/ccxt/js/base/Exchange.js:692:18) at processTicksAndRejections (internal/process/task_queues.js:86:5) constructor: [Function: InsufficientFunds] }
 ```
