@@ -20,7 +20,10 @@ Hilfen zu Binance findet man hier:
 
 
 ## Fehler auf Binance
-* [Why Zenbot can`t place buy order? Binance](https://www.reddit.com/r/zenbot/comments/cw26vn/why_zenbot_cant_place_buy_order_binance/)
+<details>
+<summary>* [Why Zenbot can`t place buy order? Binance](https://www.reddit.com/r/zenbot/comments/cw26vn/why_zenbot_cant_place_buy_order_binance/)
+</summary>
+Der verborgene Inhalt, wird erst sichtbar, sobald man diesen aufgeklappt hat.
 
 ```
 An error occurred { InsufficientFunds [Error]: binance Account has insufficient balance for requested action. at binance.handleErrors (/root/zenbot/node_modules/ccxt/js/binance.js:1297:27) at response.text.then (/root/zenbot/node_modules/ccxt/js/base/Exchange.js:692:18) at processTicksAndRejections (internal/process/task_queues.js:86:5) constructor: [Function: InsufficientFunds] }
@@ -31,8 +34,12 @@ An error occurred { InvalidOrder [Error]: binance createOrder method requires a 
 
 at binance.createOrder (/home/sauregurkenzeit/zenbot/node_modules/ccxt/js/binance.js:726:23) constructor: [Function: InvalidOrder] }
 ```
+</details>
 
-
+## Taker oder Maker
+<details>
+<summary>Inhaltesbeschreibung im Kuzen
+</summary>
 Auf dem `Taker`-Marktplatz ist mehr los, als auf dem `Maker`. Wenn Zenbot also nicht tradet also keinen Verkauf abschließt auf Binance, dann versuchen Sie den `--order_type taker` als Anweisung. 
 
 Die aktuellen Fehlercodes stehen ausschließlich nur im ausführenden Terminal angegeben. 
@@ -42,6 +49,8 @@ Folglich, sollte etwas nicht stimmen, im Terminal aktuell prüfen und nachlesen.
 
 Error code: [Link](https://binance-docs.github.io/apidocs/spot/en/#185368440e "")
 Hier wird man eher fündig: https://github.com/binance/binance-spot-api-docs/blob/master/errors.md
+</details>
+
 
 `-1013 msg MIN_NOTIONAL` "Not enough balance for buy, aborting. Not enough balance, or signal switched, cancel buy" - Dieser Fehlercode steht leider nicht auf 'Binance APIs and Streams' beschrieben. 
 Zum einen heißt es, das zu wenig Kapitital vorhanden ist, um traden zu können. 
