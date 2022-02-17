@@ -25,6 +25,7 @@ https://www.coingecko.com/de/munze/euro-tether
 [ASK](https://www.finanzen.net/lexikon/boersenlexikon/ask)
 [Asset](https://www.finanzen.net/lexikon/boersenlexikon/asset)
 [Asset Allocation](https://boersenlexikon.faz.net/definition/asset-allocation/)
+[Auto-Leverage-Bot]() Hebelkraft, also Candlestickschart.
 [Backwardation](https://www.finanzen.net/lexikon/boersenlexikon/backwardation)
 [Bären, Bearish,Bärenmarkt](https://boersenlexikon.faz.net/definition/baeren-bearish-baerenmarkt/) im Gegensatz zum `Bulle, Bullish, Bullenmarkt`
 [Börse](https://boersenlexikon.faz.net/definition/boerse/)
@@ -226,6 +227,10 @@ Also ein vollkommenes Autotrading hierbei entsteht.
 Refreh aufrischen oder aktuallisieren der Tradingeinstellungen. 
 
 Multiaccount Verwaltung mit unterschiedlichen APIs sinnvoll, um damit mit mehren Currenys oder Exchanges in verschiedenen Instanzen agieren zu können. 
+
+[Dein RoboTrader - Trading Bot Entwickeln](https://deinrobotrader.de/?gclid=CjwKCAiAgbiQBhAHEiwAuQ6BknLNi09eGIz2KcJ6PeLtqzpH_T_03nfP5iZaHQ6-mwDDxeuK3mhn7BoCHXoQAvD_BwE) MetaTrader 4 und MetaTrader 5, 
+[Trading Bot per API bauen](https://www.lemon.markets/de-de?gclid=CjwKCAiAgbiQBhAHEiwAuQ6BkihEC4ZwjfGpjfivUjrSUWf0zKUewd1AXkUsevUulHKXDo2jlTL78RoCF-sQAvD_BwE)  Über 8000 Aktien und ETFs. 
+
 
 
 

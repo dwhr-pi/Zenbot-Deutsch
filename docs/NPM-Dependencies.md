@@ -158,6 +158,32 @@ Github:
 ### forex.analytics : github:mkmarek/forex.analytics#7bc278987700d4204e959af17de61495941d1a14
 Description: 
 Beschreibung: 
+[Having problem with npm install](https://www.reddit.com/r/zenbot/comments/bgi8wl/having_problem_with_npm_install/)
+Try the following, deinstall everything and start fresh, it is easier and cleaner and do the following commands:
+```
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get update
+sudo apt-get upgrade -y
+
+sudo apt-get install -y git build-essential mongodb nodejs python-dev
+sudo service mongodb start
+sudo systemctl enable mongodb.service
+
+git clone https://github.com/deviavir/zenbot.git
+
+cd zenbot
+sudo nano package.json
+Change the line "forex.analytics": "github:mkmarek/forex.analytics#7bc278987700d4204e959af17de61495941d1a14", to "forex.analytics": "^0.0.15",
+Close with CTRL + X (confirm with Y)
+
+sudo rm -R node_modules/forex.analytics
+
+npm install tulind
+npm install
+```
+Step 12 is just to be sure, tell me if it worked :)
+
+[Install talib and forex.analytics fails (solved)](https://github.com/DeviaVir/zenbot/issues/1765)
 URL:
 Github: 
 
@@ -434,6 +460,7 @@ Github:
 ### talib : ^1.0.4
 Description: 
 Beschreibung: 
+[Install talib and forex.analytics fails (solved)](https://github.com/DeviaVir/zenbot/issues/1765)
 URL:
 Github: 
 
