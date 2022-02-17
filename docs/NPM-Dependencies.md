@@ -534,7 +534,7 @@ Github:
 
 
 
-## BackUp der Abhängihkeiten. 
+## BackUp der notwendigen Abhängigkeiten. 
 
 Dependencies:
 @slack/client : ^4.1.0
