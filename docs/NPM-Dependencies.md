@@ -6,157 +6,159 @@ Zumal für NPM eine neue Datei erstellt werden soll.
 
 ### Dependencies:
 ### @slack/client : ^4.1.0
-Description: 
+Description: Legacy wrapper for official Slack Platform's Web API, RTM API, and Incoming Webhook libraries. Use @slack/web-api, @slack/rtm-api, or @slack/webhook instead.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/@slack/client
 Github: 
 
 ### async : ^2.5.0
-Description: 
+Description: Higher-order functions and common patterns for asynchronous code
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/async
 Github: 
 
 ### babel-core : ^6.26.0
-Description: 
+Description: Babel compiler core.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/babel-core
 Github: 
 
 ### babel-loader : ^7.1.2
-Description: 
+Description: Babel module loader for webpack
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/babel-loader
 Github: 
 
 ### babel-preset-env : ^1.6.1
-Description: 
+Description: A Babel preset for each environment.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/babel-preset-env
 Github: 
 
 ### bitfinex-api-node : ^1.2.0
-Description: 
+Description: Node reference library for Bitfinex API
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/bitfinex-api-node
 Github: 
 
 ### bitstamp : ^1.0.4
-Description: 
+Description: Bitstamp REST API wrapper
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/bitstamp
 Github: 
 
 ### bl : ^1.2.2
-Description: 
+Description: Buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/bl
 Github: 
 
 ### bollinger-bands : ^3.0.1
-Description: 
+Description: Fintach math utility to calculate bollinger bands.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/bollinger-bands
 Github: 
 
 ### bootstrap : ^4.0.0-beta.2
-Description: 
+Description: The most popular front-end framework for developing responsive, mobile first projects on the web.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/bootstrap
 Github: 
 
 ### ccxt : ^1.12.97
-Description: 
+Description: A JavaScript / Python / PHP cryptocurrency trading library with support for 130+ exchanges
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/ccxt
 Github: 
 
 ### cexio-api-node : ^1.0.8
-Description: 
+Description: CEX.IO Trading API for Node.js.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/cexio-api-node
 Github: 
 
 ### cliff : ^0.1.10
-Description: 
+Description: Your CLI formatting friend.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/cliff
 Github: 
 
 ### colors : ^1.2.1
-Description: 
+Description: Get colors in your node.js console
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/colors
 Github: 
 
 ### commander : ^2.15.1
-Description: 
+Description: The complete solution for node.js command-line programs
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/commander
 Github: 
 
 ### convnetjs : 0.3.0
-Description: 
+Description: Deep Learning library. Supports Convolutional (and ordinary) Neural Networks
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/convnetjs
 Github: 
 
 ### counterup : ^1.0.2
-Description: 
+Description: A lightweight jQuery plugin that counts up to a targeted number when the number becomes visible.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/counterup
 Github: 
 
 ### css-loader : ^0.28.11
-Description: 
+Description: CSS loader module for webpack
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/css-loader
 Github: 
 
 ### echarts : ^4.0.2
-Description: 
+Description: Apache ECharts is a powerful, interactive charting and data visualization library for browser. 
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/echarts
 Github: 
 
 ### ejs : ^2.5.8
-Description: 
+Description: Embedded Server, it is look like classicASP of Microsoft.
 Beschreibung: 
-URL:
+URL: 
 Github: 
+Offical: https://github.com/mde/ejs
 
 ### exports-loader : ^0.7.0
-Description: 
+Description: Allow to setup exports module.exports/export for source files.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/exports-loader
 Github: 
 
 ### expose-loader : ^0.7.5
-Description: 
+Description: Expose loader module for webpack
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/expose-loader
 Github: 
 
 ### express : ^4.16.3
-Description: 
+Description: Fast, unopinionated, minimalist web framework
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/express
 Github: 
 
+XXXXXX Fehler
 ### extract-text-webpack-plugin : ^4.0.0-beta.0
 Description: 
 Beschreibung: 
-URL:
+URL: 
 Github: 
 
 ### file-loader : ^1.1.6
-Description: 
+Description: A file loader module for webpack
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/file-loader
 Github: 
 
 ### forex.analytics : github:mkmarek/forex.analytics#7bc278987700d4204e959af17de61495941d1a14
-Description: 
+Description: Performs data anaylsis on a set of candlesticks and using available indicators constructs the best strategy which worked on a certain period. 
 Beschreibung: 
 [Having problem with npm install](https://www.reddit.com/r/zenbot/comments/bgi8wl/having_problem_with_npm_install/)
 Try the following, deinstall everything and start fresh, it is easier and cleaner and do the following commands:
@@ -184,350 +186,356 @@ npm install
 Step 12 is just to be sure, tell me if it worked :)
 
 [Install talib and forex.analytics fails (solved)](https://github.com/DeviaVir/zenbot/issues/1765)
-URL:
+URL: https://www.npmjs.com/package/forex.analytics
 Github: 
 
+XXXXXX Fehler
 ### gdax : ^0.7.0
 Description: 
 Beschreibung: 
-URL:
+URL: 
 Github: 
 
 ### gemini-api : ^2.0.4
-Description: 
+Description: Node.js client for the Gemini cryptocurrency exchange API.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/gemini-api
 Github: 
 
 ### glob : ^7.1.1
-Description: 
+Description: A little globber.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/glob
 Github: 
 
+
+XXXXXX Fehler
 ### har-validator : ^5.0.3
 Description: 
 Beschreibung: 
-URL:
+URL: 
 Github: 
 
 ### husky : ^0.14.3
-Description: 
+Description: Modern native Git hooks made easy.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/husky
 Github: 
 
 ### idgen : ^2.0.2
-Description: 
+Description: Minimal ID generator
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/idgen
 Github: 
 
 ### imports-loader : ^0.8.0
-Description: 
+Description: Imports loader module for webpack
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/imports-loader
 Github: 
 
 ### ip : ~1.1.5
-Description: 
+Description: IP address utilities for node.js
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/ip
 Github: 
 
 ### jasmine : ^2.8.0
-Description: 
+Description: CLI for Jasmine, a simple JavaScript testing framework for browsers and Node. 
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/jasmine
 Github: 
 
 ### jquery : ^3.2.1
-Description: 
+Description: JavaScript library for DOM operations
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/jquery
 Github: 
 
 ### keltnerchannel : ^1.4.2
-Description: 
+Description: Keltner Channel technical indicator.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/keltnerchannel
 Github: 
 
 ### kraken-api : ^1.0.0
-Description: 
+Description: Kraken.com API client library for NodeJS
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/kraken-api
 Github: 
 
 ### lint-staged : ^7.0.4
-Description: 
+Description: Lint files staged by git
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/lint-staged
 Github: 
 
 ### lodash : ^4.17.4
-Description: 
+Description: Lodash modular utilities.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/lodash
 Github: 
 
+
+XXXXXX Fehler
 ### lolex : ^2.3.2
 Description: 
 Beschreibung: 
-URL:
+URL: 
 Github: 
 
 ### mathjs : ^4.0.1
-Description: 
+Description: Math.js is an extensive math library for JavaScript and Node.js. It features a flexible expression parser with support for symbolic computation, comes with a large set of built-in functions and constants, and offers an integrated solution to work with dif
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/mathjs
 Github: 
 
 ### micro-request : ^666.0.10
-Description: 
+Description: Zero-dependency http(s) client with smart json and stream support
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/micro-request
 Github: 
 
 ### mime : ^2.2.2
-Description: 
+Description: A comprehensive library for mime-type mapping
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/mime
 Github: 
 
 ### minimist : ^1.2.0
-Description: 
+Description: Parse argument options
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/minimist
 Github: 
 
 ### mock-require : ^3.0.2
-Description: 
+Description: Simple, intuitive mocking of Node.js modules.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/mock-require
 Github: 
 
 ### moment : ^2.22.0
-Description: 
+Description: Parse, validate, manipulate, and display dates
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/moment
 Github: 
 
 ### mongodb : ^3.0.5
-Description: 
+Description: The official MongoDB driver for Node.js
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/mongodb
 Github: 
 
 ### node-bittrex-api : ^0.8.2
-Description: 
+Description: Node Bittrex API - asynchronous node.js library for the Bittrex API https://bittrex.com/
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/node-bittrex-api
 Github: 
 
 ### node-prowl : ^0.1.7
-Description: 
+Description:  API for Prowl, allowing to send PUSH notifications to your iPhone!
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/node-prowl
 Github: 
 
 ### node-sass : ^4.8.3
-Description: 
+Description: Wrapper around libsass
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/node-sass
 Github: 
 
 ### node-telegram-bot-api : ^0.30.0
-Description: 
+Description: Telegram Bot API
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/node-telegram-bot-api
 Github: 
 
 ### number-abbreviate : ^2.0.0
-Description: 
+Description: Abbreviate a number and add unit letters e.g. 2200000 => '2.2m'
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/number-abbreviate
 Github: 
 
 ### numbro : github:highvelocityspace/numbro
-Description: 
+Description: Format and manipulate numbers.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/numbro
 Github: 
 
 ### path : ^0.12.7
-Description: 
+Description: This is an exact copy of the NodeJS ’path’ module published to the NPM registry.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/path
 Github: 
 
 ### poloniex.js : 0.0.8
-Description: 
+Description: API client for the Poloniex cryptocurrency exchange.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/poloniex.js
 Github: 
 
+XXXXXX Fehlerhaft
 ### popper.js : ^1.14.3
-Description: 
+Description: Realtime Cross-Browser Automation
 Beschreibung: 
-URL:
+URL: 
 Github: 
 
 ### postcss-loader : ^2.1.3
 Description: 
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/progress
 Github: 
 
 ### progress : ^2.0.0
-Description: 
+Description: Flexible ascii progress bar
 Beschreibung: 
-URL:
+URL: 
 Github: 
 
 ### pushbullet : 2.2.0
-Description: 
+Description: Use PushBullets REST API
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/pushbullet
 Github: 
 
 ### pusher-js : ^4.1.0
-Description: 
+Description: Pusher Channels JavaScript library for browsers, React Native, NodeJS and web workers
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/pusher-js
 Github: 
 
 ### quadrigacx : 0.0.7
-Description: 
+Description: Nodejs interface for QuadrigaCX bitcoin exchange
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/quadrigacx
 Github: 
 
 ### random-port : ^0.1.0
-Description: 
+Description: Get a random free tcp port and pass to the callback
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/random-port
 Github: 
 
 ### regression : ^2.0.0
-Description: 
+Description: Javascript least squares data fitting methods
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/regression
 Github: 
 
 ### resolve-url-loader : ^2.2.1
-Description: 
+Description: Webpack loader that resolves relative paths in url() statements based on the original source file
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/resolve-url-loader
 Github: 
 
 ### sass-loader : ^7.0.1
-Description: 
+Description: Loads a Sass/SCSS file and compiles it to CSS.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/sass-loader
 Github: 
 
 ### semver : ^5.4.1
-Description: 
+Description: The semantic version parser used by npm.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/semver
 Github: 
 
 ### simple-xmpp : ^1.3.0
-Description: 
+Description: Simple High Level NodeJS XMPP Library
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/simple-xmpp
 Github: 
 
 ### stats-lite : 2.1.0
-Description: 
+Description: A light statistical package that operates on numeric Arrays.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/stats-lite
 Github: 
 
 ### style-loader : ^0.21.0
-Description: 
+Description: Inject CSS into the DOM.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/style-loader
 Github: 
 
 ### superagent : ^3.8.2
-Description: 
+Description: Small progressive client-side HTTP request library, and Node.js module with the same API, supporting many high-level HTTP client features. 
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/superagent
 Github: 
 
 ### talib : ^1.0.4
-Description: 
+Description: Technical Analysis Library
 Beschreibung: 
 [Install talib and forex.analytics fails (solved)](https://github.com/DeviaVir/zenbot/issues/1765)
-URL:
+URL: https://www.npmjs.com/package/talib
 Github: 
 
 ### timebucket : ^0.4.0
-Description: 
+Description: Group timestamps into "buckets" by applying a granularity to a discrete value
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/timebucket
 Github: 
 
 ### trend : 0.3.0
-Description: 
+Description: Use to find out how a chart (array of values) are trending. Compares the last X points to the previous Y points before them.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/trend
 Github: 
 
 ### tulind : ^0.8.10
-Description: 
+Description: Tulip Node is the official node.js wrapper for Tulip Indicators. It provides 100+ technical analysis indicator functions, such as: simple moving average, Bollinger Bands, MACD, Parabolic SAR, Stochastic Oscillator, and many more. 
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/tulind
 Github: 
 
 ### url-loader : ^1.0.1
-Description: 
+Description: A loader for webpack which transforms files into base64 URIs.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/url-loader
 Github: 
 
 ### uuid : ^3.1.0
-Description: 
+Description: For the creation of RFC4122 UUIDs
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/uuid
 Github: 
 
 ### waypoints : ^4.0.1
-Description: 
+Description: Waypoints is a library that makes it easy to execute a function whenever you scroll to an element.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/waypoints
 Github: 
 
 ### webpack : ^4.5.0
-Description: 
+Description: The official CLI of webpack
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/webpack-cli
 Github: 
 
 ### webpack-cli : ^2.0.14
 Description: 
 Beschreibung: 
-URL:
+URL: 
 Github: 
 
 ### wexnz : ^0.1.3
-Description: 
+Description: WEXNZ Trading API
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/wexnz
 Github: 
 
 ### ws : ^5.1.1
-Description: 
+Description: ws is a simple to use, blazing fast, and thoroughly tested WebSocket client and server implementation.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/ws
 Github: 
 
 ### zero-fill : ^2.2.3
-Description: 
+Description: Zero-fill a number to the given size.
 Beschreibung: 
-URL:
+URL: https://www.npmjs.com/package/zero-fill
 Github: 
 
 
