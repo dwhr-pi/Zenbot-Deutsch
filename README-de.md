@@ -7,6 +7,11 @@
 
 Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen original Version v4.1.0 von [DeviaVir](https://github.com/DeviaVir/zenbot).
 
+## Systemvorraussetzungen:  
+3 GB min. Arbeitsspeicher.  
+Raspberry Pi ARM 1 Kern mit 1,5 GHz mit 100 % Auslatung.  
+oder Raspberry Pi ARM 4 Kerne mit je 1,5 GHz ergeben eine Auslastung von 25 %.  
+
 ## Mein Update
 Für die Abhängigkeit "ccxt" wurde in package-lock.json von Version "1.33.64" auf Version "1.40.1" geändert und aktuallisiert. 
 Die original Abhängigkeit steht in der Datei "package-lock-org.json" weiterhin und dient als Backup. 

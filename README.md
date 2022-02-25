@@ -12,6 +12,11 @@ Für die Abhängigkeit "ccxt" wurde in package-lock.json von Version "1.33.64" a
 Die original Abhängigkeit steht in der Datei "package-lock-org.json" weiterhin und dient als Backup. 
 Weitere Versionen von "ccxt" unter "https://registry.npmjs.org/ccxt/" aufindbar. 
 
+## Systemvorraussetzungen:  
+3 GB min. Arbeitsspeicher.  
+Raspberry Pi ARM 1 Kern mit 1,5 GHz mit 100 % Auslatung.  
+oder Raspberry Pi ARM 4 Kerne mit je 1,5 GHz ergeben eine Auslastung von 25 %.  
+
 ## MongoDB - Das Problem auf dem Raspbian!
 
 ## Inhaltsverzeichnis

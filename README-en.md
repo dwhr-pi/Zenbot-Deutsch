@@ -7,6 +7,11 @@
 
 This German version of Zenbot corresponds to the original English version v4.1.0 of [DeviaVir] (https://github.com/DeviaVir/zenbot).
 
+## System requirements:
+3GB minimum memory.  
+On Raspberry Pi ARM 1 core with 1.5 GHz with 100% utilization.  
+or Raspberry Pi ARM 4 cores with 1.5 GHz each result in a utilization of 25%.  
+
 ## Current Status
 
 Zenbot 4 is functional, but is having trouble reliably making profit. At this point, **I would recommend against trading with large amounts** until some of these issues can be worked out:
