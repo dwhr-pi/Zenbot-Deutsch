@@ -12,7 +12,7 @@ Setzt 64-Bit-Prozessor und -Betriebssystem voraus
 3 GB min. Arbeitsspeicher.  
 | |Mindestanforderung:|Empfohlen: |
 | ---------| ---------| ----------|
-|Raspberry Pi | | |
+|Computer |Raspberry Pi | PC|
 |Prozessor:|ARM 1 Kern mit 1,5 GHz ergibt 100 % Auslastung.| Raspberry Pi ARM 4 Kerne mit je 1,5 GHz ergeben eine Auslastung von 25 %.  
 |Arbeitsspeicher:|3 GB RAM|8 GB RAM|
 |Speicherplatz:|?? GB verfügbarer Speicherplatz| |
