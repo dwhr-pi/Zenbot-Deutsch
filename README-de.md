@@ -8,9 +8,21 @@
 Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen original Version v4.1.0 von [DeviaVir](https://github.com/DeviaVir/zenbot).
 
 ## Systemvorraussetzungen:  
+Setzt 64-Bit-Prozessor und -Betriebssystem voraus
 3 GB min. Arbeitsspeicher.  
-Raspberry Pi ARM 1 Kern mit 1,5 GHz mit 100 % Auslatung.  
-oder Raspberry Pi ARM 4 Kerne mit je 1,5 GHz ergeben eine Auslastung von 25 %.  
+| |Mindestanforderung:|Empfohlen: |
+| ---------| ---------| ----------|
+|Raspberry Pi | | |
+|Prozessor:|ARM 1 Kern mit 1,5 GHz ergibt 100 % Auslastung.| Raspberry Pi ARM 4 Kerne mit je 1,5 GHz ergeben eine Auslastung von 25 %.  
+|Arbeitsspeicher:|3 GB RAM|8 GB RAM|
+|Speicherplatz:|?? GB verfügbarer Speicherplatz| |
+|Betriebssystem:|Linux|64-bit Windows 10|
+
+
+Prozessor: Intel Core i5 3570 or AMD FX-8350
+Grafik:|GPU: NVIDIA GTX 760, AMD Radeon 7970 / R9280X GPU RAM: 2 GB Video Memory| |
+
+
 
 ## Mein Update
 Für die Abhängigkeit "ccxt" wurde in package-lock.json von Version "1.33.64" auf Version "1.40.1" geändert und aktuallisiert. 

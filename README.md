@@ -14,7 +14,7 @@ Weitere Versionen von "ccxt" unter "https://registry.npmjs.org/ccxt/" aufindbar.
 
 ## Systemvorraussetzungen:  
 3 GB min. Arbeitsspeicher.  
-Raspberry Pi ARM 1 Kern mit 1,5 GHz mit 100 % Auslatung.  
+Raspberry Pi ARM 1 Kern mit 1,5 GHz mit 100 % Auslastung.  
 oder Raspberry Pi ARM 4 Kerne mit je 1,5 GHz ergeben eine Auslastung von 25 %.  
 
 ## MongoDB - Das Problem auf dem Raspbian!
