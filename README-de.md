@@ -18,9 +18,9 @@ Setzt 64-Bit-Prozessor und -Betriebssystem voraus
 |Speicherplatz:|?? GB verfügbarer Speicherplatz| |
 |Betriebssystem:|Linux|64-bit Windows 10|
 
-
-Prozessor: Intel Core i5 3570 or AMD FX-8350
-Grafik:|GPU: NVIDIA GTX 760, AMD Radeon 7970 / R9280X GPU RAM: 2 GB Video Memory| |
+Gilt noch nicht  
+|Prozessor:|Intel Core i5 3570 oder AMD FX-8350  
+|Grafik:|GPU: NVIDIA GTX 760, AMD Radeon 7970 / R9280X GPU RAM: 2 GB Video Memory| |
 
 
 
