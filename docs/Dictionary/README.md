@@ -205,6 +205,7 @@ https://www.coingecko.com/de/munze/euro-tether
 [Vertriebszulassung](https://boersenlexikon.faz.net/definition/vertriebszulassung/) Cryptos sind international, die Ansicht zu diesem Thema ist prekär, also umstritten. Wurde aber durch die EU schon festgelegt, das Crytos steuerfrei zu behandeln sind. 
 [Volatilität](https://boersenlexikon.faz.net/definition/volatilitaet/) = gelten die Crptogelder wie Bitcoin, Etherum usw. außer und siehe bei Stable Coins. 
 [Vorzugsaktie](https://boersenlexikon.faz.net/definition/vorzugsaktie/) in einigen Fällen erhält man Cryptos zusätzlich geschenkt und ist dem etwas gleich zu setzen. 
+[Volume Trading](https://www.google.com/search?q=volumen+trading+software&oq=Volumen-Trading) - Volumen trading software - Beim Trading quantifiziert das Volumen das Ausmaß der Aktivitäten von Marktteilnehmern, indem es die Stückzahlen kumuliert, die in einer Periode gehandelt werden. Bei jedem Trade wird die Anzahl an gehandelten Wertpapieren beziehungsweise Kontrakten aufgezeichnet und fließt dann in die Abbildung des Volumens ein.
 [Währungsanleihe](https://boersenlexikon.faz.net/definition/waehrungsanleihe/)
 [Widerstandslinie](https://boersenlexikon.faz.net/definition/widerstandslinie/)
 [Xetra](https://boersenlexikon.faz.net/definition/xetra/)
