@@ -22,7 +22,7 @@ The user community around Zenbot is still small, but already includes several ad
 -   Showing the work you do with Zenbot on the [Users Showcase forum](). You can post screenshots, and, even better, attach the Zenbot files so other people can examine it and understand how you did it.
 -   Recording [videos]() showing how you did something interesting in Zenbot. These videos usually do a great job in showing new features.
 -   Write [tutorials]() describing or teaching something interesting. You can write tutorials on your own blog, directly on our wiki, or even on the forum.
--   Post on the [Mastodon]() open source social network (and [follow Zenbot]<!-->(https://fosstodon.org/@Zenbot)<!--> there) or on the [Zenbot's Facebook](https://www.facebook.com/groups/1407097289750298/) community.
+-   Post on the [Mastodon]() open source social network (and [follow Zenbot]<!--(https://fosstodon.org/@Zenbot)--> there) or on the [Zenbot's Facebook](https://www.facebook.com/groups/1407097289750298/) community.
 -   Look into the latest Zenbot posts on [Reddit](https://www.reddit.com/r/zenbot/), 
 
 
