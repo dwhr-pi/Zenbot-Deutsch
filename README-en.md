@@ -12,6 +12,17 @@ This German version of Zenbot corresponds to the original English version v4.1.0
 On Raspberry Pi ARM 1 core with 1.5 GHz with 100% utilization.  
 or Raspberry Pi ARM 4 cores with 1.5 GHz each result in a utilization of 25%.  
 
+## My update
+The "ccxt" dependency has been changed and updated in package-lock.json from version "1.33.64" to version "1.40.1".
+The original dependency is still in the "package-lock-org.json" file and serves as a backup.
+Other versions of "ccxt" can be found at "https://registry.npmjs.org/ccxt/".
+
+My work:
+1. I am rebuilding and reorganizing the Zenbot documentation. In terms of content, this remains the same and should be clearer. Errors during the installation on Raspberry Pi 4B 8GB are corrected.
+2. NPM is updated and reduced to the current status of all necessary NPMs.
+3. A rebuild of all existing Zenbot's will be done and released as a new branch.
+4. An integration of interesting forks is brought about.
+
 ## Current Status
 
 Zenbot 4 is functional, but is having trouble reliably making profit. At this point, **I would recommend against trading with large amounts** until some of these issues can be worked out:
