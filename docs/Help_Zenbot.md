@@ -7,7 +7,7 @@ If you like Zenbot and would like to help in its development, apart from [direct
 
 ## Work on the documentation 
 
-Help us to build, correct and extend this documentation. Correct mistakes, extend or correct pages that are unclear, create new pages if a topic is missing, etc. Contributing to the Zenbot wiki is easy, at [WikiPages](WikiPages.md) you can find the general guidelines and the help needed to get you started. To edit the wiki, you will need a wiki account with \"Editor\" permissions (the wiki is write-protected to avoid spamming). You can ask for an account [on the forum]() or on the [IRC channel](). Please note that the IRC channel may not be as responsive as the forum. [The official Zenbot forum]() should be the premier place to ask questions and start discussions, As it will help preserve the experience and knowledge of the community.
+Help us to build, correct and extend this documentation. Correct mistakes, extend or correct pages that are unclear, create new pages if a topic is missing, etc. Contributing to the Zenbot wiki is easy, at [WikiPages](WikiPages.md) you can find the general guidelines and the help needed to get you started. To edit the wiki, you will need a wiki account with \"Editor\" permissions (the wiki is write-protected to avoid spamming). You can ask for an account [on the forum]() or on the [IRC channel](). Please note that the IRC channel may not be as responsive as the forum. [The official Zenbot forum](https://www.reddit.com/r/zenbot/) should be the premier place to ask questions and start discussions, As it will help preserve the experience and knowledge of the community.
 
 A couple of areas that would welcome your work:
 
@@ -19,7 +19,7 @@ A couple of areas that would welcome your work:
 
 The user community around Zenbot is still small, but already includes several advanced users who do a very important job in showing to newcomers how to use the software. If you begin to feel comfortable with Zenbot, your knowledge could be very valuable to others, and you might contribute with important assets, like:
 
--   Showing the work you do with Zenbot on the [Users Showcase forum](). You can post screenshots, and, even better, attach the Zenbot files so other people can examine it and understand how you did it.
+-   Showing the work you do with Zenbot on the <!--[Users Showcase forum]()-->. You can post screenshots, and, even better, attach the Zenbot files so other people can examine it and understand how you did it.
 -   Recording <!--[videos]()--> showing how you did something interesting in Zenbot. These videos usually do a great job in showing new features.
 -   Write <!--[tutorials]()--> describing or teaching something interesting. You can write tutorials on your own blog, directly on our wiki, or even on the forum.
 -   Post on the <!--[Mastodon]()--> open source social network (and [follow Zenbot]<!--(https://fosstodon.org/@Zenbot)--> there) or on the [Zenbot's Facebook](https://www.facebook.com/groups/1407097289750298/) community.
