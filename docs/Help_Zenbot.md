@@ -22,11 +22,11 @@ The user community around Zenbot is still small, but already includes several ad
 -   Showing the work you do with Zenbot on the [Users Showcase forum](). You can post screenshots, and, even better, attach the Zenbot files so other people can examine it and understand how you did it.
 -   Recording [videos]() showing how you did something interesting in Zenbot. These videos usually do a great job in showing new features.
 -   Write [tutorials]() describing or teaching something interesting. You can write tutorials on your own blog, directly on our wiki, or even on the forum.
--   Post on the [Mastodon]() open source social network (and [follow Zenbot](https://fosstodon.org/@Zenbot) there) or on the [Facebook](https://www.facebook.com/groups/416491481766626) community.
--   Look into the latest Zenbot posts on [Reddit](), 
+-   Post on the [Mastodon]() open source social network (and [follow Zenbot]<!-->(https://fosstodon.org/@Zenbot)<!--> there) or on the [Zenbot's Facebook](https://www.facebook.com/groups/1407097289750298/) community.
+-   Look into the latest Zenbot posts on [Reddit](https://www.reddit.com/r/zenbot/), 
 
 
-[3dprinting.stackexchange](https://3dprinting.stackexchange.com/search?tab=newest&q=Zenbot), [StackOverflow](https://stackoverflow.com/search?q=Zenbot)\... Try to answer them and participate in the discussions sharing your experience and information.
+[Zenbot at StackExchange](https://stackexchange.com/search?tab=newest&q=Zenbot), [StackOverflow](https://stackoverflow.com/search?q=Zenbot)\... Try to answer them and participate in the discussions sharing your experience and information.
 -   Be present at the Zenbot IRC channel or [other chat groups]()
 
 ## Translate Zenbot 
