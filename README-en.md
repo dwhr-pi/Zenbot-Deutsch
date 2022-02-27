@@ -85,6 +85,7 @@ P.S., some have asked for how to donate to Zenbot development. We accept donatio
 Thanks!
 
 ## Noteworthy forks
+These forks can also be found very easily with the [herokuapp](https://gitpop2.herokuapp.com/DeviaVir/zenbot).
 
 - [bot18](https://medium.com/@carlos8f_11468/introducing-bot18-the-new-crypto-trading-bot-to-supersede-zenbot-and-unleash-the-zalgo-da8464b41e53)
 - [magic8bot](https://github.com/notVitaliy/magic8bot)

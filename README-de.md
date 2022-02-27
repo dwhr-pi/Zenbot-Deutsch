@@ -221,6 +221,8 @@ PS: Einige haben gefragt, wie sie für die Zenbot-Entwicklung spenden können. W
 Thanks!
 
 ## Bemerkenswerte Forks (Gabelungen)
+Diese Forks kann man sehr gut auch mit der [herokuapp](https://gitpop2.herokuapp.com/DeviaVir/zenbot) auffinden. 
+
 
 - [bot18](https://medium.com/@carlos8f_11468/introducing-bot18-the-new-crypto-trading-bot-to-supersede-zenbot-and-unleash-the-zalgo-da8464b41e53)
 - [magic8bot](https://github.com/notVitaliy/magic8bot)
