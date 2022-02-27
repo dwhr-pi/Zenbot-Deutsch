@@ -29,7 +29,7 @@ Für die Abhängigkeit "ccxt" wurde in package-lock.json von Version "1.33.64" a
 Die original Abhängigkeit steht in der Datei "package-lock-org.json" weiterhin und dient als Backup. 
 Weitere Versionen von "ccxt" unter "https://registry.npmjs.org/ccxt/" aufindbar. 
 
-Meine Arbeit:  
+### Meine Arbeit:  
 1. Ich erstelle die Zenbot-Dokumentation neu und sortiere diese Neu. Inhaltlich bleibt diese gleichlautend, soll übersichtlicher werden. Fehler bei der Installtion auf Raspberry Pi 4B 8GB werden korrigiert. 
 2. NPM wird aktualisiert und auf den aktuellen Stand aller notwendigen NPMs reduziert. 
 3. Ein rebuild aller vorhanden Zenbot's wird durchgeführt und als ein neue Branche veröffendlicht. 

@@ -7,21 +7,33 @@
 
 Diese deutschsprachige Version v4.1.0.1 von Zenbot entspricht der englischen original Version v4.1.0 von [DeviaVir](https://github.com/DeviaVir/zenbot).
 
+## Systemvorraussetzungen:  
+Setzt 64-Bit-Prozessor und -Betriebssystem voraus
+3 GB min. Arbeitsspeicher.  
+| |Mindestanforderung:|Empfohlen: |
+| ---------| ---------| ----------|
+|Computer: |Raspberry Pi | PC|
+|Prozessor:       |ARM 1 Kern mit 1,5 GHz ergibt 100 % Auslastung.| Raspberry Pi ARM 4 Kerne mit je 1,5 GHz ergeben eine Auslastung von 25 %.  
+|Arbeitsspeicher: |3 GB RAM|8 GB RAM|
+|Speicherplatz:   |?? GB verfügbarer Speicherplatz| |
+|Betriebssystem:  |Linux|64-bit Windows 10|
+
+Gilt noch nicht  
+|Prozessor:|Intel Core i5 3570 oder AMD FX-8350|  
+|Grafik:|GPU: NVIDIA GTX 760, AMD Radeon 7970 / R9280X GPU RAM: 2 GB Video Memory| |
+
+
+
 ## Mein Update
 Für die Abhängigkeit "ccxt" wurde in package-lock.json von Version "1.33.64" auf Version "1.40.1" geändert und aktuallisiert. 
 Die original Abhängigkeit steht in der Datei "package-lock-org.json" weiterhin und dient als Backup. 
 Weitere Versionen von "ccxt" unter "https://registry.npmjs.org/ccxt/" aufindbar. 
 
-Meine Arbeit:  
+### Meine Arbeit:  
 1. Ich erstelle die Zenbot-Dokumentation neu und sortiere diese Neu. Inhaltlich bleibt diese gleichlautend, soll übersichtlicher werden. Fehler bei der Installtion auf Raspberry Pi 4B 8GB werden korrigiert. 
 2. NPM wird aktualisiert und auf den aktuellen Stand aller notwendigen NPMs reduziert. 
 3. Ein rebuild aller vorhanden Zenbot's wird durchgeführt und als ein neue Branche veröffendlicht. 
 4. Eine Intregration von intressanten Forks wird herbei geführt. 
-
-## Systemvorraussetzungen:  
-3 GB min. Arbeitsspeicher.  
-Raspberry Pi ARM 1 Kern mit 1,5 GHz mit 100 % Auslastung.  
-oder Raspberry Pi ARM 4 Kerne mit je 1,5 GHz ergeben eine Auslastung von 25 %.  
 
 ## MongoDB - Das Problem auf dem Raspbian!
 
@@ -222,6 +234,8 @@ Thanks!
 - [multiple strategies in diferent periods with diferent combinations](https://github.com/marcelomf/tbfix)
 - [Ältere Version von zenbot](https://github.com/7s4r/zenbot)
 - [train.js - andere Version](http://ec2-3-135-246-139.us-east-2.compute.amazonaws.com:8080/projects/TEST/repos/zenbot/browse?at=e28aa61e54a0464e4a1eeeedda863aa75cc9902f)
+- [Other Strategies](https://github.com/abelardojarab/zenbot/tree/unstable/extensions/strategies)
+
 
 - [Questions tagged [zenbot]](https://stackoverflow.com/questions/tagged/zenbot)
 - [Can I run Zenbot on Android?](https://stackoverflow.com/questions/62904463/can-i-run-zenbot-on-android)
