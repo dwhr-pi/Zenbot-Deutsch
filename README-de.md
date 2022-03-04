@@ -237,7 +237,7 @@ Diese Forks kann man sehr gut auch mit der [herokuapp](https://gitpop2.herokuapp
 - [Ältere Version von zenbot](https://github.com/7s4r/zenbot)
 - [train.js - andere Version](http://ec2-3-135-246-139.us-east-2.compute.amazonaws.com:8080/projects/TEST/repos/zenbot/browse?at=e28aa61e54a0464e4a1eeeedda863aa75cc9902f)
 - [Other Strategies](https://github.com/abelardojarab/zenbot/tree/unstable/extensions/strategies)
-
+- [Multi Coins, Server und einiges anderes](https://github.com/JFD3D/zenbot)
 
 - [Questions tagged [zenbot]](https://stackoverflow.com/questions/tagged/zenbot)
 - [Can I run Zenbot on Android?](https://stackoverflow.com/questions/62904463/can-i-run-zenbot-on-android)

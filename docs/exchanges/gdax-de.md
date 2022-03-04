@@ -1,5 +1,7 @@
 # Zenbot-Tipps für GDAX
 
+!! Zur Zeit nicht zu erreichen, SSL-Zertifikat abgelaufen. https://api.gdax.com/products
+
 Die folgenden Tipps können die Zuverlässigkeit bei der Verwendung von Zenbot mit GDAX (Coinbase Pro) erhöhen.
 
 ## Sandbox
