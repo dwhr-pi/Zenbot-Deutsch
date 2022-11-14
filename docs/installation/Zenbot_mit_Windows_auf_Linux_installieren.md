@@ -27,6 +27,14 @@ In ersten Teil der Anleitung geht es Grundsätzlich um die Installation vom Bot.
 Ja auf dem Windows 10 könnt Ihr ein Linux laufen lassen. Das eröffnet einen ganz neuen Horizont. 
 
 
+Zuvor prüfen, was alles auf dem Windows installiert ist. 
+Programme und Features überprüfen. 
+
+Hier sind einige Einstellungen zu aktivieren.
+
+
+
+
 1. Powershell als Administrator ausführen und Befehl unten ausführen. 
    Die "Powershell" einfach suchen lassen und mit rechtsklick den Administrator auswählen und dann starten. 
    In dem blauen Fenster, ähnlci der Eingabeaufforderung, die nachfolgenden Zeile eingeben. 
