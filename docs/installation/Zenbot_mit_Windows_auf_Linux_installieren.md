@@ -1,14 +1,14 @@
-# Zenbot – Anleitung für Anfänger – Part 1 mit Windows auf Linux installieren. 
+# Zenbot – Anleitung für Anfänger – Part 1: Auf Windows das Linux installieren. 
 <!-- Quelle: https://beyond.lol/zenbot-anleitung-fuer-anfaenger-part-1/ -->
 
 ## Inhaltsverzeichnis
 * Zenbot
 * Vorrausetzungen
-* Windows Installation
-	* 1. Linux Subsystem installieren
+* Part 1: Windows Installation
+	* 1. Linux Subsystem auf Micosoft Windows installieren.
 * Linux Installation
 * Erster Start des Bots
-* Konfiguration im Part 2
+* Konfiguration im Part 3
 * Einen Desktop für Linux nach installieren
 
 ## Zenbot
@@ -23,7 +23,7 @@ In ersten Teil der Anleitung geht es Grundsätzlich um die Installation vom Bot.
 
 ## Windows Installation
 
-### 1. Linux Subsystem installieren
+### 1. Linux Subsystem auf Micosoft Windows installieren.
 Ja auf dem Windows 10 könnt Ihr ein Linux laufen lassen. Das eröffnet einen ganz neuen Horizont. 
 
 
@@ -51,6 +51,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
    Der Benutzername sollte in kleiner Schrift erfolgen, das Passwort kann auch Großbuchstaben und Zahlen haben. 
    Da wir nun auf unseren Windows ein Linux installiert haben, geht es bei der Linux mit der Installation weiter!
 
+6. Weiter mit Desktopinstallation.
 
 # Linux Installation
 
@@ -208,10 +209,7 @@ sudo apt install -y xfce4-goodies
 
 
 ```
-sudo apt install -y xrdp
-```
-
-```
+sudo apt-get install -y xrdp
 sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak
 sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini
 sudo sed -i 's/max_bpp=32/#max_bpp=32\nmax_bpp=128/g' /etc/xrdp/xrdp.ini
@@ -225,30 +223,71 @@ echo xfce4-session > ~/.xsession
 
 
 ```
-sudo nano /etc/xrdp/startwn.sh
+sudo nano /etc/xrdp/startwm.sh
 ```
-Fehler ab hier. 
-Ich habe in die leere Datei nachfolgend eingetragen und einfach abgespeichert.
 
+Im Nano diese Zeilen suchen 
+```
+test -x /etc/X11/Xsession && exec /etc/X11/Xsession
+exec /bin/sh /etc/X11/Xsession
+```
 
+```
+# test -x /etc/X11/Xsession && exec /etc/X11/Xsession
+# exec /bin/sh /etc/X11/Xsession
+```
+
+und durch diese ersetzen. 
+
+Darunter diese Zeile zu letzt mit hinzufügen. 
 ```
 startxfce4
 ```
+
+Die Tasten **Ctrl+s** und **Ctrl+x** eingeben.  
 
 ```
 sudo /etc/init.d/xrdp start
 ```
 
 Es dürfte sich jetzt die Firewall von Microsoft Windows öffnen. 
-Dort den Zugriff für xrdp dauerhaft gestatten. 
+Dort den Zugriff für xrdp dauerhaft auf dem genutzten Netzwerk zu lassen und es gestatten. 
+Zu Hause nutzt man meißt Private Netzwerke. 
 
-RDP starten
+Auf Microsoft Windows das RDP starten...
 ```
 localhost:3390
 ```
 
 
 
+## Kubuntu Deskto installieren.
+https://www.nextofwindows.com/how-to-enable-wsl2-ubuntu-gui-and-use-rdp-to-remote
+ 
+```
+sudo apt-get install -y kubuntu-desktop
+```
+Nach der Hälfte der Installation werden Sie aufgefordert, 'sddm' zu konfigurieren, wählen Sie **lightdm**
+
+
+## DBus aktivieren
+```
+sudo systemctl enable dbus
+sudo /etc/init.d/dbus start
+sudo /etc/init.d/xrdp start
+```
+
+Überprüfen Sie den xrdp-Status
+```
+sudo /etc/init.d/xrdp status
+```
+
+
+Starten Sie nun Ihre Windows-Remotedesktopverbindung oder `mstsc` aus dem Windows-Startmenü bzw. Ausführen Fenster.
+
+Geben Sie **localhost:3390** ein und verbinden Sie sich. 
+Sie werden von diesem Bildschirm aufgefordert, die Sitzung als xorg beizubehalten und Ihren WSL2-Benutzernamen und Ihr Passwort einzugeben. 
+Das sind die Benutzernamen und das Passwort von diesem Linux. 
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
