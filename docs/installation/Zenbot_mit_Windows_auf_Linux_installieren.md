@@ -23,7 +23,7 @@ In ersten Teil der Anleitung geht es Grundsätzlich um die Installation vom Bot.
 
 ## Windows Installation
 
-###1. Linux Subsystem installieren
+### 1. Linux Subsystem installieren
 Ja auf dem Windows 10 könnt Ihr ein Linux laufen lassen. Das eröffnet einen ganz neuen Horizont. 
 
 
