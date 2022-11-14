@@ -155,6 +155,8 @@ Hier wird euch auch gleich die IP-Adresse von eurem Bot angezeigt. Der Port änd
 
 
 
+
+
 #  Einen Desktop für Linux nach installieren. 
 
 
@@ -181,7 +183,7 @@ eingegeben werden. Wodurch die DNS-Auflösung direkt durch Google getätigt wird
 Speichern durch **Ctrl+s** drücken und anschließend durch eingeben von **Ctrl+x** den Nano-Editor schließen. 
 
 
-sudo apt install ubuntu
+
 ```
 lsb-release -a
 ```
@@ -199,7 +201,7 @@ sudo apt install -y xfce4
 ```
 
 ```
-sudo apt install -y xfce4-goodie
+sudo apt install -y xfce4-goodies
 ```
 
 ## Set up RDP
