@@ -18,7 +18,8 @@ In ersten Teil der Anleitung geht es Grundsätzlich um die Installation vom Bot.
 
 ## Vorrausetzungen
 * Windows / Linux
-* Node.js (version 8.3.0 + ) and MongoDB.
+* Node.js (version 8.3.0 + ) und die MongoDB. 
+* sinvoll ein Desktop
 
 ## Windows Installation
 
@@ -27,21 +28,27 @@ Ja auf dem Windows 10 könnt Ihr ein Linux laufen lassen. Das eröffnet einen ga
 
 
 1. Powershell als Administrator ausführen und Befehl unten ausführen. 
-Die "Powershell" einfach suchen lassen und mit rechtsklick den Administrator auswählen und dann starten. 
-In dem blauen Fenster, ähnlci der Eingabeaufforderung, die nachfolgenden Zeile eingeben. 
+   Die "Powershell" einfach suchen lassen und mit rechtsklick den Administrator auswählen und dann starten. 
+   In dem blauen Fenster, ähnlci der Eingabeaufforderung, die nachfolgenden Zeile eingeben. 
 
 ```
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
 
-2. Den Microfot Windows Store öffnen und dort nach Ubuntu suchen. (empfohlen)
+2. Den Microsoft Windows Store öffnen und dort nach Ubuntu suchen. 
+   Die Ubuntu (empfohlen) App, also, die aller erste.
+   Es gibt dort verschiedene Linux Versionen, evtuell Ubuntu LTS 18 auswählen. 
+   Man kann mehrere Linuxe auf Windows paralell laufen lassen. 
 
-3 Nun nur noch auf „Herunterladen“ klicken. 
-  Ubuntu wird installiert
+3. Nun nur noch auf „Herunterladen“ klicken. 
+   Ubuntu wird installiert
 
-4. Ubuntu aus dem Startmenu öffnen
+4. Ubuntu aus dem Startmenu öffnen. 
+   Es öffnet sich ein schwarzes Fenster in dem nun einige minuten lang Linux eingerichtet wird. 
+   Bitte das Fenster nicht schließen. 
 
-5. Einen Benutzername und ein Passwort setzen
+5. Einen Benutzername und ein Passwort setzen. 
+   Der Benutzername sollte in kleiner Schrift erfolgen, das Passwort kann auch Großbuchstaben und Zahlen haben. 
    Da wir nun auf unseren Windows ein Linux installiert haben, geht es bei der Linux mit der Installation weiter!
 
 
@@ -50,12 +57,13 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 1. Updates und Git installieren. Ordner erstellen
 
 ```
-sudo apt update
+sudo apt update && sudo apt upgrade -y
 ```
 
-```
-sudo apt upgrade -y
-```
+Ihr zuvor eingegebenes Passwort infolge nun eingeben. 
+
+Sie können jetzt auch jetzt schon den Desktop für Linux einrichten und kehren später hierhin zurück. 
+
 
 ```
 sudo apt install git
@@ -156,18 +164,119 @@ Install Desktop GUI for WSL | WSL Enable Desktop Guide
 https://www.youtube.com/watch?v=QC7a9nowsz8
 
 
+# Fix DNS
 ```
+sudo nano /etc/resolv.conf
 ```
 
+Listet die verwendeten IP-Adressen auf. 
+hier kann bei 
+
+nameserver 192.168.178.1
+
+```
+nameserver 8.8.8.8
+```
+eingegeben werden. Wodurch die DNS-Auflösung direkt durch Google getätigt wird. 
+Speichern durch **Ctrl+s** drücken und anschließend durch eingeben von **Ctrl+x** den Nano-Editor schließen. 
+
+
+sudo apt install ubuntu
+```
+lsb-release -a
+```
+#ä Installing Desktop environment
+```
+sudo apt install neofetch
+```
+
+```
+neofetch
+```
+
+```
+sudo apt install -y xfce4
+```
+
+```
+sudo apt install -y xfce4-goodie
+```
+
+## Set up RDP
+
+
+```
+sudo apt install -y xrdp
+```
+
+```
+sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak
+sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini
+sudo sed -i 's/max_bpp=32/#max_bpp=32\nmax_bpp=128/g' /etc/xrdp/xrdp.ini
+sudo sed -i 's/xserverbpp=24/#xserverbpp=24\nxserverbpp=128/g' /etc/xrdp/xrdp.ini
+```
+
+
+```
+echo xfce4-session > ~/.xsession
+```
+
+
+```
+sudo nano /etc/xrdp/startwn.sh
+```
+Fehler ab hier. 
+Ich habe in die leere Datei nachfolgend eingetragen und einfach abgespeichert.
+
+
+```
+startxfce4
+```
+
+```
+sudo /etc/init.d/xrdp start
+```
+
+Es dürfte sich jetzt die Firewall von Microsoft Windows öffnen. 
+Dort den Zugriff für xrdp dauerhaft gestatten. 
+
+RDP starten
+```
+localhost:3390
+```
+
+
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
 Es gibt verschiene Linux Systeme im Microsoft App Store. 
+hierzu nehme ich die einfache Ubuntu. 
 ## WSL installieren
 
 In der Powershell als Administrator
 
+
+Dann versuche mal, nach dem diese downgeladen wurde mit WSL zu installieren.
 ```
-wsl --set-default-version-2
+wsl --install -d Ubuntu
 ```
-aka.ms/wsl2
+Sollte eine andere Linux Version heruntergeladen worden sein. 
+Dann hilft in der Powershell der nahfolgende Befehl, um den Namen in der WSL auszugeben, damit dieser zur Installation verwendet werden kann.
+
+wsl --list 
+
+und der dortige angegebene Name der Distro um zu installieren. 
+
+wsl --install -d Ubuntu-20.04.5-LTS
+
+den man dann zu verwenden hat. 
+
+```
+wsl --set-default-version 2
+```
+https://aka.ms/wsl2
 https://learn.microsoft.com/de-de/windows/wsl/compare-versions
 
 
