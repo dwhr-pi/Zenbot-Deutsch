@@ -205,7 +205,7 @@ sudo apt install -y xfce4
 sudo apt install -y xfce4-goodies
 ```
 
-## Set up RDP
+## RDP einrichten
 
 
 ```
