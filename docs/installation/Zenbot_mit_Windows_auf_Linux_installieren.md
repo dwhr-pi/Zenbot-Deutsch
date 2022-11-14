@@ -261,7 +261,7 @@ localhost:3390
 
 
 
-## Kubuntu Deskto installieren.
+## Kubuntu Desktop installieren.
 https://www.nextofwindows.com/how-to-enable-wsl2-ubuntu-gui-and-use-rdp-to-remote
  
 ```
