@@ -39,6 +39,7 @@ Weitere Versionen von "ccxt" unter "https://registry.npmjs.org/ccxt/" aufindbar.
 
 
 ## Erstellen der Dokumentation
+Hiermit sollen Sie künftig sich selbst eine Dokumentation als Webseite mit erstellen können, die Sie dann im Ihrem Browser aufrufen können. 
 
 - Klonen Sie es: `git clone https://github.com/dwhr-pi/zenbot.git`
 - Abhängigkeiten installieren/aktualisieren: `pip3 install -Ur requirements.txt`
@@ -48,7 +49,6 @@ Weitere Versionen von "ccxt" unter "https://registry.npmjs.org/ccxt/" aufindbar.
 - Update bzw. Upgrade von Phyton durchführen `sudo /usr/bin/python3 -m pip install --upgrade pip`
 
 Es baut die statischen HTML-Seiten in ein temporäres Verzeichnis und startet einen lokalen Webserver unter `http://localhost:8001`. Wenn Sie Probleme beim Zugriff auf die MkDocs-Website haben, können Sie auch eine bestimmte IP-Adresse oder alle IP-Adressen abhören, z. B. `mkdocs serve -a 0.0.0.0:8001`.  
-`mkdocs serve -a 192.168.178.21:8001`  
 
 
 
