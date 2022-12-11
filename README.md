@@ -35,6 +35,23 @@ Weitere Versionen von "ccxt" unter "https://registry.npmjs.org/ccxt/" aufindbar.
 3. Ein rebuild aller vorhanden Zenbot's wird durchgeführt und als ein neue Branche veröffendlicht. 
 4. Eine Intregration von intressanten Forks wird herbei geführt. 
 
+5. Ein Dokumentationsserver, der es ermöglicht, den Inhalt der Dokumentation als Webseite zu starten und im Browser nachlesbar zu machen. 
+
+
+## Erstellen der Dokumentation
+
+- Klonen Sie es: `git clone https://github.com/dwhr-pi/zenbot.git`
+- Abhängigkeiten installieren/aktualisieren: `pip3 install -Ur requirements.txt`
+- Verzeichnis wechseln: `cd zenbot`
+- Führen Sie im Stammverzeichnis Folgendes aus: `mkdocs serve`
+
+- Update bzw. Upgrade von Phyton durchführen `sudo /usr/bin/python3 -m pip install --upgrade pip`
+
+Es baut die statischen HTML-Seiten in ein temporäres Verzeichnis und startet einen lokalen Webserver unter `http://localhost:8001`. Wenn Sie Probleme beim Zugriff auf die MkDocs-Website haben, können Sie auch eine bestimmte IP-Adresse oder alle IP-Adressen abhören, z. B. `mkdocs serve -a 0.0.0.0:8001`.  
+`mkdocs serve -a 192.168.178.21:8001`  
+
+
+
 ## MongoDB - Das Problem auf dem Raspbian!
 
 ## Inhaltsverzeichnis
