@@ -301,7 +301,8 @@ Neue: CroneJob
 - [autostart terminal command Linux - Suchen](https://www.bing.com/search?&pc=HWMB&form=HWMBFC&q=autostart+terminal+command+Linux)
 - [linux start terminal from command line - Suchen](https://www.bing.com/search?&pc=HWMB&form=HWMBFC&q=linux+start+terminal+from+command+line) 
 -[ubuntu auto start shell script - Suchen](https://www.bing.com/search?&pc=HWMB&form=HWMBFC&q=ubuntu+auto+start+shell+script)
-
+-[Startup Auto-Execution Bash Script](https://askubuntu.com/questions/1214255/startup-auto-execution-bash-script)
+-[How to run scripts on start up?](https://askubuntu.com/questions/814/how-to-run-scripts-on-start-up)
 ## Lizenz: MIT
 
 - Copyright (C) 2017-2022 Carlos Rodriguez
