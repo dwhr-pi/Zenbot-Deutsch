@@ -298,11 +298,11 @@ Diese Forks kann man sehr gut auch mit der [herokuapp](https://gitpop2.herokuapp
 
 Neue: CroneJob
 - [Open terminal on startup and run command](https://askubuntu.com/questions/756967/open-terminal-on-startup-and-run-command)  
-- [autostart terminal command Linux - Suchen](https://www.bing.com/search?&pc=HWMB&form=HWMBFC&q=autostart+terminal+command+Linux) 
-- [linux start terminal from command line - Suchen](https://www.bing.com/search?&pc=HWMB&form=HWMBFC&q=linux+start+terminal+from+command+line) 
--[ubuntu auto start shell script - Suchen](https://www.bing.com/search?&pc=HWMB&form=HWMBFC&q=ubuntu+auto+start+shell+script) 
--[Startup Auto-Execution Bash Script](https://askubuntu.com/questions/1214255/startup-auto-execution-bash-script) 
--[How to run scripts on start up?](https://askubuntu.com/questions/814/how-to-run-scripts-on-start-up) 
+- [autostart terminal command Linux - Suchen](https://www.bing.com/search?&pc=HWMB&form=HWMBFC&q=autostart+terminal+command+Linux)  
+- [linux start terminal from command line - Suchen](https://www.bing.com/search?&pc=HWMB&form=HWMBFC&q=linux+start+terminal+from+command+line)  
+-[ubuntu auto start shell script - Suchen](https://www.bing.com/search?&pc=HWMB&form=HWMBFC&q=ubuntu+auto+start+shell+script)  
+-[Startup Auto-Execution Bash Script](https://askubuntu.com/questions/1214255/startup-auto-execution-bash-script)  
+-[How to run scripts on start up?](https://askubuntu.com/questions/814/how-to-run-scripts-on-start-up)  
 
 
 ## Autostart CroneJob
