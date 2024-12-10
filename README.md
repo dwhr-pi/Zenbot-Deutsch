@@ -249,6 +249,7 @@ Diese Forks kann man sehr gut auch mit der [herokuapp](https://gitpop2.herokuapp
 - [Sim Run / Backtesting Automator für Zenbot](https://github.com/jefc1111/zenbot-sim-runner)
 - [Sim Run / Backtesting Automator für Zenbot](https://www.reddit.com/r/zenbot/comments/nkyo79/im_building_a_sim_run_backtesting_automator_for/)
 
+- [tabenius - Zenbot for kraken](https://github.com/tabenius/zenbot-kraken/tree/master)
 
 - [multiple strategies in diferent periods with diferent combinations](https://github.com/marcelomf/tbfix)
 - [Ältere Version von zenbot](https://github.com/7s4r/zenbot)
