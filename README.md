@@ -295,6 +295,13 @@ Diese Forks kann man sehr gut auch mit der [herokuapp](https://gitpop2.herokuapp
 - [Zenbot Playlist at Youtube](https://www.youtube.com/playlist?list=PLSeF7wP23srtfvrjddCGUIdvfujWNf7tJ)
 - - -
 
+
+Neue: CroneJob
+- [Open terminal on startup and run command](https://askubuntu.com/questions/756967/open-terminal-on-startup-and-run-command)
+- [autostart terminal command Linux - Suchen](https://www.bing.com/search?&pc=HWMB&form=HWMBFC&q=autostart+terminal+command+Linux)
+- [linux start terminal from command line - Suchen](https://www.bing.com/search?&pc=HWMB&form=HWMBFC&q=linux+start+terminal+from+command+line) 
+
+
 ## Lizenz: MIT
 
 - Copyright (C) 2017-2022 Carlos Rodriguez
