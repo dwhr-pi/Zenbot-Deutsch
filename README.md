@@ -300,7 +300,7 @@ Neue: CroneJob
 - [Open terminal on startup and run command](https://askubuntu.com/questions/756967/open-terminal-on-startup-and-run-command)
 - [autostart terminal command Linux - Suchen](https://www.bing.com/search?&pc=HWMB&form=HWMBFC&q=autostart+terminal+command+Linux)
 - [linux start terminal from command line - Suchen](https://www.bing.com/search?&pc=HWMB&form=HWMBFC&q=linux+start+terminal+from+command+line) 
-
+-[ubuntu auto start shell script - Suchen](https://www.bing.com/search?&pc=HWMB&form=HWMBFC&q=ubuntu+auto+start+shell+script)
 
 ## Lizenz: MIT
 
