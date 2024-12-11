@@ -312,6 +312,9 @@ Running 'crontab -e' will allow you to edit your cron.
 
 Adding a line like this to it: '@reboot /path/to/zenbot-start.sh' will execute that script once your computer boots up.
 
+The file 'zenbot-start.sh' should be the startup commands for Zenbot. 
+e. G. : zenbot.sh 
+
 
 ## Lizenz: MIT
 
