@@ -312,8 +312,10 @@ Running 'crontab -e' will allow you to edit your cron.
 
 Adding a line like this to it: '@reboot /path/to/zenbot-start.sh' will execute that script once your computer boots up.
 
-The file 'zenbot-start.sh' should be the startup commands for Zenbot. 
+The file 'zenbot-start.sh' should in be your startup critical commands for Zenbot. 
 e. G. : zenbot.sh 
+
+zenbot.sh sim binance.BTC-USD --profit_stop_enable_pct 10 --profit_stop_pct 1 --sell_rate -0.006 --trend_ema 36 --period 1h --strategy trend_ema_rate --sell_stop_pct 4 --buy_stop_pct 0 --max_sell_loss_pct 25 --max_slippage_pct 2 --buy_pct 98 --sell_pct 98 --markup_pct 0 --currency_capital 0 --asset_capital 0.00002 --order_adjust_time 30000 --rsi_periods 14 --min_periods 37 --max_sell_duration 4
 
 
 ## Lizenz: MIT
